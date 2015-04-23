@@ -1,0 +1,3556 @@
+npm info it worked if it ends with ok
+npm verb cli [ 'node',
+npm verb cli   '/usr/bin/npm',
+npm verb cli   'install',
+npm verb cli   '--loglevel',
+npm verb cli   'silly',
+npm verb cli   '-g',
+npm verb cli   'bower' ]
+npm info using npm@2.8.3
+npm info using node@v0.10.29
+npm verb node symlink /usr/bin/node
+npm verb install initial load of /usr/lib/package.json
+npm verb readDependencies loading dependencies from /usr/lib/package.json
+npm sill cache add args [ 'bower', null ]
+npm verb cache add spec bower
+npm sill cache add parsed spec { raw: 'bower',
+npm sill cache add   scope: null,
+npm sill cache add   name: 'bower',
+npm sill cache add   rawSpec: '',
+npm sill cache add   spec: '*',
+npm sill cache add   type: 'range' }
+npm sill addNamed bower@*
+npm verb addNamed "*" is a valid semver range for bower
+npm sill addNameRange { name: 'bower', range: '*', hasData: false }
+npm sill mapToRegistry name bower
+npm sill mapToRegistry using default registry
+npm sill mapToRegistry registry https://registry.npmjs.org/
+npm sill mapToRegistry uri https://registry.npmjs.org/bower
+npm verb addNameRange registry:https://registry.npmjs.org/bower not in flight; fetching
+npm verb request uri https://registry.npmjs.org/bower
+npm verb request no auth needed
+npm info attempt registry request try #1 at 22:38:53
+npm verb request id 068d49a7a7d4e642
+npm http request GET https://registry.npmjs.org/bower
+npm http 200 https://registry.npmjs.org/bower
+npm sill get cb [ 200,
+npm sill get   { date: 'Thu, 23 Apr 2015 20:14:14 GMT',
+npm sill get     'last-modified': 'Thu, 23 Apr 2015 20:14:14 GMT',
+npm sill get     etag: '"6YW099DDDYLNK8ID4LODKMUTO"',
+npm sill get     'content-length': '111747',
+npm sill get     via: '1.1 varnish',
+npm sill get     'x-cache': 'MISS',
+npm sill get     'x-timer': 'S1429820053.953410,VS0,VE356',
+npm sill get     vary: 'Accept',
+npm sill get     'keep-alive': 'timeout=10, max=50',
+npm sill get     connection: 'Keep-Alive',
+npm sill get     'x-cache-hits': '0',
+npm sill get     'cache-control': 'max-age=60',
+npm sill get     'content-type': 'application/json',
+npm sill get     age: '0',
+npm sill get     server: 'ciproxy' } ]
+npm verb get saving bower to /root/.npm/registry.npmjs.org/bower/.cache.json
+npm verb getCacheStat cache creation not in flight; initializing
+npm sill addNameRange number 2 { name: 'bower', range: '*', hasData: true }
+npm sill addNameRange versions [ 'bower',
+npm sill addNameRange   [ '0.1.0',
+npm sill addNameRange     '0.1.2',
+npm sill addNameRange     '0.1.3',
+npm sill addNameRange     '0.2.0',
+npm sill addNameRange     '0.3.0',
+npm sill addNameRange     '0.3.1',
+npm sill addNameRange     '0.3.2',
+npm sill addNameRange     '0.4.0',
+npm sill addNameRange     '0.5.0',
+npm sill addNameRange     '0.5.1',
+npm sill addNameRange     '0.6.0',
+npm sill addNameRange     '0.6.1',
+npm sill addNameRange     '0.6.2',
+npm sill addNameRange     '0.6.3',
+npm sill addNameRange     '0.6.4',
+npm sill addNameRange     '0.6.5',
+npm sill addNameRange     '0.6.6',
+npm sill addNameRange     '0.6.7',
+npm sill addNameRange     '0.6.8',
+npm sill addNameRange     '0.7.0',
+npm sill addNameRange     '0.7.1',
+npm sill addNameRange     '0.8.0',
+npm sill addNameRange     '0.8.1',
+npm sill addNameRange     '0.8.2',
+npm sill addNameRange     '0.8.3',
+npm sill addNameRange     '0.8.4',
+npm sill addNameRange     '0.8.5',
+npm sill addNameRange     '0.8.6',
+npm sill addNameRange     '0.9.0',
+npm sill addNameRange     '0.9.1',
+npm sill addNameRange     '0.9.2',
+npm sill addNameRange     '0.10.0',
+npm sill addNameRange     '1.0.0',
+npm sill addNameRange     '1.0.1',
+npm sill addNameRange     '1.0.2',
+npm sill addNameRange     '1.0.3',
+npm sill addNameRange     '1.1.0',
+npm sill addNameRange     '1.1.1',
+npm sill addNameRange     '1.1.2',
+npm sill addNameRange     '1.2.0',
+npm sill addNameRange     '1.2.1',
+npm sill addNameRange     '1.2.2',
+npm sill addNameRange     '1.2.3',
+npm sill addNameRange     '1.2.4',
+npm sill addNameRange     '1.2.5',
+npm sill addNameRange     '1.2.6',
+npm sill addNameRange     '1.2.7',
+npm sill addNameRange     '1.2.8',
+npm sill addNameRange     '1.3.0',
+npm sill addNameRange     '1.3.1',
+npm sill addNameRange     '1.3.2',
+npm sill addNameRange     '1.3.3',
+npm sill addNameRange     '1.3.4',
+npm sill addNameRange     '1.3.5',
+npm sill addNameRange     '1.3.6',
+npm sill addNameRange     '1.3.7',
+npm sill addNameRange     '1.3.8',
+npm sill addNameRange     '1.3.9',
+npm sill addNameRange     '1.3.10',
+npm sill addNameRange     '1.3.11',
+npm sill addNameRange     '1.3.12',
+npm sill addNameRange     '1.4.0',
+npm sill addNameRange     '1.4.1' ] ]
+npm sill addNamed bower@1.4.1
+npm verb addNamed "1.4.1" is a plain semver version for bower
+npm sill mapToRegistry name bower
+npm sill mapToRegistry using default registry
+npm sill mapToRegistry registry https://registry.npmjs.org/
+npm sill mapToRegistry uri https://registry.npmjs.org/bower
+npm verb addRemoteTarball https://registry.npmjs.org/bower/-/bower-1.4.1.tgz not in flight; adding
+npm verb addRemoteTarball [ 'https://registry.npmjs.org/bower/-/bower-1.4.1.tgz',
+npm verb addRemoteTarball   'a18be39d030792754f30f1c5b32d37b0156ba8dd' ]
+npm info retry fetch attempt 1 at 22:38:54
+npm info attempt registry request try #1 at 22:38:54
+npm http fetch GET https://registry.npmjs.org/bower/-/bower-1.4.1.tgz
+npm http fetch 200 https://registry.npmjs.org/bower/-/bower-1.4.1.tgz
+npm sill fetchAndShaCheck shasum a18be39d030792754f30f1c5b32d37b0156ba8dd
+npm verb addTmpTarball /tmp/npm-16680-5d9a1f20/registry.npmjs.org/bower/-/bower-1.4.1.tgz not in flight; adding
+npm verb addTmpTarball already have metadata; skipping unpack for bower@1.4.1
+npm sill cache afterAdd bower@1.4.1
+npm verb afterAdd /root/.npm/bower/1.4.1/package/package.json not in flight; writing
+npm verb afterAdd /root/.npm/bower/1.4.1/package/package.json written
+npm sill install resolved [ { name: 'bower',
+npm sill install resolved     version: '1.4.1',
+npm sill install resolved     description: 'The browser package manager',
+npm sill install resolved     author: { name: 'Twitter' },
+npm sill install resolved     licenses: [ [Object] ],
+npm sill install resolved     repository: { type: 'git', url: 'https://github.com/bower/bower' },
+npm sill install resolved     main: 'lib',
+npm sill install resolved     homepage: 'http://bower.io',
+npm sill install resolved     engines: { node: '>=0.10.0' },
+npm sill install resolved     dependencies: 
+npm sill install resolved      { abbrev: '^1.0.5',
+npm sill install resolved        archy: '1.0.0',
+npm sill install resolved        'bower-config': '^0.6.1',
+npm sill install resolved        'bower-endpoint-parser': '^0.2.2',
+npm sill install resolved        'bower-json': '^0.4.0',
+npm sill install resolved        'bower-logger': '^0.2.2',
+npm sill install resolved        'bower-registry-client': '^0.3.0',
+npm sill install resolved        cardinal: '0.4.4',
+npm sill install resolved        chalk: '^1.0.0',
+npm sill install resolved        chmodr: '0.1.0',
+npm sill install resolved        configstore: '^0.3.2',
+npm sill install resolved        'decompress-zip': '^0.1.0',
+npm sill install resolved        fstream: '^1.0.3',
+npm sill install resolved        'fstream-ignore': '^1.0.2',
+npm sill install resolved        github: '^0.2.3',
+npm sill install resolved        glob: '^4.3.2',
+npm sill install resolved        'graceful-fs': '^3.0.5',
+npm sill install resolved        handlebars: '^2.0.0',
+npm sill install resolved        inquirer: '0.8.0',
+npm sill install resolved        insight: '^0.5.0',
+npm sill install resolved        'is-root': '^1.0.0',
+npm sill install resolved        junk: '^1.0.0',
+npm sill install resolved        lockfile: '^1.0.0',
+npm sill install resolved        'lru-cache': '^2.5.0',
+npm sill install resolved        mkdirp: '0.5.0',
+npm sill install resolved        mout: '^0.11.0',
+npm sill install resolved        nopt: '^3.0.1',
+npm sill install resolved        opn: '^1.0.1',
+npm sill install resolved        'p-throttler': '0.1.1',
+npm sill install resolved        promptly: '0.2.0',
+npm sill install resolved        q: '^1.1.2',
+npm sill install resolved        request: '2.53.0',
+npm sill install resolved        'request-progress': '0.3.1',
+npm sill install resolved        retry: '0.6.1',
+npm sill install resolved        rimraf: '^2.2.8',
+npm sill install resolved        semver: '^2.3.0',
+npm sill install resolved        'shell-quote': '^1.4.2',
+npm sill install resolved        'stringify-object': '^1.0.0',
+npm sill install resolved        'tar-fs': '^1.4.1',
+npm sill install resolved        tmp: '0.0.24',
+npm sill install resolved        'update-notifier': '^0.3.0',
+npm sill install resolved        'user-home': '^1.1.0',
+npm sill install resolved        which: '^1.0.8' },
+npm sill install resolved     devDependencies: 
+npm sill install resolved      { chai: '^1.10.0',
+npm sill install resolved        coveralls: '^2.11.2',
+npm sill install resolved        'expect.js': '^0.3.1',
+npm sill install resolved        grunt: '^0.4.5',
+npm sill install resolved        'grunt-cli': '^0.1.13',
+npm sill install resolved        'grunt-contrib-jshint': '^0.10.0',
+npm sill install resolved        'grunt-contrib-watch': '^0.6.1',
+npm sill install resolved        'grunt-exec': '^0.4.6',
+npm sill install resolved        'grunt-simple-mocha': '^0.4.0',
+npm sill install resolved        istanbul: '^0.3.5',
+npm sill install resolved        'load-grunt-tasks': '^2.0.0',
+npm sill install resolved        mocha: '^2.1.0',
+npm sill install resolved        multiline: '^1.0.2',
+npm sill install resolved        nock: '^0.56.0',
+npm sill install resolved        'node-uuid': '^1.4.2',
+npm sill install resolved        proxyquire: '^1.3.0',
+npm sill install resolved        'spawn-sync': '^1.0.5' },
+npm sill install resolved     scripts: { test: 'grunt test' },
+npm sill install resolved     bin: { bower: 'bin/bower' },
+npm sill install resolved     preferGlobal: true,
+npm sill install resolved     gitHead: 'a1287416d40f944d58cb8f2e774e2076bfffd32f',
+npm sill install resolved     bugs: { url: 'https://github.com/bower/bower/issues' },
+npm sill install resolved     _id: 'bower@1.4.1',
+npm sill install resolved     _shasum: 'a18be39d030792754f30f1c5b32d37b0156ba8dd',
+npm sill install resolved     _from: 'bower@*',
+npm sill install resolved     _npmVersion: '2.7.4',
+npm sill install resolved     _nodeVersion: '0.12.0',
+npm sill install resolved     _npmUser: { name: 'sheerun', email: 'sheerun@sher.pl' },
+npm sill install resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+npm sill install resolved     dist: 
+npm sill install resolved      { shasum: 'a18be39d030792754f30f1c5b32d37b0156ba8dd',
+npm sill install resolved        tarball: 'http://registry.npmjs.org/bower/-/bower-1.4.1.tgz' },
+npm sill install resolved     directories: {},
+npm sill install resolved     _resolved: 'https://registry.npmjs.org/bower/-/bower-1.4.1.tgz' } ]
+npm info install bower@1.4.1 into /usr/lib
+npm info installOne bower@1.4.1
+npm verb installOne of bower to /usr/lib not in flight; installing
+npm verb lock using /root/.npm/_locks/bower-f46d670cb56ecd4d.lock for /usr/lib/node_modules/bower
+npm sill install write writing bower 1.4.1 to /usr/lib/node_modules/bower
+npm verb unbuild lib/node_modules/bower
+npm info preuninstall bower@1.4.1
+npm info uninstall bower@1.4.1
+npm verb unbuild rmStuff bower@1.4.1 from /usr/lib/node_modules
+npm sill gentlyRm /usr/bin/bower is being gently removed 
+npm sill gentlyRm verifying /usr is an npm working directory
+npm sill gentlyRm containing path /usr is under npm's control, in /usr
+npm sill gentlyRm deletion target /usr/bin/bower is under /usr
+npm verb gentlyRm vacuuming from /usr/bin/bower up to /usr
+npm info postuninstall bower@1.4.1
+npm sill gentlyRm /usr/lib/node_modules/bower is being purged from base /usr
+npm verb gentlyRm don't care about contents; nuking /usr/lib/node_modules/bower
+npm sill vacuum-fs purging /usr/lib/node_modules/bower
+npm sill vacuum-fs quitting because other entries in /usr/lib/node_modules
+npm verb tar unpack /root/.npm/bower/1.4.1/package.tgz
+npm verb tar unpacking to /usr/lib/node_modules/bower
+npm sill gentlyRm /usr/lib/node_modules/bower is being purged 
+npm verb gentlyRm don't care about contents; nuking /usr/lib/node_modules/bower
+npm sill gunzTarPerm modes [ '755', '644' ]
+npm sill gunzTarPerm extractEntry package.json
+npm sill gunzTarPerm extractEntry .npmignore
+npm sill gunzTarPerm extractEntry README.md
+npm sill gunzTarPerm extractEntry LICENSE
+npm sill gunzTarPerm extractEntry Gruntfile.js
+npm sill gunzTarPerm extractEntry HOOKS.md
+npm sill gunzTarPerm extractEntry CHANGELOG.md
+npm sill gunzTarPerm extractEntry CONTRIBUTING.md
+npm sill gunzTarPerm extractEntry .editorconfig
+npm sill gunzTarPerm extractEntry .jshintrc
+npm sill gunzTarPerm extractEntry appveyor.yml
+npm sill gunzTarPerm extractEntry bin/bower
+npm sill gunzTarPerm extractEntry lib/config.js
+npm sill gunzTarPerm extractEntry lib/index.js
+npm sill gunzTarPerm extractEntry lib/commands/version.js
+npm sill gunzTarPerm extractEntry lib/commands/init.js
+npm sill gunzTarPerm extractEntry lib/commands/install.js
+npm sill gunzTarPerm extractEntry lib/commands/link.js
+npm sill gunzTarPerm extractEntry lib/commands/list.js
+npm sill gunzTarPerm extractEntry lib/commands/info.js
+npm sill gunzTarPerm extractEntry lib/commands/lookup.js
+npm sill gunzTarPerm extractEntry lib/commands/prune.js
+npm sill gunzTarPerm extractEntry lib/commands/register.js
+npm sill gunzTarPerm extractEntry lib/commands/search.js
+npm sill gunzTarPerm extractEntry lib/commands/uninstall.js
+npm sill gunzTarPerm extractEntry lib/commands/index.js
+npm sill gunzTarPerm extractEntry lib/commands/unregister.js
+npm sill gunzTarPerm extractEntry lib/commands/home.js
+npm sill gunzTarPerm extractEntry lib/commands/update.js
+npm sill gunzTarPerm extractEntry lib/commands/help.js
+npm sill gunzTarPerm extractEntry lib/commands/login.js
+npm sill gunzTarPerm extractEntry lib/commands/cache/clean.js
+npm sill gunzTarPerm extractEntry lib/commands/cache/list.js
+npm sill gunzTarPerm extractEntry lib/core/Manager.js
+npm sill gunzTarPerm extractEntry lib/core/PackageRepository.js
+npm sill gunzTarPerm extractEntry lib/core/Project.js
+npm sill gunzTarPerm extractEntry lib/core/ResolveCache.js
+npm sill gunzTarPerm extractEntry lib/core/resolverFactory.js
+npm sill gunzTarPerm extractEntry lib/core/scripts.js
+npm sill gunzTarPerm extractEntry lib/core/resolvers/FsResolver.js
+npm sill gunzTarPerm extractEntry lib/core/resolvers/GitFsResolver.js
+npm sill gunzTarPerm extractEntry lib/core/resolvers/GitHubResolver.js
+npm sill gunzTarPerm extractEntry lib/core/resolvers/GitRemoteResolver.js
+npm sill gunzTarPerm extractEntry lib/core/resolvers/GitResolver.js
+npm sill gunzTarPerm extractEntry lib/core/resolvers/Resolver.js
+npm sill gunzTarPerm extractEntry lib/core/resolvers/SvnResolver.js
+npm sill gunzTarPerm extractEntry lib/core/resolvers/UrlResolver.js
+npm sill gunzTarPerm extractEntry lib/core/resolvers/index.js
+npm sill gunzTarPerm extractEntry lib/renderers/JsonRenderer.js
+npm sill gunzTarPerm extractEntry lib/renderers/StandardRenderer.js
+npm sill gunzTarPerm extractEntry lib/renderers/index.js
+npm sill gunzTarPerm extractEntry lib/util/analytics.js
+npm sill gunzTarPerm extractEntry lib/util/createError.js
+npm sill gunzTarPerm extractEntry lib/util/createLink.js
+npm sill gunzTarPerm extractEntry lib/util/download.js
+npm sill gunzTarPerm extractEntry lib/util/copy.js
+npm sill gunzTarPerm extractEntry lib/util/md5.js
+npm sill gunzTarPerm extractEntry lib/util/readJson.js
+npm sill gunzTarPerm extractEntry lib/util/removeIgnores.js
+npm sill gunzTarPerm extractEntry lib/util/rootCheck.js
+npm sill gunzTarPerm extractEntry lib/util/semver.js
+npm sill gunzTarPerm extractEntry lib/util/cmd.js
+npm sill gunzTarPerm extractEntry lib/util/template.js
+npm sill gunzTarPerm extractEntry lib/util/cli.js
+npm sill gunzTarPerm extractEntry lib/util/validLink.js
+npm sill gunzTarPerm extractEntry lib/util/extract.js
+npm sill gunzTarPerm extractEntry templates/helpers/colors.js
+npm sill gunzTarPerm extractEntry templates/helpers/condense.js
+npm sill gunzTarPerm extractEntry templates/helpers/indent.js
+npm sill gunzTarPerm extractEntry templates/helpers/index.js
+npm sill gunzTarPerm extractEntry templates/helpers/rpad.js
+npm sill gunzTarPerm extractEntry templates/helpers/sum.js
+npm sill gunzTarPerm extractEntry templates/json/help-lookup.json
+npm sill gunzTarPerm extractEntry templates/json/help-cache/clean.json
+npm sill gunzTarPerm extractEntry templates/json/help-cache/list.json
+npm sill gunzTarPerm extractEntry templates/json/help-home.json
+npm sill gunzTarPerm extractEntry templates/json/help-info.json
+npm sill gunzTarPerm extractEntry templates/json/help-init.json
+npm sill gunzTarPerm extractEntry templates/json/help-install.json
+npm sill gunzTarPerm extractEntry templates/json/help-link.json
+npm sill gunzTarPerm extractEntry templates/json/help-list.json
+npm sill gunzTarPerm extractEntry templates/json/help-login.json
+npm sill gunzTarPerm extractEntry templates/json/help-cache.json
+npm sill gunzTarPerm extractEntry templates/json/help-prune.json
+npm sill gunzTarPerm extractEntry templates/json/help-register.json
+npm sill gunzTarPerm extractEntry templates/json/help-search.json
+npm sill gunzTarPerm extractEntry templates/json/help-uninstall.json
+npm sill gunzTarPerm extractEntry templates/json/help-unregister.json
+npm sill gunzTarPerm extractEntry templates/json/help-update.json
+npm sill gunzTarPerm extractEntry templates/json/help-version.json
+npm sill gunzTarPerm extractEntry templates/json/help.json
+npm sill gunzTarPerm extractEntry templates/std/conflict-resolved.std
+npm sill gunzTarPerm extractEntry templates/std/conflict.std
+npm sill gunzTarPerm extractEntry templates/std/help-cache.std
+npm sill gunzTarPerm extractEntry templates/std/help-generic.std
+npm sill gunzTarPerm extractEntry templates/std/help.std
+npm sill gunzTarPerm extractEntry templates/std/info.std
+npm sill gunzTarPerm extractEntry templates/std/lookup.std
+npm sill gunzTarPerm extractEntry templates/std/register.std
+npm sill gunzTarPerm extractEntry templates/std/search-results.std
+npm sill gunzTarPerm extractEntry .travis.yml
+npm sill gunzTarPerm extractEntry test/packages.js
+npm sill gunzTarPerm extractEntry test/helpers.js
+npm sill gunzTarPerm extractEntry test/packages-svn.js
+npm sill gunzTarPerm extractEntry test/test.js
+npm sill gunzTarPerm extractEntry test/core/Manager.js
+npm sill gunzTarPerm extractEntry test/core/packageRepository.js
+npm sill gunzTarPerm extractEntry test/core/resolveCache.js
+npm sill gunzTarPerm extractEntry test/core/resolverFactory.js
+npm sill gunzTarPerm extractEntry test/core/scripts.js
+npm sill gunzTarPerm extractEntry test/core/resolvers/fsResolver.js
+npm sill gunzTarPerm extractEntry test/core/resolvers/gitFsResolver.js
+npm sill gunzTarPerm extractEntry test/core/resolvers/gitHubResolver.js
+npm sill gunzTarPerm extractEntry test/core/resolvers/gitRemoteResolver.js
+npm sill gunzTarPerm extractEntry test/core/resolvers/gitResolver.js
+npm sill gunzTarPerm extractEntry test/core/resolvers/resolver.js
+npm sill gunzTarPerm extractEntry test/core/resolvers/svnResolver.js
+npm sill gunzTarPerm extractEntry test/core/resolvers/urlResolver.js
+npm sill gunzTarPerm extractEntry test/packages-svn.json
+npm sill gunzTarPerm extractEntry test/commands/bower.js
+npm sill gunzTarPerm extractEntry test/commands/info.js
+npm sill gunzTarPerm extractEntry test/commands/init.js
+npm sill gunzTarPerm extractEntry test/commands/install.js
+npm sill gunzTarPerm extractEntry test/commands/link.js
+npm sill gunzTarPerm extractEntry test/commands/index.js
+npm sill gunzTarPerm extractEntry test/commands/login.js
+npm sill gunzTarPerm extractEntry test/commands/lookup.js
+npm sill gunzTarPerm extractEntry test/commands/prune.js
+npm sill gunzTarPerm extractEntry test/commands/register.js
+npm sill gunzTarPerm extractEntry test/commands/search.js
+npm sill gunzTarPerm extractEntry test/commands/home.js
+npm sill gunzTarPerm extractEntry test/commands/uninstall.js
+npm sill gunzTarPerm extractEntry test/commands/help.js
+npm sill gunzTarPerm extractEntry test/commands/unregister.js
+npm sill gunzTarPerm extractEntry test/commands/update.js
+npm sill gunzTarPerm extractEntry test/commands/version.js
+npm sill gunzTarPerm extractEntry test/commands/list.js
+npm sill gunzTarPerm extractEntry test/commands/cache/clean.js
+npm sill gunzTarPerm extractEntry test/commands/cache/list.js
+npm sill gunzTarPerm extractEntry test/packages.json
+npm sill gunzTarPerm extractEntry test/renderers/JsonRenderer.js
+npm sill gunzTarPerm extractEntry test/renderers/StandardRenderer.js
+npm sill gunzTarPerm extractEntry test/assets/package-zip-single-bower-json.zip
+npm sill gunzTarPerm extractEntry test/assets/package-tar.tar.gz
+npm sill gunzTarPerm extractEntry test/assets/package-zip-folder-single-file.zip
+npm sill gunzTarPerm extractEntry test/assets/package-zip-folder.zip
+npm sill gunzTarPerm extractEntry test/assets/package-zip-single-component-json.zip
+npm sill gunzTarPerm extractEntry test/assets/package-zip-single-file.zip
+npm sill gunzTarPerm extractEntry test/assets/package-zip.zip
+npm sill gunzTarPerm extractEntry test/assets/resolve-cache/list-json-1.json
+npm sill gunzTarPerm extractEntry test/assets/test-temp-dir/test-exception.js
+npm sill gunzTarPerm extractEntry test/assets/test-temp-dir/test.js
+npm sill gunzTarPerm extractEntry test/util/analytics.js
+npm sill gunzTarPerm extractEntry test/util/index.js
+npm sill gunzTarPerm extractEntry test/util/removeIgnores.js
+npm verb write writing to /usr/lib/node_modules/bower/package.json
+npm info preinstall bower@1.4.1
+npm verb readDependencies loading dependencies from /usr/lib/node_modules/bower/package.json
+npm sill prepareForInstallMany adding abbrev@^1.0.5 from bower dependencies
+npm sill prepareForInstallMany adding archy@1.0.0 from bower dependencies
+npm sill prepareForInstallMany adding bower-config@^0.6.1 from bower dependencies
+npm sill prepareForInstallMany adding bower-endpoint-parser@^0.2.2 from bower dependencies
+npm sill prepareForInstallMany adding bower-json@^0.4.0 from bower dependencies
+npm sill prepareForInstallMany adding bower-logger@^0.2.2 from bower dependencies
+npm sill prepareForInstallMany adding bower-registry-client@^0.3.0 from bower dependencies
+npm sill prepareForInstallMany adding cardinal@0.4.4 from bower dependencies
+npm sill prepareForInstallMany adding chalk@^1.0.0 from bower dependencies
+npm sill prepareForInstallMany adding chmodr@0.1.0 from bower dependencies
+npm sill prepareForInstallMany adding configstore@^0.3.2 from bower dependencies
+npm sill prepareForInstallMany adding decompress-zip@^0.1.0 from bower dependencies
+npm sill prepareForInstallMany adding fstream@^1.0.3 from bower dependencies
+npm sill prepareForInstallMany adding fstream-ignore@^1.0.2 from bower dependencies
+npm sill prepareForInstallMany adding github@^0.2.3 from bower dependencies
+npm sill prepareForInstallMany adding glob@^4.3.2 from bower dependencies
+npm sill prepareForInstallMany adding graceful-fs@^3.0.5 from bower dependencies
+npm sill prepareForInstallMany adding handlebars@^2.0.0 from bower dependencies
+npm sill prepareForInstallMany adding inquirer@0.8.0 from bower dependencies
+npm sill prepareForInstallMany adding insight@^0.5.0 from bower dependencies
+npm sill prepareForInstallMany adding is-root@^1.0.0 from bower dependencies
+npm sill prepareForInstallMany adding junk@^1.0.0 from bower dependencies
+npm sill prepareForInstallMany adding lockfile@^1.0.0 from bower dependencies
+npm sill prepareForInstallMany adding lru-cache@^2.5.0 from bower dependencies
+npm sill prepareForInstallMany adding mkdirp@0.5.0 from bower dependencies
+npm sill prepareForInstallMany adding mout@^0.11.0 from bower dependencies
+npm sill prepareForInstallMany adding nopt@^3.0.1 from bower dependencies
+npm sill prepareForInstallMany adding opn@^1.0.1 from bower dependencies
+npm sill prepareForInstallMany adding p-throttler@0.1.1 from bower dependencies
+npm sill prepareForInstallMany adding promptly@0.2.0 from bower dependencies
+npm sill prepareForInstallMany adding q@^1.1.2 from bower dependencies
+npm sill prepareForInstallMany adding request@2.53.0 from bower dependencies
+npm sill prepareForInstallMany adding request-progress@0.3.1 from bower dependencies
+npm sill prepareForInstallMany adding retry@0.6.1 from bower dependencies
+npm sill prepareForInstallMany adding rimraf@^2.2.8 from bower dependencies
+npm sill prepareForInstallMany adding semver@^2.3.0 from bower dependencies
+npm sill prepareForInstallMany adding shell-quote@^1.4.2 from bower dependencies
+npm sill prepareForInstallMany adding stringify-object@^1.0.0 from bower dependencies
+npm sill prepareForInstallMany adding tar-fs@^1.4.1 from bower dependencies
+npm sill prepareForInstallMany adding tmp@0.0.24 from bower dependencies
+npm sill prepareForInstallMany adding update-notifier@^0.3.0 from bower dependencies
+npm sill prepareForInstallMany adding user-home@^1.1.0 from bower dependencies
+npm sill prepareForInstallMany adding which@^1.0.8 from bower dependencies
+npm verb readDependencies loading dependencies from /usr/lib/node_modules/bower/package.json
+npm sill cache add args [ 'abbrev@^1.0.5', null ]
+npm verb cache add spec abbrev@^1.0.5
+npm sill cache add args [ 'archy@1.0.0', null ]
+npm verb cache add spec archy@1.0.0
+npm sill cache add parsed spec { raw: 'abbrev@^1.0.5',
+npm sill cache add   scope: null,
+npm sill cache add   name: 'abbrev',
+npm sill cache add   rawSpec: '^1.0.5',
+npm sill cache add   spec: '>=1.0.5 <2.0.0',
+npm sill cache add   type: 'range' }
+npm sill addNamed abbrev@>=1.0.5 <2.0.0
+npm verb addNamed ">=1.0.5 <2.0.0" is a valid semver range for abbrev
+npm sill addNameRange { name: 'abbrev', range: '>=1.0.5 <2.0.0', hasData: false }
+npm sill mapToRegistry name abbrev
+npm sill mapToRegistry using default registry
+npm sill mapToRegistry registry https://registry.npmjs.org/
+npm sill mapToRegistry uri https://registry.npmjs.org/abbrev
+npm verb addNameRange registry:https://registry.npmjs.org/abbrev not in flight; fetching
+npm sill cache add parsed spec { raw: 'archy@1.0.0',
+npm sill cache add   scope: null,
+npm sill cache add   name: 'archy',
+npm sill cache add   rawSpec: '1.0.0',
+npm sill cache add   spec: '1.0.0',
+npm sill cache add   type: 'version' }
+npm sill addNamed archy@1.0.0
+npm verb addNamed "1.0.0" is a plain semver version for archy
+npm sill mapToRegistry name archy
+npm sill mapToRegistry using default registry
+npm sill mapToRegistry registry https://registry.npmjs.org/
+npm sill mapToRegistry uri https://registry.npmjs.org/archy
+npm verb addNameVersion registry:https://registry.npmjs.org/archy not in flight; fetching
+npm verb request uri https://registry.npmjs.org/abbrev
+npm verb request no auth needed
+npm info attempt registry request try #1 at 22:38:54
+npm http request GET https://registry.npmjs.org/abbrev
+npm sill cache add args [ 'bower-config@^0.6.1', null ]
+npm verb cache add spec bower-config@^0.6.1
+npm sill cache add parsed spec { raw: 'bower-config@^0.6.1',
+npm sill cache add   scope: null,
+npm sill cache add   name: 'bower-config',
+npm sill cache add   rawSpec: '^0.6.1',
+npm sill cache add   spec: '>=0.6.1 <0.7.0',
+npm sill cache add   type: 'range' }
+npm sill addNamed bower-config@>=0.6.1 <0.7.0
+npm verb addNamed ">=0.6.1 <0.7.0" is a valid semver range for bower-config
+npm sill addNameRange { name: 'bower-config', range: '>=0.6.1 <0.7.0', hasData: false }
+npm sill mapToRegistry name bower-config
+npm sill mapToRegistry using default registry
+npm sill mapToRegistry registry https://registry.npmjs.org/
+npm sill mapToRegistry uri https://registry.npmjs.org/bower-config
+npm verb addNameRange registry:https://registry.npmjs.org/bower-config not in flight; fetching
+npm sill cache add args [ 'bower-endpoint-parser@^0.2.2', null ]
+npm verb cache add spec bower-endpoint-parser@^0.2.2
+npm sill cache add parsed spec { raw: 'bower-endpoint-parser@^0.2.2',
+npm sill cache add   scope: null,
+npm sill cache add   name: 'bower-endpoint-parser',
+npm sill cache add   rawSpec: '^0.2.2',
+npm sill cache add   spec: '>=0.2.2 <0.3.0',
+npm sill cache add   type: 'range' }
+npm sill addNamed bower-endpoint-parser@>=0.2.2 <0.3.0
+npm verb addNamed ">=0.2.2 <0.3.0" is a valid semver range for bower-endpoint-parser
+npm sill addNameRange { name: 'bower-endpoint-parser',
+npm sill addNameRange   range: '>=0.2.2 <0.3.0',
+npm sill addNameRange   hasData: false }
+npm sill mapToRegistry name bower-endpoint-parser
+npm sill mapToRegistry using default registry
+npm sill mapToRegistry registry https://registry.npmjs.org/
+npm sill mapToRegistry uri https://registry.npmjs.org/bower-endpoint-parser
+npm verb addNameRange registry:https://registry.npmjs.org/bower-endpoint-parser not in flight; fetching
+npm sill cache add args [ 'bower-json@^0.4.0', null ]
+npm verb cache add spec bower-json@^0.4.0
+npm sill cache add parsed spec { raw: 'bower-json@^0.4.0',
+npm sill cache add   scope: null,
+npm sill cache add   name: 'bower-json',
+npm sill cache add   rawSpec: '^0.4.0',
+npm sill cache add   spec: '>=0.4.0 <0.5.0',
+npm sill cache add   type: 'range' }
+npm sill addNamed bower-json@>=0.4.0 <0.5.0
+npm verb addNamed ">=0.4.0 <0.5.0" is a valid semver range for bower-json
+npm sill addNameRange { name: 'bower-json', range: '>=0.4.0 <0.5.0', hasData: false }
+npm sill mapToRegistry name bower-json
+npm sill mapToRegistry using default registry
+npm sill mapToRegistry registry https://registry.npmjs.org/
+npm sill mapToRegistry uri https://registry.npmjs.org/bower-json
+npm verb addNameRange registry:https://registry.npmjs.org/bower-json not in flight; fetching
+npm sill cache add args [ 'bower-logger@^0.2.2', null ]
+npm verb cache add spec bower-logger@^0.2.2
+npm sill cache add parsed spec { raw: 'bower-logger@^0.2.2',
+npm sill cache add   scope: null,
+npm sill cache add   name: 'bower-logger',
+npm sill cache add   rawSpec: '^0.2.2',
+npm sill cache add   spec: '>=0.2.2 <0.3.0',
+npm sill cache add   type: 'range' }
+npm sill addNamed bower-logger@>=0.2.2 <0.3.0
+npm verb addNamed ">=0.2.2 <0.3.0" is a valid semver range for bower-logger
+npm sill addNameRange { name: 'bower-logger', range: '>=0.2.2 <0.3.0', hasData: false }
+npm sill mapToRegistry name bower-logger
+npm sill mapToRegistry using default registry
+npm sill mapToRegistry registry https://registry.npmjs.org/
+npm sill mapToRegistry uri https://registry.npmjs.org/bower-logger
+npm verb addNameRange registry:https://registry.npmjs.org/bower-logger not in flight; fetching
+npm sill cache add args [ 'bower-registry-client@^0.3.0', null ]
+npm verb cache add spec bower-registry-client@^0.3.0
+npm sill cache add parsed spec { raw: 'bower-registry-client@^0.3.0',
+npm sill cache add   scope: null,
+npm sill cache add   name: 'bower-registry-client',
+npm sill cache add   rawSpec: '^0.3.0',
+npm sill cache add   spec: '>=0.3.0 <0.4.0',
+npm sill cache add   type: 'range' }
+npm sill addNamed bower-registry-client@>=0.3.0 <0.4.0
+npm verb addNamed ">=0.3.0 <0.4.0" is a valid semver range for bower-registry-client
+npm sill addNameRange { name: 'bower-registry-client',
+npm sill addNameRange   range: '>=0.3.0 <0.4.0',
+npm sill addNameRange   hasData: false }
+npm sill mapToRegistry name bower-registry-client
+npm sill mapToRegistry using default registry
+npm sill mapToRegistry registry https://registry.npmjs.org/
+npm sill mapToRegistry uri https://registry.npmjs.org/bower-registry-client
+npm verb addNameRange registry:https://registry.npmjs.org/bower-registry-client not in flight; fetching
+npm verb request uri https://registry.npmjs.org/archy
+npm verb request no auth needed
+npm info attempt registry request try #1 at 22:38:54
+npm http request GET https://registry.npmjs.org/archy
+npm verb request uri https://registry.npmjs.org/bower-config
+npm verb request no auth needed
+npm info attempt registry request try #1 at 22:38:54
+npm http request GET https://registry.npmjs.org/bower-config
+npm verb request uri https://registry.npmjs.org/bower-endpoint-parser
+npm verb request no auth needed
+npm info attempt registry request try #1 at 22:38:54
+npm http request GET https://registry.npmjs.org/bower-endpoint-parser
+npm verb request uri https://registry.npmjs.org/bower-json
+npm verb request no auth needed
+npm info attempt registry request try #1 at 22:38:54
+npm http request GET https://registry.npmjs.org/bower-json
+npm verb request uri https://registry.npmjs.org/bower-logger
+npm verb request no auth needed
+npm info attempt registry request try #1 at 22:38:54
+npm http request GET https://registry.npmjs.org/bower-logger
+npm verb request uri https://registry.npmjs.org/bower-registry-client
+npm verb request no auth needed
+npm info attempt registry request try #1 at 22:38:54
+npm http request GET https://registry.npmjs.org/bower-registry-client
+npm sill cache add args [ 'cardinal@0.4.4', null ]
+npm verb cache add spec cardinal@0.4.4
+npm sill cache add parsed spec { raw: 'cardinal@0.4.4',
+npm sill cache add   scope: null,
+npm sill cache add   name: 'cardinal',
+npm sill cache add   rawSpec: '0.4.4',
+npm sill cache add   spec: '0.4.4',
+npm sill cache add   type: 'version' }
+npm sill addNamed cardinal@0.4.4
+npm verb addNamed "0.4.4" is a plain semver version for cardinal
+npm sill mapToRegistry name cardinal
+npm sill mapToRegistry using default registry
+npm sill mapToRegistry registry https://registry.npmjs.org/
+npm sill mapToRegistry uri https://registry.npmjs.org/cardinal
+npm verb addNameVersion registry:https://registry.npmjs.org/cardinal not in flight; fetching
+npm sill cache add args [ 'chalk@^1.0.0', null ]
+npm verb cache add spec chalk@^1.0.0
+npm sill cache add parsed spec { raw: 'chalk@^1.0.0',
+npm sill cache add   scope: null,
+npm sill cache add   name: 'chalk',
+npm sill cache add   rawSpec: '^1.0.0',
+npm sill cache add   spec: '>=1.0.0 <2.0.0',
+npm sill cache add   type: 'range' }
+npm sill addNamed chalk@>=1.0.0 <2.0.0
+npm verb addNamed ">=1.0.0 <2.0.0" is a valid semver range for chalk
+npm sill addNameRange { name: 'chalk', range: '>=1.0.0 <2.0.0', hasData: false }
+npm sill mapToRegistry name chalk
+npm sill mapToRegistry using default registry
+npm sill mapToRegistry registry https://registry.npmjs.org/
+npm sill mapToRegistry uri https://registry.npmjs.org/chalk
+npm verb addNameRange registry:https://registry.npmjs.org/chalk not in flight; fetching
+npm sill cache add args [ 'chmodr@0.1.0', null ]
+npm verb cache add spec chmodr@0.1.0
+npm sill cache add parsed spec { raw: 'chmodr@0.1.0',
+npm sill cache add   scope: null,
+npm sill cache add   name: 'chmodr',
+npm sill cache add   rawSpec: '0.1.0',
+npm sill cache add   spec: '0.1.0',
+npm sill cache add   type: 'version' }
+npm sill addNamed chmodr@0.1.0
+npm verb addNamed "0.1.0" is a plain semver version for chmodr
+npm sill mapToRegistry name chmodr
+npm sill mapToRegistry using default registry
+npm sill mapToRegistry registry https://registry.npmjs.org/
+npm sill mapToRegistry uri https://registry.npmjs.org/chmodr
+npm verb addNameVersion registry:https://registry.npmjs.org/chmodr not in flight; fetching
+npm sill cache add args [ 'configstore@^0.3.2', null ]
+npm verb cache add spec configstore@^0.3.2
+npm sill cache add parsed spec { raw: 'configstore@^0.3.2',
+npm sill cache add   scope: null,
+npm sill cache add   name: 'configstore',
+npm sill cache add   rawSpec: '^0.3.2',
+npm sill cache add   spec: '>=0.3.2 <0.4.0',
+npm sill cache add   type: 'range' }
+npm sill addNamed configstore@>=0.3.2 <0.4.0
+npm verb addNamed ">=0.3.2 <0.4.0" is a valid semver range for configstore
+npm sill addNameRange { name: 'configstore', range: '>=0.3.2 <0.4.0', hasData: false }
+npm sill mapToRegistry name configstore
+npm sill mapToRegistry using default registry
+npm sill mapToRegistry registry https://registry.npmjs.org/
+npm sill mapToRegistry uri https://registry.npmjs.org/configstore
+npm verb addNameRange registry:https://registry.npmjs.org/configstore not in flight; fetching
+npm sill cache add args [ 'decompress-zip@^0.1.0', null ]
+npm verb cache add spec decompress-zip@^0.1.0
+npm sill cache add parsed spec { raw: 'decompress-zip@^0.1.0',
+npm sill cache add   scope: null,
+npm sill cache add   name: 'decompress-zip',
+npm sill cache add   rawSpec: '^0.1.0',
+npm sill cache add   spec: '>=0.1.0 <0.2.0',
+npm sill cache add   type: 'range' }
+npm sill addNamed decompress-zip@>=0.1.0 <0.2.0
+npm verb addNamed ">=0.1.0 <0.2.0" is a valid semver range for decompress-zip
+npm sill addNameRange { name: 'decompress-zip',
+npm sill addNameRange   range: '>=0.1.0 <0.2.0',
+npm sill addNameRange   hasData: false }
+npm sill mapToRegistry name decompress-zip
+npm sill mapToRegistry using default registry
+npm sill mapToRegistry registry https://registry.npmjs.org/
+npm sill mapToRegistry uri https://registry.npmjs.org/decompress-zip
+npm verb addNameRange registry:https://registry.npmjs.org/decompress-zip not in flight; fetching
+npm sill cache add args [ 'fstream@^1.0.3', null ]
+npm verb cache add spec fstream@^1.0.3
+npm sill cache add parsed spec { raw: 'fstream@^1.0.3',
+npm sill cache add   scope: null,
+npm sill cache add   name: 'fstream',
+npm sill cache add   rawSpec: '^1.0.3',
+npm sill cache add   spec: '>=1.0.3 <2.0.0',
+npm sill cache add   type: 'range' }
+npm sill addNamed fstream@>=1.0.3 <2.0.0
+npm verb addNamed ">=1.0.3 <2.0.0" is a valid semver range for fstream
+npm sill addNameRange { name: 'fstream', range: '>=1.0.3 <2.0.0', hasData: false }
+npm sill mapToRegistry name fstream
+npm sill mapToRegistry using default registry
+npm sill mapToRegistry registry https://registry.npmjs.org/
+npm sill mapToRegistry uri https://registry.npmjs.org/fstream
+npm verb addNameRange registry:https://registry.npmjs.org/fstream not in flight; fetching
+npm sill cache add args [ 'fstream-ignore@^1.0.2', null ]
+npm verb cache add spec fstream-ignore@^1.0.2
+npm sill cache add parsed spec { raw: 'fstream-ignore@^1.0.2',
+npm sill cache add   scope: null,
+npm sill cache add   name: 'fstream-ignore',
+npm sill cache add   rawSpec: '^1.0.2',
+npm sill cache add   spec: '>=1.0.2 <2.0.0',
+npm sill cache add   type: 'range' }
+npm sill addNamed fstream-ignore@>=1.0.2 <2.0.0
+npm verb addNamed ">=1.0.2 <2.0.0" is a valid semver range for fstream-ignore
+npm sill addNameRange { name: 'fstream-ignore',
+npm sill addNameRange   range: '>=1.0.2 <2.0.0',
+npm sill addNameRange   hasData: false }
+npm sill mapToRegistry name fstream-ignore
+npm sill mapToRegistry using default registry
+npm sill mapToRegistry registry https://registry.npmjs.org/
+npm sill mapToRegistry uri https://registry.npmjs.org/fstream-ignore
+npm verb addNameRange registry:https://registry.npmjs.org/fstream-ignore not in flight; fetching
+npm sill cache add args [ 'github@^0.2.3', null ]
+npm verb cache add spec github@^0.2.3
+npm sill cache add parsed spec { raw: 'github@^0.2.3',
+npm sill cache add   scope: null,
+npm sill cache add   name: 'github',
+npm sill cache add   rawSpec: '^0.2.3',
+npm sill cache add   spec: '>=0.2.3 <0.3.0',
+npm sill cache add   type: 'range' }
+npm sill addNamed github@>=0.2.3 <0.3.0
+npm verb addNamed ">=0.2.3 <0.3.0" is a valid semver range for github
+npm sill addNameRange { name: 'github', range: '>=0.2.3 <0.3.0', hasData: false }
+npm sill mapToRegistry name github
+npm sill mapToRegistry using default registry
+npm sill mapToRegistry registry https://registry.npmjs.org/
+npm sill mapToRegistry uri https://registry.npmjs.org/github
+npm verb addNameRange registry:https://registry.npmjs.org/github not in flight; fetching
+npm verb request uri https://registry.npmjs.org/cardinal
+npm verb request no auth needed
+npm info attempt registry request try #1 at 22:38:54
+npm http request GET https://registry.npmjs.org/cardinal
+npm verb request uri https://registry.npmjs.org/chalk
+npm verb request no auth needed
+npm info attempt registry request try #1 at 22:38:54
+npm http request GET https://registry.npmjs.org/chalk
+npm verb request uri https://registry.npmjs.org/chmodr
+npm verb request no auth needed
+npm info attempt registry request try #1 at 22:38:54
+npm http request GET https://registry.npmjs.org/chmodr
+npm verb request uri https://registry.npmjs.org/configstore
+npm verb request no auth needed
+npm info attempt registry request try #1 at 22:38:54
+npm http request GET https://registry.npmjs.org/configstore
+npm verb request uri https://registry.npmjs.org/decompress-zip
+npm verb request no auth needed
+npm info attempt registry request try #1 at 22:38:54
+npm http request GET https://registry.npmjs.org/decompress-zip
+npm verb request uri https://registry.npmjs.org/fstream
+npm verb request no auth needed
+npm info attempt registry request try #1 at 22:38:54
+npm http request GET https://registry.npmjs.org/fstream
+npm verb request uri https://registry.npmjs.org/fstream-ignore
+npm verb request no auth needed
+npm info attempt registry request try #1 at 22:38:54
+npm http request GET https://registry.npmjs.org/fstream-ignore
+npm sill cache add args [ 'glob@^4.3.2', null ]
+npm verb cache add spec glob@^4.3.2
+npm sill cache add parsed spec { raw: 'glob@^4.3.2',
+npm sill cache add   scope: null,
+npm sill cache add   name: 'glob',
+npm sill cache add   rawSpec: '^4.3.2',
+npm sill cache add   spec: '>=4.3.2 <5.0.0',
+npm sill cache add   type: 'range' }
+npm sill addNamed glob@>=4.3.2 <5.0.0
+npm verb addNamed ">=4.3.2 <5.0.0" is a valid semver range for glob
+npm sill addNameRange { name: 'glob', range: '>=4.3.2 <5.0.0', hasData: false }
+npm sill mapToRegistry name glob
+npm sill mapToRegistry using default registry
+npm sill mapToRegistry registry https://registry.npmjs.org/
+npm sill mapToRegistry uri https://registry.npmjs.org/glob
+npm verb addNameRange registry:https://registry.npmjs.org/glob not in flight; fetching
+npm sill cache add args [ 'graceful-fs@^3.0.5', null ]
+npm verb cache add spec graceful-fs@^3.0.5
+npm sill cache add parsed spec { raw: 'graceful-fs@^3.0.5',
+npm sill cache add   scope: null,
+npm sill cache add   name: 'graceful-fs',
+npm sill cache add   rawSpec: '^3.0.5',
+npm sill cache add   spec: '>=3.0.5 <4.0.0',
+npm sill cache add   type: 'range' }
+npm sill addNamed graceful-fs@>=3.0.5 <4.0.0
+npm verb addNamed ">=3.0.5 <4.0.0" is a valid semver range for graceful-fs
+npm sill addNameRange { name: 'graceful-fs', range: '>=3.0.5 <4.0.0', hasData: false }
+npm sill mapToRegistry name graceful-fs
+npm sill mapToRegistry using default registry
+npm sill mapToRegistry registry https://registry.npmjs.org/
+npm sill mapToRegistry uri https://registry.npmjs.org/graceful-fs
+npm verb addNameRange registry:https://registry.npmjs.org/graceful-fs not in flight; fetching
+npm sill cache add args [ 'handlebars@^2.0.0', null ]
+npm verb cache add spec handlebars@^2.0.0
+npm sill cache add parsed spec { raw: 'handlebars@^2.0.0',
+npm sill cache add   scope: null,
+npm sill cache add   name: 'handlebars',
+npm sill cache add   rawSpec: '^2.0.0',
+npm sill cache add   spec: '>=2.0.0 <3.0.0',
+npm sill cache add   type: 'range' }
+npm sill addNamed handlebars@>=2.0.0 <3.0.0
+npm verb addNamed ">=2.0.0 <3.0.0" is a valid semver range for handlebars
+npm sill addNameRange { name: 'handlebars', range: '>=2.0.0 <3.0.0', hasData: false }
+npm sill mapToRegistry name handlebars
+npm sill mapToRegistry using default registry
+npm sill mapToRegistry registry https://registry.npmjs.org/
+npm sill mapToRegistry uri https://registry.npmjs.org/handlebars
+npm verb addNameRange registry:https://registry.npmjs.org/handlebars not in flight; fetching
+npm sill cache add args [ 'inquirer@0.8.0', null ]
+npm verb cache add spec inquirer@0.8.0
+npm sill cache add parsed spec { raw: 'inquirer@0.8.0',
+npm sill cache add   scope: null,
+npm sill cache add   name: 'inquirer',
+npm sill cache add   rawSpec: '0.8.0',
+npm sill cache add   spec: '0.8.0',
+npm sill cache add   type: 'version' }
+npm sill addNamed inquirer@0.8.0
+npm verb addNamed "0.8.0" is a plain semver version for inquirer
+npm sill mapToRegistry name inquirer
+npm sill mapToRegistry using default registry
+npm sill mapToRegistry registry https://registry.npmjs.org/
+npm sill mapToRegistry uri https://registry.npmjs.org/inquirer
+npm verb addNameVersion registry:https://registry.npmjs.org/inquirer not in flight; fetching
+npm sill cache add args [ 'insight@^0.5.0', null ]
+npm verb cache add spec insight@^0.5.0
+npm sill cache add parsed spec { raw: 'insight@^0.5.0',
+npm sill cache add   scope: null,
+npm sill cache add   name: 'insight',
+npm sill cache add   rawSpec: '^0.5.0',
+npm sill cache add   spec: '>=0.5.0 <0.6.0',
+npm sill cache add   type: 'range' }
+npm sill addNamed insight@>=0.5.0 <0.6.0
+npm verb addNamed ">=0.5.0 <0.6.0" is a valid semver range for insight
+npm sill addNameRange { name: 'insight', range: '>=0.5.0 <0.6.0', hasData: false }
+npm sill mapToRegistry name insight
+npm sill mapToRegistry using default registry
+npm sill mapToRegistry registry https://registry.npmjs.org/
+npm sill mapToRegistry uri https://registry.npmjs.org/insight
+npm verb addNameRange registry:https://registry.npmjs.org/insight not in flight; fetching
+npm sill cache add args [ 'is-root@^1.0.0', null ]
+npm verb cache add spec is-root@^1.0.0
+npm sill cache add parsed spec { raw: 'is-root@^1.0.0',
+npm sill cache add   scope: null,
+npm sill cache add   name: 'is-root',
+npm sill cache add   rawSpec: '^1.0.0',
+npm sill cache add   spec: '>=1.0.0 <2.0.0',
+npm sill cache add   type: 'range' }
+npm sill addNamed is-root@>=1.0.0 <2.0.0
+npm verb addNamed ">=1.0.0 <2.0.0" is a valid semver range for is-root
+npm sill addNameRange { name: 'is-root', range: '>=1.0.0 <2.0.0', hasData: false }
+npm sill mapToRegistry name is-root
+npm sill mapToRegistry using default registry
+npm sill mapToRegistry registry https://registry.npmjs.org/
+npm sill mapToRegistry uri https://registry.npmjs.org/is-root
+npm verb addNameRange registry:https://registry.npmjs.org/is-root not in flight; fetching
+npm sill cache add args [ 'junk@^1.0.0', null ]
+npm verb cache add spec junk@^1.0.0
+npm sill cache add parsed spec { raw: 'junk@^1.0.0',
+npm sill cache add   scope: null,
+npm sill cache add   name: 'junk',
+npm sill cache add   rawSpec: '^1.0.0',
+npm sill cache add   spec: '>=1.0.0 <2.0.0',
+npm sill cache add   type: 'range' }
+npm sill addNamed junk@>=1.0.0 <2.0.0
+npm verb addNamed ">=1.0.0 <2.0.0" is a valid semver range for junk
+npm sill addNameRange { name: 'junk', range: '>=1.0.0 <2.0.0', hasData: false }
+npm sill mapToRegistry name junk
+npm sill mapToRegistry using default registry
+npm sill mapToRegistry registry https://registry.npmjs.org/
+npm sill mapToRegistry uri https://registry.npmjs.org/junk
+npm verb addNameRange registry:https://registry.npmjs.org/junk not in flight; fetching
+npm sill cache add args [ 'lockfile@^1.0.0', null ]
+npm verb cache add spec lockfile@^1.0.0
+npm sill cache add parsed spec { raw: 'lockfile@^1.0.0',
+npm sill cache add   scope: null,
+npm sill cache add   name: 'lockfile',
+npm sill cache add   rawSpec: '^1.0.0',
+npm sill cache add   spec: '>=1.0.0 <2.0.0',
+npm sill cache add   type: 'range' }
+npm sill addNamed lockfile@>=1.0.0 <2.0.0
+npm verb addNamed ">=1.0.0 <2.0.0" is a valid semver range for lockfile
+npm sill addNameRange { name: 'lockfile', range: '>=1.0.0 <2.0.0', hasData: false }
+npm sill mapToRegistry name lockfile
+npm sill mapToRegistry using default registry
+npm sill mapToRegistry registry https://registry.npmjs.org/
+npm sill mapToRegistry uri https://registry.npmjs.org/lockfile
+npm verb addNameRange registry:https://registry.npmjs.org/lockfile not in flight; fetching
+npm sill cache add args [ 'lru-cache@^2.5.0', null ]
+npm verb cache add spec lru-cache@^2.5.0
+npm sill cache add parsed spec { raw: 'lru-cache@^2.5.0',
+npm sill cache add   scope: null,
+npm sill cache add   name: 'lru-cache',
+npm sill cache add   rawSpec: '^2.5.0',
+npm sill cache add   spec: '>=2.5.0 <3.0.0',
+npm sill cache add   type: 'range' }
+npm sill addNamed lru-cache@>=2.5.0 <3.0.0
+npm verb addNamed ">=2.5.0 <3.0.0" is a valid semver range for lru-cache
+npm sill addNameRange { name: 'lru-cache', range: '>=2.5.0 <3.0.0', hasData: false }
+npm sill mapToRegistry name lru-cache
+npm sill mapToRegistry using default registry
+npm sill mapToRegistry registry https://registry.npmjs.org/
+npm sill mapToRegistry uri https://registry.npmjs.org/lru-cache
+npm verb addNameRange registry:https://registry.npmjs.org/lru-cache not in flight; fetching
+npm sill cache add args [ 'mkdirp@0.5.0', null ]
+npm verb cache add spec mkdirp@0.5.0
+npm sill cache add parsed spec { raw: 'mkdirp@0.5.0',
+npm sill cache add   scope: null,
+npm sill cache add   name: 'mkdirp',
+npm sill cache add   rawSpec: '0.5.0',
+npm sill cache add   spec: '0.5.0',
+npm sill cache add   type: 'version' }
+npm sill addNamed mkdirp@0.5.0
+npm verb addNamed "0.5.0" is a plain semver version for mkdirp
+npm sill mapToRegistry name mkdirp
+npm sill mapToRegistry using default registry
+npm sill mapToRegistry registry https://registry.npmjs.org/
+npm sill mapToRegistry uri https://registry.npmjs.org/mkdirp
+npm verb addNameVersion registry:https://registry.npmjs.org/mkdirp not in flight; fetching
+npm sill cache add args [ 'mout@^0.11.0', null ]
+npm verb cache add spec mout@^0.11.0
+npm sill cache add parsed spec { raw: 'mout@^0.11.0',
+npm sill cache add   scope: null,
+npm sill cache add   name: 'mout',
+npm sill cache add   rawSpec: '^0.11.0',
+npm sill cache add   spec: '>=0.11.0 <0.12.0',
+npm sill cache add   type: 'range' }
+npm sill addNamed mout@>=0.11.0 <0.12.0
+npm verb addNamed ">=0.11.0 <0.12.0" is a valid semver range for mout
+npm sill addNameRange { name: 'mout', range: '>=0.11.0 <0.12.0', hasData: false }
+npm sill mapToRegistry name mout
+npm sill mapToRegistry using default registry
+npm sill mapToRegistry registry https://registry.npmjs.org/
+npm sill mapToRegistry uri https://registry.npmjs.org/mout
+npm verb addNameRange registry:https://registry.npmjs.org/mout not in flight; fetching
+npm sill cache add args [ 'nopt@^3.0.1', null ]
+npm verb cache add spec nopt@^3.0.1
+npm sill cache add parsed spec { raw: 'nopt@^3.0.1',
+npm sill cache add   scope: null,
+npm sill cache add   name: 'nopt',
+npm sill cache add   rawSpec: '^3.0.1',
+npm sill cache add   spec: '>=3.0.1 <4.0.0',
+npm sill cache add   type: 'range' }
+npm sill addNamed nopt@>=3.0.1 <4.0.0
+npm verb addNamed ">=3.0.1 <4.0.0" is a valid semver range for nopt
+npm sill addNameRange { name: 'nopt', range: '>=3.0.1 <4.0.0', hasData: false }
+npm sill mapToRegistry name nopt
+npm sill mapToRegistry using default registry
+npm sill mapToRegistry registry https://registry.npmjs.org/
+npm sill mapToRegistry uri https://registry.npmjs.org/nopt
+npm verb addNameRange registry:https://registry.npmjs.org/nopt not in flight; fetching
+npm sill cache add args [ 'opn@^1.0.1', null ]
+npm verb cache add spec opn@^1.0.1
+npm sill cache add parsed spec { raw: 'opn@^1.0.1',
+npm sill cache add   scope: null,
+npm sill cache add   name: 'opn',
+npm sill cache add   rawSpec: '^1.0.1',
+npm sill cache add   spec: '>=1.0.1 <2.0.0',
+npm sill cache add   type: 'range' }
+npm sill addNamed opn@>=1.0.1 <2.0.0
+npm verb addNamed ">=1.0.1 <2.0.0" is a valid semver range for opn
+npm sill addNameRange { name: 'opn', range: '>=1.0.1 <2.0.0', hasData: false }
+npm sill mapToRegistry name opn
+npm sill mapToRegistry using default registry
+npm sill mapToRegistry registry https://registry.npmjs.org/
+npm sill mapToRegistry uri https://registry.npmjs.org/opn
+npm verb addNameRange registry:https://registry.npmjs.org/opn not in flight; fetching
+npm sill cache add args [ 'p-throttler@0.1.1', null ]
+npm verb cache add spec p-throttler@0.1.1
+npm sill cache add parsed spec { raw: 'p-throttler@0.1.1',
+npm sill cache add   scope: null,
+npm sill cache add   name: 'p-throttler',
+npm sill cache add   rawSpec: '0.1.1',
+npm sill cache add   spec: '0.1.1',
+npm sill cache add   type: 'version' }
+npm sill addNamed p-throttler@0.1.1
+npm verb addNamed "0.1.1" is a plain semver version for p-throttler
+npm sill mapToRegistry name p-throttler
+npm sill mapToRegistry using default registry
+npm sill mapToRegistry registry https://registry.npmjs.org/
+npm sill mapToRegistry uri https://registry.npmjs.org/p-throttler
+npm verb addNameVersion registry:https://registry.npmjs.org/p-throttler not in flight; fetching
+npm sill cache add args [ 'promptly@0.2.0', null ]
+npm verb cache add spec promptly@0.2.0
+npm sill cache add parsed spec { raw: 'promptly@0.2.0',
+npm sill cache add   scope: null,
+npm sill cache add   name: 'promptly',
+npm sill cache add   rawSpec: '0.2.0',
+npm sill cache add   spec: '0.2.0',
+npm sill cache add   type: 'version' }
+npm sill addNamed promptly@0.2.0
+npm verb addNamed "0.2.0" is a plain semver version for promptly
+npm sill mapToRegistry name promptly
+npm sill mapToRegistry using default registry
+npm sill mapToRegistry registry https://registry.npmjs.org/
+npm sill mapToRegistry uri https://registry.npmjs.org/promptly
+npm verb addNameVersion registry:https://registry.npmjs.org/promptly not in flight; fetching
+npm sill cache add args [ 'q@^1.1.2', null ]
+npm verb cache add spec q@^1.1.2
+npm sill cache add parsed spec { raw: 'q@^1.1.2',
+npm sill cache add   scope: null,
+npm sill cache add   name: 'q',
+npm sill cache add   rawSpec: '^1.1.2',
+npm sill cache add   spec: '>=1.1.2 <2.0.0',
+npm sill cache add   type: 'range' }
+npm sill addNamed q@>=1.1.2 <2.0.0
+npm verb addNamed ">=1.1.2 <2.0.0" is a valid semver range for q
+npm sill addNameRange { name: 'q', range: '>=1.1.2 <2.0.0', hasData: false }
+npm sill mapToRegistry name q
+npm sill mapToRegistry using default registry
+npm sill mapToRegistry registry https://registry.npmjs.org/
+npm sill mapToRegistry uri https://registry.npmjs.org/q
+npm verb addNameRange registry:https://registry.npmjs.org/q not in flight; fetching
+npm sill cache add args [ 'request@2.53.0', null ]
+npm verb cache add spec request@2.53.0
+npm sill cache add parsed spec { raw: 'request@2.53.0',
+npm sill cache add   scope: null,
+npm sill cache add   name: 'request',
+npm sill cache add   rawSpec: '2.53.0',
+npm sill cache add   spec: '2.53.0',
+npm sill cache add   type: 'version' }
+npm sill addNamed request@2.53.0
+npm verb addNamed "2.53.0" is a plain semver version for request
+npm sill mapToRegistry name request
+npm sill mapToRegistry using default registry
+npm sill mapToRegistry registry https://registry.npmjs.org/
+npm sill mapToRegistry uri https://registry.npmjs.org/request
+npm verb addNameVersion registry:https://registry.npmjs.org/request not in flight; fetching
+npm sill cache add args [ 'request-progress@0.3.1', null ]
+npm verb cache add spec request-progress@0.3.1
+npm sill cache add parsed spec { raw: 'request-progress@0.3.1',
+npm sill cache add   scope: null,
+npm sill cache add   name: 'request-progress',
+npm sill cache add   rawSpec: '0.3.1',
+npm sill cache add   spec: '0.3.1',
+npm sill cache add   type: 'version' }
+npm sill addNamed request-progress@0.3.1
+npm verb addNamed "0.3.1" is a plain semver version for request-progress
+npm sill mapToRegistry name request-progress
+npm sill mapToRegistry using default registry
+npm sill mapToRegistry registry https://registry.npmjs.org/
+npm sill mapToRegistry uri https://registry.npmjs.org/request-progress
+npm verb addNameVersion registry:https://registry.npmjs.org/request-progress not in flight; fetching
+npm verb request uri https://registry.npmjs.org/github
+npm verb request no auth needed
+npm info attempt registry request try #1 at 22:38:54
+npm http request GET https://registry.npmjs.org/github
+npm verb request uri https://registry.npmjs.org/glob
+npm verb request no auth needed
+npm info attempt registry request try #1 at 22:38:54
+npm http request GET https://registry.npmjs.org/glob
+npm verb request uri https://registry.npmjs.org/graceful-fs
+npm verb request no auth needed
+npm info attempt registry request try #1 at 22:38:54
+npm http request GET https://registry.npmjs.org/graceful-fs
+npm verb request uri https://registry.npmjs.org/handlebars
+npm verb request no auth needed
+npm info attempt registry request try #1 at 22:38:54
+npm http request GET https://registry.npmjs.org/handlebars
+npm verb request uri https://registry.npmjs.org/inquirer
+npm verb request no auth needed
+npm info attempt registry request try #1 at 22:38:54
+npm http request GET https://registry.npmjs.org/inquirer
+npm verb request uri https://registry.npmjs.org/insight
+npm verb request no auth needed
+npm info attempt registry request try #1 at 22:38:54
+npm http request GET https://registry.npmjs.org/insight
+npm verb request uri https://registry.npmjs.org/is-root
+npm verb request no auth needed
+npm info attempt registry request try #1 at 22:38:54
+npm http request GET https://registry.npmjs.org/is-root
+npm verb request uri https://registry.npmjs.org/junk
+npm verb request no auth needed
+npm info attempt registry request try #1 at 22:38:54
+npm http request GET https://registry.npmjs.org/junk
+npm verb request uri https://registry.npmjs.org/lockfile
+npm verb request no auth needed
+npm info attempt registry request try #1 at 22:38:54
+npm http request GET https://registry.npmjs.org/lockfile
+npm verb request uri https://registry.npmjs.org/lru-cache
+npm verb request no auth needed
+npm info attempt registry request try #1 at 22:38:54
+npm http request GET https://registry.npmjs.org/lru-cache
+npm verb request uri https://registry.npmjs.org/mkdirp
+npm verb request no auth needed
+npm info attempt registry request try #1 at 22:38:54
+npm http request GET https://registry.npmjs.org/mkdirp
+npm verb request uri https://registry.npmjs.org/mout
+npm verb request no auth needed
+npm info attempt registry request try #1 at 22:38:54
+npm http request GET https://registry.npmjs.org/mout
+npm verb request uri https://registry.npmjs.org/nopt
+npm verb request no auth needed
+npm info attempt registry request try #1 at 22:38:54
+npm http request GET https://registry.npmjs.org/nopt
+npm verb request uri https://registry.npmjs.org/opn
+npm verb request no auth needed
+npm info attempt registry request try #1 at 22:38:54
+npm http request GET https://registry.npmjs.org/opn
+npm verb request uri https://registry.npmjs.org/p-throttler
+npm verb request no auth needed
+npm info attempt registry request try #1 at 22:38:54
+npm http request GET https://registry.npmjs.org/p-throttler
+npm verb request uri https://registry.npmjs.org/promptly
+npm verb request no auth needed
+npm info attempt registry request try #1 at 22:38:54
+npm http request GET https://registry.npmjs.org/promptly
+npm verb request uri https://registry.npmjs.org/q
+npm verb request no auth needed
+npm info attempt registry request try #1 at 22:38:54
+npm http request GET https://registry.npmjs.org/q
+npm verb request uri https://registry.npmjs.org/request
+npm verb request no auth needed
+npm info attempt registry request try #1 at 22:38:54
+npm http request GET https://registry.npmjs.org/request
+npm verb request uri https://registry.npmjs.org/request-progress
+npm verb request no auth needed
+npm info attempt registry request try #1 at 22:38:54
+npm http request GET https://registry.npmjs.org/request-progress
+npm sill cache add args [ 'retry@0.6.1', null ]
+npm verb cache add spec retry@0.6.1
+npm sill cache add parsed spec { raw: 'retry@0.6.1',
+npm sill cache add   scope: null,
+npm sill cache add   name: 'retry',
+npm sill cache add   rawSpec: '0.6.1',
+npm sill cache add   spec: '0.6.1',
+npm sill cache add   type: 'version' }
+npm sill addNamed retry@0.6.1
+npm verb addNamed "0.6.1" is a plain semver version for retry
+npm sill mapToRegistry name retry
+npm sill mapToRegistry using default registry
+npm sill mapToRegistry registry https://registry.npmjs.org/
+npm sill mapToRegistry uri https://registry.npmjs.org/retry
+npm verb addNameVersion registry:https://registry.npmjs.org/retry not in flight; fetching
+npm sill cache add args [ 'rimraf@^2.2.8', null ]
+npm verb cache add spec rimraf@^2.2.8
+npm sill cache add parsed spec { raw: 'rimraf@^2.2.8',
+npm sill cache add   scope: null,
+npm sill cache add   name: 'rimraf',
+npm sill cache add   rawSpec: '^2.2.8',
+npm sill cache add   spec: '>=2.2.8 <3.0.0',
+npm sill cache add   type: 'range' }
+npm sill addNamed rimraf@>=2.2.8 <3.0.0
+npm verb addNamed ">=2.2.8 <3.0.0" is a valid semver range for rimraf
+npm sill addNameRange { name: 'rimraf', range: '>=2.2.8 <3.0.0', hasData: false }
+npm sill mapToRegistry name rimraf
+npm sill mapToRegistry using default registry
+npm sill mapToRegistry registry https://registry.npmjs.org/
+npm sill mapToRegistry uri https://registry.npmjs.org/rimraf
+npm verb addNameRange registry:https://registry.npmjs.org/rimraf not in flight; fetching
+npm sill cache add args [ 'semver@^2.3.0', null ]
+npm verb cache add spec semver@^2.3.0
+npm sill cache add parsed spec { raw: 'semver@^2.3.0',
+npm sill cache add   scope: null,
+npm sill cache add   name: 'semver',
+npm sill cache add   rawSpec: '^2.3.0',
+npm sill cache add   spec: '>=2.3.0 <3.0.0',
+npm sill cache add   type: 'range' }
+npm sill addNamed semver@>=2.3.0 <3.0.0
+npm verb addNamed ">=2.3.0 <3.0.0" is a valid semver range for semver
+npm sill addNameRange { name: 'semver', range: '>=2.3.0 <3.0.0', hasData: false }
+npm sill mapToRegistry name semver
+npm sill mapToRegistry using default registry
+npm sill mapToRegistry registry https://registry.npmjs.org/
+npm sill mapToRegistry uri https://registry.npmjs.org/semver
+npm verb addNameRange registry:https://registry.npmjs.org/semver not in flight; fetching
+npm sill cache add args [ 'shell-quote@^1.4.2', null ]
+npm verb cache add spec shell-quote@^1.4.2
+npm sill cache add parsed spec { raw: 'shell-quote@^1.4.2',
+npm sill cache add   scope: null,
+npm sill cache add   name: 'shell-quote',
+npm sill cache add   rawSpec: '^1.4.2',
+npm sill cache add   spec: '>=1.4.2 <2.0.0',
+npm sill cache add   type: 'range' }
+npm sill addNamed shell-quote@>=1.4.2 <2.0.0
+npm verb addNamed ">=1.4.2 <2.0.0" is a valid semver range for shell-quote
+npm sill addNameRange { name: 'shell-quote', range: '>=1.4.2 <2.0.0', hasData: false }
+npm sill mapToRegistry name shell-quote
+npm sill mapToRegistry using default registry
+npm sill mapToRegistry registry https://registry.npmjs.org/
+npm sill mapToRegistry uri https://registry.npmjs.org/shell-quote
+npm verb addNameRange registry:https://registry.npmjs.org/shell-quote not in flight; fetching
+npm sill cache add args [ 'stringify-object@^1.0.0', null ]
+npm verb cache add spec stringify-object@^1.0.0
+npm sill cache add parsed spec { raw: 'stringify-object@^1.0.0',
+npm sill cache add   scope: null,
+npm sill cache add   name: 'stringify-object',
+npm sill cache add   rawSpec: '^1.0.0',
+npm sill cache add   spec: '>=1.0.0 <2.0.0',
+npm sill cache add   type: 'range' }
+npm sill addNamed stringify-object@>=1.0.0 <2.0.0
+npm verb addNamed ">=1.0.0 <2.0.0" is a valid semver range for stringify-object
+npm sill addNameRange { name: 'stringify-object',
+npm sill addNameRange   range: '>=1.0.0 <2.0.0',
+npm sill addNameRange   hasData: false }
+npm sill mapToRegistry name stringify-object
+npm sill mapToRegistry using default registry
+npm sill mapToRegistry registry https://registry.npmjs.org/
+npm sill mapToRegistry uri https://registry.npmjs.org/stringify-object
+npm verb addNameRange registry:https://registry.npmjs.org/stringify-object not in flight; fetching
+npm sill cache add args [ 'tar-fs@^1.4.1', null ]
+npm verb cache add spec tar-fs@^1.4.1
+npm sill cache add parsed spec { raw: 'tar-fs@^1.4.1',
+npm sill cache add   scope: null,
+npm sill cache add   name: 'tar-fs',
+npm sill cache add   rawSpec: '^1.4.1',
+npm sill cache add   spec: '>=1.4.1 <2.0.0',
+npm sill cache add   type: 'range' }
+npm sill addNamed tar-fs@>=1.4.1 <2.0.0
+npm verb addNamed ">=1.4.1 <2.0.0" is a valid semver range for tar-fs
+npm sill addNameRange { name: 'tar-fs', range: '>=1.4.1 <2.0.0', hasData: false }
+npm sill mapToRegistry name tar-fs
+npm sill mapToRegistry using default registry
+npm sill mapToRegistry registry https://registry.npmjs.org/
+npm sill mapToRegistry uri https://registry.npmjs.org/tar-fs
+npm verb addNameRange registry:https://registry.npmjs.org/tar-fs not in flight; fetching
+npm sill cache add args [ 'tmp@0.0.24', null ]
+npm verb cache add spec tmp@0.0.24
+npm sill cache add parsed spec { raw: 'tmp@0.0.24',
+npm sill cache add   scope: null,
+npm sill cache add   name: 'tmp',
+npm sill cache add   rawSpec: '0.0.24',
+npm sill cache add   spec: '0.0.24',
+npm sill cache add   type: 'version' }
+npm sill addNamed tmp@0.0.24
+npm verb addNamed "0.0.24" is a plain semver version for tmp
+npm sill mapToRegistry name tmp
+npm sill mapToRegistry using default registry
+npm sill mapToRegistry registry https://registry.npmjs.org/
+npm sill mapToRegistry uri https://registry.npmjs.org/tmp
+npm verb addNameVersion registry:https://registry.npmjs.org/tmp not in flight; fetching
+npm sill cache add args [ 'update-notifier@^0.3.0', null ]
+npm verb cache add spec update-notifier@^0.3.0
+npm sill cache add parsed spec { raw: 'update-notifier@^0.3.0',
+npm sill cache add   scope: null,
+npm sill cache add   name: 'update-notifier',
+npm sill cache add   rawSpec: '^0.3.0',
+npm sill cache add   spec: '>=0.3.0 <0.4.0',
+npm sill cache add   type: 'range' }
+npm sill addNamed update-notifier@>=0.3.0 <0.4.0
+npm verb addNamed ">=0.3.0 <0.4.0" is a valid semver range for update-notifier
+npm sill addNameRange { name: 'update-notifier',
+npm sill addNameRange   range: '>=0.3.0 <0.4.0',
+npm sill addNameRange   hasData: false }
+npm sill mapToRegistry name update-notifier
+npm sill mapToRegistry using default registry
+npm sill mapToRegistry registry https://registry.npmjs.org/
+npm sill mapToRegistry uri https://registry.npmjs.org/update-notifier
+npm verb addNameRange registry:https://registry.npmjs.org/update-notifier not in flight; fetching
+npm sill cache add args [ 'user-home@^1.1.0', null ]
+npm verb cache add spec user-home@^1.1.0
+npm sill cache add parsed spec { raw: 'user-home@^1.1.0',
+npm sill cache add   scope: null,
+npm sill cache add   name: 'user-home',
+npm sill cache add   rawSpec: '^1.1.0',
+npm sill cache add   spec: '>=1.1.0 <2.0.0',
+npm sill cache add   type: 'range' }
+npm sill addNamed user-home@>=1.1.0 <2.0.0
+npm verb addNamed ">=1.1.0 <2.0.0" is a valid semver range for user-home
+npm sill addNameRange { name: 'user-home', range: '>=1.1.0 <2.0.0', hasData: false }
+npm sill mapToRegistry name user-home
+npm sill mapToRegistry using default registry
+npm sill mapToRegistry registry https://registry.npmjs.org/
+npm sill mapToRegistry uri https://registry.npmjs.org/user-home
+npm verb addNameRange registry:https://registry.npmjs.org/user-home not in flight; fetching
+npm sill cache add args [ 'which@^1.0.8', null ]
+npm verb cache add spec which@^1.0.8
+npm sill cache add parsed spec { raw: 'which@^1.0.8',
+npm sill cache add   scope: null,
+npm sill cache add   name: 'which',
+npm sill cache add   rawSpec: '^1.0.8',
+npm sill cache add   spec: '>=1.0.8 <2.0.0',
+npm sill cache add   type: 'range' }
+npm sill addNamed which@>=1.0.8 <2.0.0
+npm verb addNamed ">=1.0.8 <2.0.0" is a valid semver range for which
+npm sill addNameRange { name: 'which', range: '>=1.0.8 <2.0.0', hasData: false }
+npm sill mapToRegistry name which
+npm sill mapToRegistry using default registry
+npm sill mapToRegistry registry https://registry.npmjs.org/
+npm sill mapToRegistry uri https://registry.npmjs.org/which
+npm verb addNameRange registry:https://registry.npmjs.org/which not in flight; fetching
+npm verb request uri https://registry.npmjs.org/retry
+npm verb request no auth needed
+npm info attempt registry request try #1 at 22:38:54
+npm http request GET https://registry.npmjs.org/retry
+npm verb request uri https://registry.npmjs.org/rimraf
+npm verb request no auth needed
+npm info attempt registry request try #1 at 22:38:54
+npm http request GET https://registry.npmjs.org/rimraf
+npm verb request uri https://registry.npmjs.org/semver
+npm verb request no auth needed
+npm info attempt registry request try #1 at 22:38:54
+npm http request GET https://registry.npmjs.org/semver
+npm verb request uri https://registry.npmjs.org/shell-quote
+npm verb request no auth needed
+npm info attempt registry request try #1 at 22:38:54
+npm http request GET https://registry.npmjs.org/shell-quote
+npm verb request uri https://registry.npmjs.org/stringify-object
+npm verb request no auth needed
+npm info attempt registry request try #1 at 22:38:54
+npm http request GET https://registry.npmjs.org/stringify-object
+npm verb request uri https://registry.npmjs.org/tar-fs
+npm verb request no auth needed
+npm info attempt registry request try #1 at 22:38:54
+npm http request GET https://registry.npmjs.org/tar-fs
+npm verb request uri https://registry.npmjs.org/tmp
+npm verb request no auth needed
+npm info attempt registry request try #1 at 22:38:54
+npm http request GET https://registry.npmjs.org/tmp
+npm verb request uri https://registry.npmjs.org/update-notifier
+npm verb request no auth needed
+npm info attempt registry request try #1 at 22:38:54
+npm http request GET https://registry.npmjs.org/update-notifier
+npm verb request uri https://registry.npmjs.org/user-home
+npm verb request no auth needed
+npm info attempt registry request try #1 at 22:38:54
+npm http request GET https://registry.npmjs.org/user-home
+npm verb request uri https://registry.npmjs.org/which
+npm verb request no auth needed
+npm info attempt registry request try #1 at 22:38:54
+npm http request GET https://registry.npmjs.org/which
+npm http 200 https://registry.npmjs.org/archy
+npm sill get cb [ 200,
+npm sill get   { date: 'Thu, 23 Apr 2015 20:14:56 GMT',
+npm sill get     'last-modified': 'Thu, 23 Apr 2015 20:14:56 GMT',
+npm sill get     etag: '"D7HMYH6YSGX3VN6DV6CTUIUSI"',
+npm sill get     'content-length': '6858',
+npm sill get     via: '1.1 varnish',
+npm sill get     'x-cache': 'MISS',
+npm sill get     'x-timer': 'S1429820095.889767,VS0,VE345',
+npm sill get     vary: 'Accept',
+npm sill get     connection: 'keep-alive',
+npm sill get     'x-cache-hits': '0',
+npm sill get     'cache-control': 'max-age=60',
+npm sill get     'content-type': 'application/json',
+npm sill get     age: '0',
+npm sill get     server: 'ciproxy' } ]
+npm verb get saving archy to /root/.npm/registry.npmjs.org/archy/.cache.json
+npm sill mapToRegistry name archy
+npm sill mapToRegistry using default registry
+npm sill mapToRegistry registry https://registry.npmjs.org/
+npm sill mapToRegistry uri https://registry.npmjs.org/archy
+npm verb addRemoteTarball https://registry.npmjs.org/archy/-/archy-1.0.0.tgz not in flight; adding
+npm verb addRemoteTarball [ 'https://registry.npmjs.org/archy/-/archy-1.0.0.tgz',
+npm verb addRemoteTarball   'f9c8c13757cc1dd7bc379ac77b2c62a5c2868c40' ]
+npm info retry fetch attempt 1 at 22:38:54
+npm info attempt registry request try #1 at 22:38:54
+npm http fetch GET https://registry.npmjs.org/archy/-/archy-1.0.0.tgz
+npm http 200 https://registry.npmjs.org/abbrev
+npm sill get cb [ 200,
+npm sill get   { date: 'Thu, 23 Apr 2015 20:15:05 GMT',
+npm sill get     'last-modified': 'Thu, 23 Apr 2015 20:15:05 GMT',
+npm sill get     etag: '"AIK2XDX1GJIIYUUY93UDLGJV0"',
+npm sill get     'content-length': '3615',
+npm sill get     via: '1.1 varnish',
+npm sill get     'x-cache': 'MISS',
+npm sill get     'x-timer': 'S1429820105.797436,VS0,VE163',
+npm sill get     vary: 'Accept',
+npm sill get     connection: 'keep-alive',
+npm sill get     'x-cache-hits': '0',
+npm sill get     'cache-control': 'max-age=60',
+npm sill get     'content-type': 'application/json',
+npm sill get     age: '0',
+npm sill get     server: 'ciproxy' } ]
+npm verb get saving abbrev to /root/.npm/registry.npmjs.org/abbrev/.cache.json
+npm info retry will retry, error on last attempt: Error: socket hang up
+npm sill addNameRange number 2 { name: 'abbrev', range: '>=1.0.5 <2.0.0', hasData: true }
+npm sill addNameRange versions [ 'abbrev', [ '1.0.3', '1.0.4', '1.0.5' ] ]
+npm sill addNamed abbrev@1.0.5
+npm verb addNamed "1.0.5" is a plain semver version for abbrev
+npm sill mapToRegistry name abbrev
+npm sill mapToRegistry using default registry
+npm sill mapToRegistry registry https://registry.npmjs.org/
+npm sill mapToRegistry uri https://registry.npmjs.org/abbrev
+npm verb addRemoteTarball https://registry.npmjs.org/abbrev/-/abbrev-1.0.5.tgz not in flight; adding
+npm verb addRemoteTarball [ 'https://registry.npmjs.org/abbrev/-/abbrev-1.0.5.tgz',
+npm verb addRemoteTarball   '5d8257bd9ebe435e698b2fa431afde4fe7b10b03' ]
+npm http 200 https://registry.npmjs.org/bower-config
+npm sill get cb [ 200,
+npm sill get   { date: 'Thu, 23 Apr 2015 20:14:57 GMT',
+npm sill get     'last-modified': 'Thu, 23 Apr 2015 20:14:57 GMT',
+npm sill get     etag: '"2B2D97J9PJFU5GDKGPRKHA7YD"',
+npm sill get     'content-length': '27263',
+npm sill get     via: '1.1 varnish',
+npm sill get     'x-cache': 'MISS',
+npm sill get     'x-timer': 'S1429820096.926727,VS0,VE173',
+npm sill get     vary: 'Accept',
+npm sill get     connection: 'keep-alive',
+npm sill get     'x-cache-hits': '0',
+npm sill get     'cache-control': 'max-age=60',
+npm sill get     'content-type': 'application/json',
+npm sill get     age: '0',
+npm sill get     server: 'ciproxy' } ]
+npm verb get saving bower-config to /root/.npm/registry.npmjs.org/bower-config/.cache.json
+npm info retry will retry, error on last attempt: Error: socket hang up
+npm info retry fetch attempt 1 at 22:38:54
+npm info attempt registry request try #1 at 22:38:54
+npm http fetch GET https://registry.npmjs.org/abbrev/-/abbrev-1.0.5.tgz
+npm sill addNameRange number 2 { name: 'bower-config', range: '>=0.6.1 <0.7.0', hasData: true }
+npm sill addNameRange versions [ 'bower-config',
+npm sill addNameRange   [ '0.1.0-rc.1',
+npm sill addNameRange     '0.1.0-rc.2',
+npm sill addNameRange     '0.1.0-rc.3',
+npm sill addNameRange     '0.1.0-rc.4',
+npm sill addNameRange     '0.1.0-rc.5',
+npm sill addNameRange     '0.2.0-rc.1',
+npm sill addNameRange     '0.2.0-rc.2',
+npm sill addNameRange     '0.3.0',
+npm sill addNameRange     '0.3.1',
+npm sill addNameRange     '0.3.3',
+npm sill addNameRange     '0.3.4',
+npm sill addNameRange     '0.3.5',
+npm sill addNameRange     '0.4.0',
+npm sill addNameRange     '0.4.1',
+npm sill addNameRange     '0.4.2',
+npm sill addNameRange     '0.4.3',
+npm sill addNameRange     '0.4.4',
+npm sill addNameRange     '0.4.5',
+npm sill addNameRange     '0.5.0',
+npm sill addNameRange     '0.5.1',
+npm sill addNameRange     '0.5.2',
+npm sill addNameRange     '0.6.0',
+npm sill addNameRange     '0.6.1' ] ]
+npm sill addNamed bower-config@0.6.1
+npm verb addNamed "0.6.1" is a plain semver version for bower-config
+npm sill mapToRegistry name bower-config
+npm sill mapToRegistry using default registry
+npm sill mapToRegistry registry https://registry.npmjs.org/
+npm sill mapToRegistry uri https://registry.npmjs.org/bower-config
+npm verb addRemoteTarball https://registry.npmjs.org/bower-config/-/bower-config-0.6.1.tgz not in flight; adding
+npm verb addRemoteTarball [ 'https://registry.npmjs.org/bower-config/-/bower-config-0.6.1.tgz',
+npm verb addRemoteTarball   '7093155688bef44079bf4cb32d189312c87ded60' ]
+npm info retry fetch attempt 1 at 22:38:54
+npm info attempt registry request try #1 at 22:38:54
+npm http fetch GET https://registry.npmjs.org/bower-config/-/bower-config-0.6.1.tgz
+npm http 200 https://registry.npmjs.org/bower-json
+npm sill get cb [ 200,
+npm sill get   { date: 'Thu, 23 Apr 2015 20:14:55 GMT',
+npm sill get     'last-modified': 'Thu, 23 Apr 2015 20:14:55 GMT',
+npm sill get     etag: '"7671XOTQAKOQE9XSK89WX328C"',
+npm sill get     'content-length': '8727',
+npm sill get     via: '1.1 varnish',
+npm sill get     'x-cache': 'MISS',
+npm sill get     'x-timer': 'S1429820095.396700,VS0,VE91',
+npm sill get     vary: 'Accept',
+npm sill get     connection: 'keep-alive',
+npm sill get     'x-cache-hits': '0',
+npm sill get     'cache-control': 'max-age=60',
+npm sill get     'content-type': 'application/json',
+npm sill get     age: '0',
+npm sill get     server: 'ciproxy' } ]
+npm verb get saving bower-json to /root/.npm/registry.npmjs.org/bower-json/.cache.json
+npm info retry will retry, error on last attempt: Error: socket hang up
+npm sill addNameRange number 2 { name: 'bower-json', range: '>=0.4.0 <0.5.0', hasData: true }
+npm sill addNameRange versions [ 'bower-json', [ '0.1.0-rc.1', '0.2.0', '0.3.0', '0.4.0' ] ]
+npm sill addNamed bower-json@0.4.0
+npm verb addNamed "0.4.0" is a plain semver version for bower-json
+npm sill mapToRegistry name bower-json
+npm sill mapToRegistry using default registry
+npm sill mapToRegistry registry https://registry.npmjs.org/
+npm sill mapToRegistry uri https://registry.npmjs.org/bower-json
+npm verb addRemoteTarball https://registry.npmjs.org/bower-json/-/bower-json-0.4.0.tgz not in flight; adding
+npm verb addRemoteTarball [ 'https://registry.npmjs.org/bower-json/-/bower-json-0.4.0.tgz',
+npm verb addRemoteTarball   'a99c3ccf416ef0590ed0ded252c760f1c6d93766' ]
+npm info retry fetch attempt 1 at 22:38:54
+npm info attempt registry request try #1 at 22:38:54
+npm http fetch GET https://registry.npmjs.org/bower-json/-/bower-json-0.4.0.tgz
+npm http 200 https://registry.npmjs.org/bower-endpoint-parser
+npm sill get cb [ 200,
+npm sill get   { date: 'Thu, 23 Apr 2015 20:14:56 GMT',
+npm sill get     'last-modified': 'Thu, 23 Apr 2015 20:14:56 GMT',
+npm sill get     etag: '"3FMNLCPGK26OHT574O3Y97XJ3"',
+npm sill get     'content-length': '9539',
+npm sill get     via: '1.1 varnish',
+npm sill get     'x-cache': 'MISS',
+npm sill get     'x-timer': 'S1429820096.252657,VS0,VE655',
+npm sill get     vary: 'Accept',
+npm sill get     connection: 'keep-alive',
+npm sill get     'x-cache-hits': '0',
+npm sill get     'cache-control': 'max-age=60',
+npm sill get     'content-type': 'application/json',
+npm sill get     age: '0',
+npm sill get     server: 'ciproxy' } ]
+npm verb get saving bower-endpoint-parser to /root/.npm/registry.npmjs.org/bower-endpoint-parser/.cache.json
+npm info retry will retry, error on last attempt: Error: socket hang up
+npm sill addNameRange number 2 { name: 'bower-endpoint-parser',
+npm sill addNameRange   range: '>=0.2.2 <0.3.0',
+npm sill addNameRange   hasData: true }
+npm sill addNameRange versions [ 'bower-endpoint-parser',
+npm sill addNameRange   [ '0.1.0-rc.1', '0.1.0', '0.2.0', '0.2.1', '0.2.2' ] ]
+npm sill addNamed bower-endpoint-parser@0.2.2
+npm verb addNamed "0.2.2" is a plain semver version for bower-endpoint-parser
+npm sill mapToRegistry name bower-endpoint-parser
+npm sill mapToRegistry using default registry
+npm sill mapToRegistry registry https://registry.npmjs.org/
+npm sill mapToRegistry uri https://registry.npmjs.org/bower-endpoint-parser
+npm verb addRemoteTarball https://registry.npmjs.org/bower-endpoint-parser/-/bower-endpoint-parser-0.2.2.tgz not in flight; adding
+npm verb addRemoteTarball [ 'https://registry.npmjs.org/bower-endpoint-parser/-/bower-endpoint-parser-0.2.2.tgz',
+npm verb addRemoteTarball   '00b565adbfab6f2d35addde977e97962acbcb3f6' ]
+npm info retry fetch attempt 1 at 22:38:54
+npm info attempt registry request try #1 at 22:38:54
+npm http fetch GET https://registry.npmjs.org/bower-endpoint-parser/-/bower-endpoint-parser-0.2.2.tgz
+npm http 200 https://registry.npmjs.org/bower-logger
+npm sill get cb [ 200,
+npm sill get   { date: 'Thu, 23 Apr 2015 20:14:55 GMT',
+npm sill get     'last-modified': 'Thu, 23 Apr 2015 20:14:55 GMT',
+npm sill get     etag: '"6ZH05P85GTSJBDBSODJ70LH4Z"',
+npm sill get     'content-length': '8179',
+npm sill get     via: '1.1 varnish',
+npm sill get     'x-cache': 'MISS',
+npm sill get     'x-timer': 'S1429820095.506433,VS0,VE363',
+npm sill get     vary: 'Accept',
+npm sill get     connection: 'keep-alive',
+npm sill get     'x-cache-hits': '0',
+npm sill get     'cache-control': 'max-age=60',
+npm sill get     'content-type': 'application/json',
+npm sill get     age: '0',
+npm sill get     server: 'ciproxy' } ]
+npm verb get saving bower-logger to /root/.npm/registry.npmjs.org/bower-logger/.cache.json
+npm http 200 https://registry.npmjs.org/configstore
+npm sill get cb [ 200,
+npm sill get   { date: 'Thu, 23 Apr 2015 20:15:07 GMT',
+npm sill get     'last-modified': 'Thu, 23 Apr 2015 20:15:07 GMT',
+npm sill get     etag: '"8KVA7QUTP7NG2DH3OH8FVHEJR"',
+npm sill get     'content-length': '22399',
+npm sill get     via: '1.1 varnish',
+npm sill get     'x-cache': 'MISS',
+npm sill get     'x-timer': 'S1429820107.212105,VS0,VE171',
+npm sill get     vary: 'Accept',
+npm sill get     connection: 'keep-alive',
+npm sill get     'x-cache-hits': '0',
+npm sill get     'cache-control': 'max-age=60',
+npm sill get     'content-type': 'application/json',
+npm sill get     age: '0',
+npm sill get     server: 'ciproxy' } ]
+npm verb get saving configstore to /root/.npm/registry.npmjs.org/configstore/.cache.json
+npm http 200 https://registry.npmjs.org/chalk
+npm sill get cb [ 200,
+npm sill get   { date: 'Thu, 23 Apr 2015 20:14:57 GMT',
+npm sill get     'last-modified': 'Thu, 23 Apr 2015 20:14:57 GMT',
+npm sill get     etag: '"ESFACXBKHRMYG53XP0PKJEAGJ"',
+npm sill get     'content-length': '20104',
+npm sill get     via: '1.1 varnish',
+npm sill get     'x-cache': 'MISS',
+npm sill get     'x-timer': 'S1429820097.240387,VS0,VE445',
+npm sill get     vary: 'Accept',
+npm sill get     connection: 'keep-alive',
+npm sill get     'x-cache-hits': '0',
+npm sill get     'cache-control': 'max-age=60',
+npm sill get     'content-type': 'application/json',
+npm sill get     age: '0',
+npm sill get     server: 'ciproxy' } ]
+npm verb get saving chalk to /root/.npm/registry.npmjs.org/chalk/.cache.json
+npm info retry will retry, error on last attempt: Error: socket hang up
+npm info retry will retry, error on last attempt: Error: socket hang up
+npm info retry will retry, error on last attempt: Error: socket hang up
+npm sill addNameRange number 2 { name: 'bower-logger', range: '>=0.2.2 <0.3.0', hasData: true }
+npm sill addNameRange versions [ 'bower-logger',
+npm sill addNameRange   [ '0.1.0-rc.1', '0.1.0', '0.2.0', '0.2.1', '0.2.2' ] ]
+npm sill addNamed bower-logger@0.2.2
+npm verb addNamed "0.2.2" is a plain semver version for bower-logger
+npm sill addNameRange number 2 { name: 'configstore', range: '>=0.3.2 <0.4.0', hasData: true }
+npm sill addNameRange versions [ 'configstore',
+npm sill addNameRange   [ '0.1.0',
+npm sill addNameRange     '0.1.1',
+npm sill addNameRange     '0.1.2',
+npm sill addNameRange     '0.1.3',
+npm sill addNameRange     '0.1.4',
+npm sill addNameRange     '0.1.5',
+npm sill addNameRange     '0.1.6',
+npm sill addNameRange     '0.1.7',
+npm sill addNameRange     '0.2.0',
+npm sill addNameRange     '0.2.1',
+npm sill addNameRange     '0.2.2',
+npm sill addNameRange     '0.2.3',
+npm sill addNameRange     '0.3.0',
+npm sill addNameRange     '0.3.1',
+npm sill addNameRange     '0.3.2' ] ]
+npm sill addNamed configstore@0.3.2
+npm verb addNamed "0.3.2" is a plain semver version for configstore
+npm sill addNameRange number 2 { name: 'chalk', range: '>=1.0.0 <2.0.0', hasData: true }
+npm sill addNameRange versions [ 'chalk',
+npm sill addNameRange   [ '0.1.0',
+npm sill addNameRange     '0.1.1',
+npm sill addNameRange     '0.2.0',
+npm sill addNameRange     '0.2.1',
+npm sill addNameRange     '0.3.0',
+npm sill addNameRange     '0.4.0',
+npm sill addNameRange     '0.5.0',
+npm sill addNameRange     '0.5.1',
+npm sill addNameRange     '1.0.0' ] ]
+npm sill addNamed chalk@1.0.0
+npm verb addNamed "1.0.0" is a plain semver version for chalk
+npm sill mapToRegistry name bower-logger
+npm sill mapToRegistry using default registry
+npm sill mapToRegistry registry https://registry.npmjs.org/
+npm sill mapToRegistry uri https://registry.npmjs.org/bower-logger
+npm verb addRemoteTarball https://registry.npmjs.org/bower-logger/-/bower-logger-0.2.2.tgz not in flight; adding
+npm verb addRemoteTarball [ 'https://registry.npmjs.org/bower-logger/-/bower-logger-0.2.2.tgz',
+npm verb addRemoteTarball   '39be07e979b2fc8e03a94634205ed9422373d381' ]
+npm sill mapToRegistry name configstore
+npm sill mapToRegistry using default registry
+npm sill mapToRegistry registry https://registry.npmjs.org/
+npm sill mapToRegistry uri https://registry.npmjs.org/configstore
+npm verb addRemoteTarball https://registry.npmjs.org/configstore/-/configstore-0.3.2.tgz not in flight; adding
+npm verb addRemoteTarball [ 'https://registry.npmjs.org/configstore/-/configstore-0.3.2.tgz',
+npm verb addRemoteTarball   '25e4c16c3768abf75c5a65bc61761f495055b459' ]
+npm sill mapToRegistry name chalk
+npm sill mapToRegistry using default registry
+npm sill mapToRegistry registry https://registry.npmjs.org/
+npm sill mapToRegistry uri https://registry.npmjs.org/chalk
+npm verb addRemoteTarball https://registry.npmjs.org/chalk/-/chalk-1.0.0.tgz not in flight; adding
+npm verb addRemoteTarball [ 'https://registry.npmjs.org/chalk/-/chalk-1.0.0.tgz',
+npm verb addRemoteTarball   'b3cf4ed0ff5397c99c75b8f679db2f52831f96dc' ]
+npm info retry fetch attempt 1 at 22:38:54
+npm info attempt registry request try #1 at 22:38:54
+npm http fetch GET https://registry.npmjs.org/bower-logger/-/bower-logger-0.2.2.tgz
+npm info retry fetch attempt 1 at 22:38:54
+npm info attempt registry request try #1 at 22:38:54
+npm http fetch GET https://registry.npmjs.org/configstore/-/configstore-0.3.2.tgz
+npm info retry fetch attempt 1 at 22:38:54
+npm info attempt registry request try #1 at 22:38:54
+npm http fetch GET https://registry.npmjs.org/chalk/-/chalk-1.0.0.tgz
+npm http 200 https://registry.npmjs.org/fstream
+npm sill get cb [ 200,
+npm sill get   { date: 'Thu, 23 Apr 2015 20:15:07 GMT',
+npm sill get     'last-modified': 'Thu, 23 Apr 2015 20:15:07 GMT',
+npm sill get     etag: '"DAP3XBHGJUCG1MLARL6BCB622"',
+npm sill get     'content-length': '38241',
+npm sill get     via: '1.1 varnish',
+npm sill get     'x-cache': 'MISS',
+npm sill get     'x-timer': 'S1429820107.409500,VS0,VE178',
+npm sill get     vary: 'Accept',
+npm sill get     connection: 'keep-alive',
+npm sill get     'x-cache-hits': '0',
+npm sill get     'cache-control': 'max-age=60',
+npm sill get     'content-type': 'application/json',
+npm sill get     age: '0',
+npm sill get     server: 'ciproxy' } ]
+npm verb get saving fstream to /root/.npm/registry.npmjs.org/fstream/.cache.json
+npm http 200 https://registry.npmjs.org/github
+npm sill get cb [ 200,
+npm sill get   { date: 'Thu, 23 Apr 2015 20:15:08 GMT',
+npm sill get     'last-modified': 'Thu, 23 Apr 2015 20:15:08 GMT',
+npm sill get     etag: '"AGGPGPML8JA54P3U2N45USM5J"',
+npm sill get     'content-length': '37762',
+npm sill get     via: '1.1 varnish',
+npm sill get     'x-cache': 'MISS',
+npm sill get     'x-timer': 'S1429820107.747912,VS0,VE322',
+npm sill get     vary: 'Accept',
+npm sill get     connection: 'keep-alive',
+npm sill get     'x-cache-hits': '0',
+npm sill get     'cache-control': 'max-age=60',
+npm sill get     'content-type': 'application/json',
+npm sill get     age: '0',
+npm sill get     server: 'ciproxy' } ]
+npm verb get saving github to /root/.npm/registry.npmjs.org/github/.cache.json
+npm sill addNameRange number 2 { name: 'fstream', range: '>=1.0.3 <2.0.0', hasData: true }
+npm sill addNameRange versions [ 'fstream',
+npm sill addNameRange   [ '0.0.0',
+npm sill addNameRange     '0.0.1',
+npm sill addNameRange     '0.1.0',
+npm sill addNameRange     '0.1.1',
+npm sill addNameRange     '0.1.2',
+npm sill addNameRange     '0.1.3',
+npm sill addNameRange     '0.1.5',
+npm sill addNameRange     '0.1.6',
+npm sill addNameRange     '0.1.7',
+npm sill addNameRange     '0.1.8',
+npm sill addNameRange     '0.1.9',
+npm sill addNameRange     '0.1.10',
+npm sill addNameRange     '0.1.11',
+npm sill addNameRange     '0.1.12',
+npm sill addNameRange     '0.1.13',
+npm sill addNameRange     '0.1.14',
+npm sill addNameRange     '0.1.15',
+npm sill addNameRange     '0.1.16',
+npm sill addNameRange     '0.1.17',
+npm sill addNameRange     '0.1.18',
+npm sill addNameRange     '0.1.19',
+npm sill addNameRange     '0.1.20',
+npm sill addNameRange     '0.1.21',
+npm sill addNameRange     '0.1.22',
+npm sill addNameRange     '0.1.23',
+npm sill addNameRange     '0.1.24',
+npm sill addNameRange     '0.1.25',
+npm sill addNameRange     '0.1.26',
+npm sill addNameRange     '0.1.27',
+npm sill addNameRange     '0.1.28',
+npm sill addNameRange     '0.1.29',
+npm sill addNameRange     '0.1.30',
+npm sill addNameRange     '1.0.0',
+npm sill addNameRange     '1.0.1',
+npm sill addNameRange     '0.1.31',
+npm sill addNameRange     '1.0.2',
+npm sill addNameRange     '1.0.3',
+npm sill addNameRange     '1.0.4' ] ]
+npm sill addNamed fstream@1.0.4
+npm verb addNamed "1.0.4" is a plain semver version for fstream
+npm sill addNameRange number 2 { name: 'github', range: '>=0.2.3 <0.3.0', hasData: true }
+npm sill addNameRange versions [ 'github',
+npm sill addNameRange   [ '0.0.1',
+npm sill addNameRange     '0.0.2',
+npm sill addNameRange     '0.0.3',
+npm sill addNameRange     '0.0.4',
+npm sill addNameRange     '0.0.5',
+npm sill addNameRange     '0.0.6',
+npm sill addNameRange     '0.0.7',
+npm sill addNameRange     '0.0.8',
+npm sill addNameRange     '0.1.0',
+npm sill addNameRange     '0.1.1',
+npm sill addNameRange     '0.1.2',
+npm sill addNameRange     '0.1.3',
+npm sill addNameRange     '0.1.4',
+npm sill addNameRange     '0.1.5',
+npm sill addNameRange     '0.1.6',
+npm sill addNameRange     '0.1.7',
+npm sill addNameRange     '0.1.8',
+npm sill addNameRange     '0.1.9',
+npm sill addNameRange     '0.1.10',
+npm sill addNameRange     '0.1.11',
+npm sill addNameRange     '0.1.12',
+npm sill addNameRange     '0.1.13',
+npm sill addNameRange     '0.1.14',
+npm sill addNameRange     '0.1.15',
+npm sill addNameRange     '0.1.16',
+npm sill addNameRange     '0.2.0',
+npm sill addNameRange     '0.2.1',
+npm sill addNameRange     '0.2.2',
+npm sill addNameRange     '0.2.3',
+npm sill addNameRange     '0.2.4' ] ]
+npm sill addNamed github@0.2.4
+npm verb addNamed "0.2.4" is a plain semver version for github
+npm sill mapToRegistry name fstream
+npm sill mapToRegistry using default registry
+npm sill mapToRegistry registry https://registry.npmjs.org/
+npm sill mapToRegistry uri https://registry.npmjs.org/fstream
+npm verb addRemoteTarball https://registry.npmjs.org/fstream/-/fstream-1.0.4.tgz not in flight; adding
+npm verb addRemoteTarball [ 'https://registry.npmjs.org/fstream/-/fstream-1.0.4.tgz',
+npm verb addRemoteTarball   '6c52298473fd6351fd22fc4bf9254fcfebe80f2b' ]
+npm sill mapToRegistry name github
+npm sill mapToRegistry using default registry
+npm sill mapToRegistry registry https://registry.npmjs.org/
+npm sill mapToRegistry uri https://registry.npmjs.org/github
+npm verb addRemoteTarball https://registry.npmjs.org/github/-/github-0.2.4.tgz not in flight; adding
+npm verb addRemoteTarball [ 'https://registry.npmjs.org/github/-/github-0.2.4.tgz',
+npm verb addRemoteTarball   '24fa7f0e13fa11b946af91134c51982a91ce538b' ]
+npm info retry will retry, error on last attempt: Error: socket hang up
+npm info retry will retry, error on last attempt: Error: socket hang up
+npm info retry fetch attempt 1 at 22:38:54
+npm info attempt registry request try #1 at 22:38:54
+npm http fetch GET https://registry.npmjs.org/fstream/-/fstream-1.0.4.tgz
+npm info retry fetch attempt 1 at 22:38:54
+npm info attempt registry request try #1 at 22:38:54
+npm http fetch GET https://registry.npmjs.org/github/-/github-0.2.4.tgz
+npm http 200 https://registry.npmjs.org/insight
+npm sill get cb [ 200,
+npm sill get   { date: 'Thu, 23 Apr 2015 20:15:02 GMT',
+npm sill get     'last-modified': 'Thu, 23 Apr 2015 20:15:02 GMT',
+npm sill get     etag: '"E0O32YZJC98OAPYADIXYCTXIR"',
+npm sill get     'content-length': '27939',
+npm sill get     via: '1.1 varnish',
+npm sill get     'x-cache': 'MISS',
+npm sill get     'x-timer': 'S1429820101.814478,VS0,VE443',
+npm sill get     vary: 'Accept',
+npm sill get     connection: 'keep-alive',
+npm sill get     'x-cache-hits': '0',
+npm sill get     'cache-control': 'max-age=60',
+npm sill get     'content-type': 'application/json',
+npm sill get     age: '0',
+npm sill get     server: 'ciproxy' } ]
+npm verb get saving insight to /root/.npm/registry.npmjs.org/insight/.cache.json
+npm info retry will retry, error on last attempt: Error: socket hang up
+npm http 200 https://registry.npmjs.org/inquirer
+npm sill get cb [ 200,
+npm sill get   { date: 'Thu, 23 Apr 2015 20:15:08 GMT',
+npm sill get     'last-modified': 'Thu, 23 Apr 2015 20:15:08 GMT',
+npm sill get     etag: '"DS6JNV13BRRVGVKV6EWHO79CF"',
+npm sill get     'content-length': '52997',
+npm sill get     via: '1.1 varnish',
+npm sill get     'x-cache': 'MISS',
+npm sill get     'x-timer': 'S1429820108.218151,VS0,VE166',
+npm sill get     vary: 'Accept',
+npm sill get     connection: 'keep-alive',
+npm sill get     'x-cache-hits': '0',
+npm sill get     'cache-control': 'max-age=60',
+npm sill get     'content-type': 'application/json',
+npm sill get     age: '0',
+npm sill get     server: 'ciproxy' } ]
+npm verb get saving inquirer to /root/.npm/registry.npmjs.org/inquirer/.cache.json
+npm http 200 https://registry.npmjs.org/is-root
+npm sill get cb [ 200,
+npm sill get   { date: 'Thu, 23 Apr 2015 20:15:09 GMT',
+npm sill get     'last-modified': 'Thu, 23 Apr 2015 20:15:09 GMT',
+npm sill get     etag: '"CWOW548IXZ8XYVS8KMOI0A0QQ"',
+npm sill get     'content-length': '3415',
+npm sill get     via: '1.1 varnish',
+npm sill get     'x-cache': 'MISS',
+npm sill get     'x-timer': 'S1429820109.820176,VS0,VE94',
+npm sill get     vary: 'Accept',
+npm sill get     connection: 'keep-alive',
+npm sill get     'x-cache-hits': '0',
+npm sill get     'cache-control': 'max-age=60',
+npm sill get     'content-type': 'application/json',
+npm sill get     age: '0',
+npm sill get     server: 'ciproxy' } ]
+npm verb get saving is-root to /root/.npm/registry.npmjs.org/is-root/.cache.json
+npm info retry will retry, error on last attempt: Error: socket hang up
+npm info retry will retry, error on last attempt: Error: socket hang up
+npm sill addNameRange number 2 { name: 'insight', range: '>=0.5.0 <0.6.0', hasData: true }
+npm sill addNameRange versions [ 'insight',
+npm sill addNameRange   [ '0.1.0',
+npm sill addNameRange     '0.1.1',
+npm sill addNameRange     '0.1.2',
+npm sill addNameRange     '0.1.3',
+npm sill addNameRange     '0.2.0',
+npm sill addNameRange     '0.3.0',
+npm sill addNameRange     '0.3.1',
+npm sill addNameRange     '0.4.0',
+npm sill addNameRange     '0.4.1',
+npm sill addNameRange     '0.4.2',
+npm sill addNameRange     '0.4.3',
+npm sill addNameRange     '0.5.0',
+npm sill addNameRange     '0.5.1',
+npm sill addNameRange     '0.5.2',
+npm sill addNameRange     '0.5.3' ] ]
+npm sill addNamed insight@0.5.3
+npm verb addNamed "0.5.3" is a plain semver version for insight
+npm sill mapToRegistry name inquirer
+npm sill mapToRegistry using default registry
+npm sill mapToRegistry registry https://registry.npmjs.org/
+npm sill mapToRegistry uri https://registry.npmjs.org/inquirer
+npm verb addRemoteTarball https://registry.npmjs.org/inquirer/-/inquirer-0.8.0.tgz not in flight; adding
+npm verb addRemoteTarball [ 'https://registry.npmjs.org/inquirer/-/inquirer-0.8.0.tgz',
+npm verb addRemoteTarball   '525d4dd827d4f3d506b453726068f90deb99b443' ]
+npm sill addNameRange number 2 { name: 'is-root', range: '>=1.0.0 <2.0.0', hasData: true }
+npm sill addNameRange versions [ 'is-root', [ '0.1.0', '1.0.0' ] ]
+npm sill addNamed is-root@1.0.0
+npm verb addNamed "1.0.0" is a plain semver version for is-root
+npm sill mapToRegistry name insight
+npm sill mapToRegistry using default registry
+npm sill mapToRegistry registry https://registry.npmjs.org/
+npm sill mapToRegistry uri https://registry.npmjs.org/insight
+npm verb addRemoteTarball https://registry.npmjs.org/insight/-/insight-0.5.3.tgz not in flight; adding
+npm verb addRemoteTarball [ 'https://registry.npmjs.org/insight/-/insight-0.5.3.tgz',
+npm verb addRemoteTarball   '353626c1b86b12c7bdfecb0a54ef80cd7e6f89e0' ]
+npm sill mapToRegistry name is-root
+npm sill mapToRegistry using default registry
+npm sill mapToRegistry registry https://registry.npmjs.org/
+npm sill mapToRegistry uri https://registry.npmjs.org/is-root
+npm verb addRemoteTarball https://registry.npmjs.org/is-root/-/is-root-1.0.0.tgz not in flight; adding
+npm verb addRemoteTarball [ 'https://registry.npmjs.org/is-root/-/is-root-1.0.0.tgz',
+npm verb addRemoteTarball   '07b6c233bc394cd9d02ba15c966bd6660d6342d5' ]
+npm info retry fetch attempt 1 at 22:38:55
+npm info attempt registry request try #1 at 22:38:55
+npm http fetch GET https://registry.npmjs.org/inquirer/-/inquirer-0.8.0.tgz
+npm info retry fetch attempt 1 at 22:38:55
+npm info attempt registry request try #1 at 22:38:55
+npm http fetch GET https://registry.npmjs.org/insight/-/insight-0.5.3.tgz
+npm info retry fetch attempt 1 at 22:38:55
+npm info attempt registry request try #1 at 22:38:55
+npm http fetch GET https://registry.npmjs.org/is-root/-/is-root-1.0.0.tgz
+npm http 200 https://registry.npmjs.org/mkdirp
+npm sill get cb [ 200,
+npm sill get   { date: 'Thu, 23 Apr 2015 20:15:10 GMT',
+npm sill get     'last-modified': 'Thu, 23 Apr 2015 20:15:10 GMT',
+npm sill get     etag: '"1AC73JK4JP7FLRSMIQ6O7EHKS"',
+npm sill get     'content-length': '21711',
+npm sill get     via: '1.1 varnish',
+npm sill get     'x-cache': 'MISS',
+npm sill get     'x-timer': 'S1429820110.071222,VS0,VE807',
+npm sill get     vary: 'Accept',
+npm sill get     connection: 'keep-alive',
+npm sill get     'x-cache-hits': '0',
+npm sill get     'cache-control': 'max-age=60',
+npm sill get     'content-type': 'application/json',
+npm sill get     age: '0',
+npm sill get     server: 'ciproxy' } ]
+npm verb get saving mkdirp to /root/.npm/registry.npmjs.org/mkdirp/.cache.json
+npm http 200 https://registry.npmjs.org/lru-cache
+npm sill get cb [ 200,
+npm sill get   { date: 'Thu, 23 Apr 2015 20:15:00 GMT',
+npm sill get     'last-modified': 'Thu, 23 Apr 2015 20:15:00 GMT',
+npm sill get     etag: '"7OOVX26EK9MOZ1CLZDXR50O0V"',
+npm sill get     'content-length': '31187',
+npm sill get     via: '1.1 varnish',
+npm sill get     'x-cache': 'MISS',
+npm sill get     'x-timer': 'S1429820100.122457,VS0,VE815',
+npm sill get     vary: 'Accept',
+npm sill get     connection: 'keep-alive',
+npm sill get     'x-cache-hits': '0',
+npm sill get     'cache-control': 'max-age=60',
+npm sill get     'content-type': 'application/json',
+npm sill get     age: '0',
+npm sill get     server: 'ciproxy' } ]
+npm verb get saving lru-cache to /root/.npm/registry.npmjs.org/lru-cache/.cache.json
+npm info retry will retry, error on last attempt: Error: socket hang up
+npm info retry will retry, error on last attempt: Error: socket hang up
+npm sill mapToRegistry name mkdirp
+npm sill mapToRegistry using default registry
+npm sill mapToRegistry registry https://registry.npmjs.org/
+npm sill mapToRegistry uri https://registry.npmjs.org/mkdirp
+npm verb addRemoteTarball https://registry.npmjs.org/mkdirp/-/mkdirp-0.5.0.tgz not in flight; adding
+npm verb addRemoteTarball [ 'https://registry.npmjs.org/mkdirp/-/mkdirp-0.5.0.tgz',
+npm verb addRemoteTarball   '1d73076a6df986cd9344e15e71fcc05a4c9abf12' ]
+npm sill addNameRange number 2 { name: 'lru-cache', range: '>=2.5.0 <3.0.0', hasData: true }
+npm sill addNameRange versions [ 'lru-cache',
+npm sill addNameRange   [ '1.0.1',
+npm sill addNameRange     '1.0.2',
+npm sill addNameRange     '1.0.3',
+npm sill addNameRange     '1.0.4',
+npm sill addNameRange     '1.0.5',
+npm sill addNameRange     '1.0.6',
+npm sill addNameRange     '1.1.0',
+npm sill addNameRange     '1.1.1',
+npm sill addNameRange     '2.0.0',
+npm sill addNameRange     '2.0.1',
+npm sill addNameRange     '2.0.2',
+npm sill addNameRange     '2.0.3',
+npm sill addNameRange     '2.0.4',
+npm sill addNameRange     '2.1.0',
+npm sill addNameRange     '2.2.0',
+npm sill addNameRange     '2.2.1',
+npm sill addNameRange     '2.2.2',
+npm sill addNameRange     '2.2.4',
+npm sill addNameRange     '2.3.0',
+npm sill addNameRange     '2.3.1',
+npm sill addNameRange     '2.5.0',
+npm sill addNameRange     '2.5.1',
+npm sill addNameRange     '2.5.2',
+npm sill addNameRange     '2.6.0',
+npm sill addNameRange     '2.6.1' ] ]
+npm sill addNamed lru-cache@2.6.1
+npm verb addNamed "2.6.1" is a plain semver version for lru-cache
+npm sill mapToRegistry name lru-cache
+npm sill mapToRegistry using default registry
+npm sill mapToRegistry registry https://registry.npmjs.org/
+npm sill mapToRegistry uri https://registry.npmjs.org/lru-cache
+npm verb addRemoteTarball https://registry.npmjs.org/lru-cache/-/lru-cache-2.6.1.tgz not in flight; adding
+npm verb addRemoteTarball [ 'https://registry.npmjs.org/lru-cache/-/lru-cache-2.6.1.tgz',
+npm verb addRemoteTarball   '9933eff15453fae1d27096365143c724e85c6cbd' ]
+npm info retry fetch attempt 1 at 22:38:55
+npm info attempt registry request try #1 at 22:38:55
+npm http fetch GET https://registry.npmjs.org/mkdirp/-/mkdirp-0.5.0.tgz
+npm info retry fetch attempt 1 at 22:38:55
+npm info attempt registry request try #1 at 22:38:55
+npm http fetch GET https://registry.npmjs.org/lru-cache/-/lru-cache-2.6.1.tgz
+npm http 200 https://registry.npmjs.org/nopt
+npm sill get cb [ 200,
+npm sill get   { date: 'Thu, 23 Apr 2015 20:15:11 GMT',
+npm sill get     'last-modified': 'Thu, 23 Apr 2015 20:15:11 GMT',
+npm sill get     etag: '"33E51D7L2VL4IWEQQYT6B6P9H"',
+npm sill get     'content-length': '25529',
+npm sill get     via: '1.1 varnish',
+npm sill get     'x-cache': 'MISS',
+npm sill get     'x-timer': 'S1429820111.031462,VS0,VE170',
+npm sill get     vary: 'Accept',
+npm sill get     connection: 'keep-alive',
+npm sill get     'x-cache-hits': '0',
+npm sill get     'cache-control': 'max-age=60',
+npm sill get     'content-type': 'application/json',
+npm sill get     age: '0',
+npm sill get     server: 'ciproxy' } ]
+npm verb get saving nopt to /root/.npm/registry.npmjs.org/nopt/.cache.json
+npm http 200 https://registry.npmjs.org/promptly
+npm sill get cb [ 200,
+npm sill get   { date: 'Thu, 23 Apr 2015 20:15:03 GMT',
+npm sill get     'last-modified': 'Thu, 23 Apr 2015 20:15:03 GMT',
+npm sill get     etag: '"40SC03GB6O1IVT6177XAQ22FY"',
+npm sill get     'content-length': '9794',
+npm sill get     via: '1.1 varnish',
+npm sill get     'x-cache': 'MISS',
+npm sill get     'x-timer': 'S1429820103.826282,VS0,VE160',
+npm sill get     vary: 'Accept',
+npm sill get     connection: 'keep-alive',
+npm sill get     'x-cache-hits': '0',
+npm sill get     'cache-control': 'max-age=60',
+npm sill get     'content-type': 'application/json',
+npm sill get     age: '0',
+npm sill get     server: 'ciproxy' } ]
+npm verb get saving promptly to /root/.npm/registry.npmjs.org/promptly/.cache.json
+npm info retry will retry, error on last attempt: Error: socket hang up
+npm http 200 https://registry.npmjs.org/q
+npm sill get cb [ 200,
+npm sill get   { date: 'Thu, 23 Apr 2015 20:15:12 GMT',
+npm sill get     'last-modified': 'Thu, 23 Apr 2015 20:15:12 GMT',
+npm sill get     etag: '"5P20TDQFOLCNX65LZMPFTRDKX"',
+npm sill get     'content-length': '133391',
+npm sill get     via: '1.1 varnish',
+npm sill get     'x-cache': 'MISS',
+npm sill get     'x-timer': 'S1429820112.141848,VS0,VE352',
+npm sill get     vary: 'Accept',
+npm sill get     connection: 'keep-alive',
+npm sill get     'x-cache-hits': '0',
+npm sill get     'cache-control': 'max-age=60',
+npm sill get     'content-type': 'application/json',
+npm sill get     age: '0',
+npm sill get     server: 'ciproxy' } ]
+npm verb get saving q to /root/.npm/registry.npmjs.org/q/.cache.json
+npm sill mapToRegistry name promptly
+npm sill mapToRegistry using default registry
+npm sill mapToRegistry registry https://registry.npmjs.org/
+npm sill mapToRegistry uri https://registry.npmjs.org/promptly
+npm verb addRemoteTarball https://registry.npmjs.org/promptly/-/promptly-0.2.0.tgz not in flight; adding
+npm verb addRemoteTarball [ 'https://registry.npmjs.org/promptly/-/promptly-0.2.0.tgz',
+npm verb addRemoteTarball   '73ef200fa8329d5d3a8df41798950b8646ca46d9' ]
+npm sill addNameRange number 2 { name: 'nopt', range: '>=3.0.1 <4.0.0', hasData: true }
+npm sill addNameRange versions [ 'nopt',
+npm sill addNameRange   [ '1.0.0',
+npm sill addNameRange     '1.0.1',
+npm sill addNameRange     '1.0.2',
+npm sill addNameRange     '1.0.3',
+npm sill addNameRange     '1.0.4',
+npm sill addNameRange     '1.0.5',
+npm sill addNameRange     '1.0.6',
+npm sill addNameRange     '1.0.7',
+npm sill addNameRange     '1.0.8',
+npm sill addNameRange     '1.0.9',
+npm sill addNameRange     '1.0.10',
+npm sill addNameRange     '2.0.0',
+npm sill addNameRange     '2.1.0',
+npm sill addNameRange     '2.1.1',
+npm sill addNameRange     '2.1.2',
+npm sill addNameRange     '2.2.0',
+npm sill addNameRange     '2.2.1',
+npm sill addNameRange     '3.0.0',
+npm sill addNameRange     '3.0.1' ] ]
+npm sill addNamed nopt@3.0.1
+npm verb addNamed "3.0.1" is a plain semver version for nopt
+npm sill mapToRegistry name nopt
+npm sill mapToRegistry using default registry
+npm sill mapToRegistry registry https://registry.npmjs.org/
+npm sill mapToRegistry uri https://registry.npmjs.org/nopt
+npm verb addRemoteTarball https://registry.npmjs.org/nopt/-/nopt-3.0.1.tgz not in flight; adding
+npm verb addRemoteTarball [ 'https://registry.npmjs.org/nopt/-/nopt-3.0.1.tgz',
+npm verb addRemoteTarball   'bce5c42446a3291f47622a370abbf158fbbacbfd' ]
+npm sill addNameRange number 2 { name: 'q', range: '>=1.1.2 <2.0.0', hasData: true }
+npm sill addNameRange versions [ 'q',
+npm sill addNameRange   [ '0.0.0',
+npm sill addNameRange     '0.0.1',
+npm sill addNameRange     '0.0.2',
+npm sill addNameRange     '0.0.3',
+npm sill addNameRange     '0.1.0',
+npm sill addNameRange     '0.1.1',
+npm sill addNameRange     '0.1.2',
+npm sill addNameRange     '0.1.3',
+npm sill addNameRange     '0.1.4',
+npm sill addNameRange     '0.1.5',
+npm sill addNameRange     '0.1.6',
+npm sill addNameRange     '0.1.7',
+npm sill addNameRange     '0.1.8',
+npm sill addNameRange     '0.1.9',
+npm sill addNameRange     '0.2.0-rc1',
+npm sill addNameRange     '0.2.0',
+npm sill addNameRange     '0.2.1',
+npm sill addNameRange     '0.2.2',
+npm sill addNameRange     '0.2.3',
+npm sill addNameRange     '0.2.4',
+npm sill addNameRange     '0.2.5',
+npm sill addNameRange     '0.2.6',
+npm sill addNameRange     '0.2.7',
+npm sill addNameRange     '0.2.8',
+npm sill addNameRange     '0.2.9',
+npm sill addNameRange     '0.3.0',
+npm sill addNameRange     '0.2.10',
+npm sill addNameRange     '0.4.0',
+npm sill addNameRange     '0.4.1',
+npm sill addNameRange     '0.4.2',
+npm sill addNameRange     '0.4.4',
+npm sill addNameRange     '0.5.0',
+npm sill addNameRange     '0.5.1',
+npm sill addNameRange     '0.5.2',
+npm sill addNameRange     '0.5.3',
+npm sill addNameRange     '0.6.0',
+npm sill addNameRange     '0.7.0',
+npm sill addNameRange     '0.7.1',
+npm sill addNameRange     '0.7.2',
+npm sill addNameRange     '0.8.0',
+npm sill addNameRange     '0.8.1',
+npm sill addNameRange     '0.8.2',
+npm sill addNameRange     '0.8.3',
+npm sill addNameRange     '0.8.4',
+npm sill addNameRange     '0.8.5',
+npm sill addNameRange     '0.8.6',
+npm sill addNameRange     '0.8.7',
+npm sill addNameRange     '0.8.8',
+npm sill addNameRange     '0.8.9',
+npm sill addNameRange     '0.8.10',
+npm sill addNameRange     '0.8.11',
+npm sill addNameRange     '0.8.12',
+npm sill addNameRange     '0.9.0',
+npm sill addNameRange     '0.9.1',
+npm sill addNameRange     '0.9.2',
+npm sill addNameRange     '0.9.3',
+npm sill addNameRange     '0.9.4',
+npm sill addNameRange     '0.9.5',
+npm sill addNameRange     '0.9.6',
+npm sill addNameRange     '0.9.7',
+npm sill addNameRange     '1.0.0',
+npm sill addNameRange     '1.0.1',
+npm sill addNameRange     '2.0.0',
+npm sill addNameRange     '2.0.1',
+npm sill addNameRange     '2.0.2',
+npm sill addNameRange     '1.1.0',
+npm sill addNameRange     '1.1.1',
+npm sill addNameRange     '1.1.2',
+npm sill addNameRange     '2.0.3',
+npm sill addNameRange     '1.2.0' ] ]
+npm sill addNamed q@1.2.0
+npm verb addNamed "1.2.0" is a plain semver version for q
+npm sill mapToRegistry name q
+npm sill mapToRegistry using default registry
+npm sill mapToRegistry registry https://registry.npmjs.org/
+npm sill mapToRegistry uri https://registry.npmjs.org/q
+npm verb addRemoteTarball https://registry.npmjs.org/q/-/q-1.2.0.tgz not in flight; adding
+npm verb addRemoteTarball [ 'https://registry.npmjs.org/q/-/q-1.2.0.tgz',
+npm verb addRemoteTarball   '811705ce4a9802adff811ab0fcdbd01946e1fe22' ]
+npm info retry fetch attempt 1 at 22:38:55
+npm info attempt registry request try #1 at 22:38:55
+npm http fetch GET https://registry.npmjs.org/promptly/-/promptly-0.2.0.tgz
+npm info retry fetch attempt 1 at 22:38:55
+npm info attempt registry request try #1 at 22:38:55
+npm http fetch GET https://registry.npmjs.org/nopt/-/nopt-3.0.1.tgz
+npm info retry will retry, error on last attempt: Error: socket hang up
+npm info retry fetch attempt 1 at 22:38:55
+npm info attempt registry request try #1 at 22:38:55
+npm http fetch GET https://registry.npmjs.org/q/-/q-1.2.0.tgz
+npm http 200 https://registry.npmjs.org/rimraf
+npm sill get cb [ 200,
+npm sill get   { date: 'Thu, 23 Apr 2015 20:15:13 GMT',
+npm sill get     'last-modified': 'Thu, 23 Apr 2015 20:15:13 GMT',
+npm sill get     etag: '"B6RZ4WWW78HNG3CGX78NB0XL3"',
+npm sill get     'content-length': '36205',
+npm sill get     via: '1.1 varnish',
+npm sill get     'x-cache': 'MISS',
+npm sill get     'x-timer': 'S1429820112.679079,VS0,VE787',
+npm sill get     vary: 'Accept',
+npm sill get     connection: 'keep-alive',
+npm sill get     'x-cache-hits': '0',
+npm sill get     'cache-control': 'max-age=60',
+npm sill get     'content-type': 'application/json',
+npm sill get     age: '0',
+npm sill get     server: 'ciproxy' } ]
+npm verb get saving rimraf to /root/.npm/registry.npmjs.org/rimraf/.cache.json
+npm http 200 https://registry.npmjs.org/retry
+npm sill get cb [ 200,
+npm sill get   { date: 'Thu, 23 Apr 2015 20:15:13 GMT',
+npm sill get     'last-modified': 'Thu, 23 Apr 2015 20:15:13 GMT',
+npm sill get     etag: '"9E8IFDN9W1BFA3G0NIW4E0BT6"',
+npm sill get     'content-length': '13167',
+npm sill get     via: '1.1 varnish',
+npm sill get     'x-cache': 'MISS',
+npm sill get     'x-timer': 'S1429820113.497753,VS0,VE90',
+npm sill get     vary: 'Accept',
+npm sill get     connection: 'keep-alive',
+npm sill get     'x-cache-hits': '0',
+npm sill get     'cache-control': 'max-age=60',
+npm sill get     'content-type': 'application/json',
+npm sill get     age: '0',
+npm sill get     server: 'ciproxy' } ]
+npm verb get saving retry to /root/.npm/registry.npmjs.org/retry/.cache.json
+npm sill addNameRange number 2 { name: 'rimraf', range: '>=2.2.8 <3.0.0', hasData: true }
+npm sill addNameRange versions [ 'rimraf',
+npm sill addNameRange   [ '1.0.0',
+npm sill addNameRange     '1.0.1',
+npm sill addNameRange     '1.0.2',
+npm sill addNameRange     '1.0.4',
+npm sill addNameRange     '1.0.5',
+npm sill addNameRange     '1.0.6',
+npm sill addNameRange     '1.0.7',
+npm sill addNameRange     '1.0.8',
+npm sill addNameRange     '1.0.9',
+npm sill addNameRange     '2.0.0',
+npm sill addNameRange     '2.0.1',
+npm sill addNameRange     '2.0.2',
+npm sill addNameRange     '2.0.3',
+npm sill addNameRange     '2.1.0',
+npm sill addNameRange     '2.1.1',
+npm sill addNameRange     '2.1.2',
+npm sill addNameRange     '2.1.3',
+npm sill addNameRange     '2.1.4',
+npm sill addNameRange     '2.2.0',
+npm sill addNameRange     '2.2.1',
+npm sill addNameRange     '2.2.2',
+npm sill addNameRange     '2.2.3',
+npm sill addNameRange     '2.2.4',
+npm sill addNameRange     '2.2.5',
+npm sill addNameRange     '2.2.6',
+npm sill addNameRange     '2.2.8',
+npm sill addNameRange     '2.3.0',
+npm sill addNameRange     '2.3.1',
+npm sill addNameRange     '2.3.2' ] ]
+npm sill addNamed rimraf@2.3.2
+npm verb addNamed "2.3.2" is a plain semver version for rimraf
+npm sill mapToRegistry name retry
+npm sill mapToRegistry using default registry
+npm sill mapToRegistry registry https://registry.npmjs.org/
+npm sill mapToRegistry uri https://registry.npmjs.org/retry
+npm verb addRemoteTarball https://registry.npmjs.org/retry/-/retry-0.6.1.tgz not in flight; adding
+npm verb addRemoteTarball [ 'https://registry.npmjs.org/retry/-/retry-0.6.1.tgz',
+npm verb addRemoteTarball   'fdc90eed943fde11b893554b8cc63d0e899ba918' ]
+npm sill mapToRegistry name rimraf
+npm sill mapToRegistry using default registry
+npm sill mapToRegistry registry https://registry.npmjs.org/
+npm sill mapToRegistry uri https://registry.npmjs.org/rimraf
+npm verb addRemoteTarball https://registry.npmjs.org/rimraf/-/rimraf-2.3.2.tgz not in flight; adding
+npm verb addRemoteTarball [ 'https://registry.npmjs.org/rimraf/-/rimraf-2.3.2.tgz',
+npm verb addRemoteTarball   '7304bd9275c401b89103b106b3531c1ef0c02fe9' ]
+npm info retry will retry, error on last attempt: Error: socket hang up
+npm info retry fetch attempt 1 at 22:38:55
+npm info attempt registry request try #1 at 22:38:55
+npm http fetch GET https://registry.npmjs.org/retry/-/retry-0.6.1.tgz
+npm info retry fetch attempt 1 at 22:38:55
+npm info attempt registry request try #1 at 22:38:55
+npm http fetch GET https://registry.npmjs.org/rimraf/-/rimraf-2.3.2.tgz
+npm info retry will retry, error on last attempt: Error: socket hang up
+npm http 200 https://registry.npmjs.org/stringify-object
+npm sill get cb [ 200,
+npm sill get   { date: 'Thu, 23 Apr 2015 20:15:05 GMT',
+npm sill get     'last-modified': 'Thu, 23 Apr 2015 20:15:05 GMT',
+npm sill get     etag: '"7S5QNQD1N31N9IAGQIHR3T262"',
+npm sill get     'content-length': '19178',
+npm sill get     via: '1.1 varnish',
+npm sill get     'x-cache': 'MISS',
+npm sill get     'x-timer': 'S1429820104.572862,VS0,VE808',
+npm sill get     vary: 'Accept',
+npm sill get     connection: 'keep-alive',
+npm sill get     'x-cache-hits': '0',
+npm sill get     'cache-control': 'max-age=60',
+npm sill get     'content-type': 'application/json',
+npm sill get     age: '0',
+npm sill get     server: 'ciproxy' } ]
+npm verb get saving stringify-object to /root/.npm/registry.npmjs.org/stringify-object/.cache.json
+npm info retry will retry, error on last attempt: Error: socket hang up
+npm sill addNameRange number 2 { name: 'stringify-object',
+npm sill addNameRange   range: '>=1.0.0 <2.0.0',
+npm sill addNameRange   hasData: true }
+npm sill addNameRange versions [ 'stringify-object',
+npm sill addNameRange   [ '0.1.0',
+npm sill addNameRange     '0.1.1',
+npm sill addNameRange     '0.1.2',
+npm sill addNameRange     '0.1.3',
+npm sill addNameRange     '0.1.4',
+npm sill addNameRange     '0.1.5',
+npm sill addNameRange     '0.1.6',
+npm sill addNameRange     '0.1.7',
+npm sill addNameRange     '0.1.8',
+npm sill addNameRange     '0.2.0',
+npm sill addNameRange     '0.2.1',
+npm sill addNameRange     '1.0.0',
+npm sill addNameRange     '1.0.1' ] ]
+npm sill addNamed stringify-object@1.0.1
+npm verb addNamed "1.0.1" is a plain semver version for stringify-object
+npm http 200 https://registry.npmjs.org/update-notifier
+npm sill get cb [ 200,
+npm sill get   { date: 'Thu, 23 Apr 2015 20:15:15 GMT',
+npm sill get     'last-modified': 'Thu, 23 Apr 2015 20:15:15 GMT',
+npm sill get     etag: '"EE6L2NPWVFG74MX2M1DK74BVR"',
+npm sill get     'content-length': '29542',
+npm sill get     via: '1.1 varnish',
+npm sill get     'x-cache': 'MISS',
+npm sill get     'x-timer': 'S1429820114.984338,VS0,VE774',
+npm sill get     vary: 'Accept',
+npm sill get     connection: 'keep-alive',
+npm sill get     'x-cache-hits': '0',
+npm sill get     'cache-control': 'max-age=60',
+npm sill get     'content-type': 'application/json',
+npm sill get     age: '0',
+npm sill get     server: 'ciproxy' } ]
+npm verb get saving update-notifier to /root/.npm/registry.npmjs.org/update-notifier/.cache.json
+npm sill mapToRegistry name stringify-object
+npm sill mapToRegistry using default registry
+npm sill mapToRegistry registry https://registry.npmjs.org/
+npm sill mapToRegistry uri https://registry.npmjs.org/stringify-object
+npm verb addRemoteTarball https://registry.npmjs.org/stringify-object/-/stringify-object-1.0.1.tgz not in flight; adding
+npm verb addRemoteTarball [ 'https://registry.npmjs.org/stringify-object/-/stringify-object-1.0.1.tgz',
+npm verb addRemoteTarball   '86d35e7dbfbce9aa45637d7ecdd7847e159db8a2' ]
+npm http 200 https://registry.npmjs.org/tar-fs
+npm sill get cb [ 200,
+npm sill get   { date: 'Thu, 23 Apr 2015 20:15:14 GMT',
+npm sill get     'last-modified': 'Thu, 23 Apr 2015 20:15:14 GMT',
+npm sill get     etag: '"8E1KB1HFQUMAIXA9F81B20DQP"',
+npm sill get     'content-length': '31722',
+npm sill get     via: '1.1 varnish',
+npm sill get     'x-cache': 'MISS',
+npm sill get     'x-timer': 'S1429820114.051271,VS0,VE782',
+npm sill get     vary: 'Accept',
+npm sill get     connection: 'keep-alive',
+npm sill get     'x-cache-hits': '0',
+npm sill get     'cache-control': 'max-age=60',
+npm sill get     'content-type': 'application/json',
+npm sill get     age: '0',
+npm sill get     server: 'ciproxy' } ]
+npm verb get saving tar-fs to /root/.npm/registry.npmjs.org/tar-fs/.cache.json
+npm info retry will retry, error on last attempt: Error: socket hang up
+npm info retry will retry, error on last attempt: Error: socket hang up
+npm info retry fetch attempt 1 at 22:38:55
+npm info attempt registry request try #1 at 22:38:55
+npm http fetch GET https://registry.npmjs.org/stringify-object/-/stringify-object-1.0.1.tgz
+npm sill addNameRange number 2 { name: 'update-notifier',
+npm sill addNameRange   range: '>=0.3.0 <0.4.0',
+npm sill addNameRange   hasData: true }
+npm sill addNameRange versions [ 'update-notifier',
+npm sill addNameRange   [ '0.1.0',
+npm sill addNameRange     '0.1.1',
+npm sill addNameRange     '0.1.2',
+npm sill addNameRange     '0.1.3',
+npm sill addNameRange     '0.1.4',
+npm sill addNameRange     '0.1.5',
+npm sill addNameRange     '0.1.6',
+npm sill addNameRange     '0.1.7',
+npm sill addNameRange     '0.1.8',
+npm sill addNameRange     '0.1.9',
+npm sill addNameRange     '0.1.10',
+npm sill addNameRange     '0.2.0',
+npm sill addNameRange     '0.2.1',
+npm sill addNameRange     '0.2.2',
+npm sill addNameRange     '0.3.0',
+npm sill addNameRange     '0.3.1',
+npm sill addNameRange     '0.3.2' ] ]
+npm sill addNamed update-notifier@0.3.2
+npm verb addNamed "0.3.2" is a plain semver version for update-notifier
+npm sill addNameRange number 2 { name: 'tar-fs', range: '>=1.4.1 <2.0.0', hasData: true }
+npm sill addNameRange versions [ 'tar-fs',
+npm sill addNameRange   [ '0.1.0',
+npm sill addNameRange     '0.1.1',
+npm sill addNameRange     '0.1.2',
+npm sill addNameRange     '0.1.3',
+npm sill addNameRange     '0.1.4',
+npm sill addNameRange     '0.1.5',
+npm sill addNameRange     '0.1.6',
+npm sill addNameRange     '0.1.7',
+npm sill addNameRange     '0.1.8',
+npm sill addNameRange     '0.2.0',
+npm sill addNameRange     '0.2.1',
+npm sill addNameRange     '0.2.2',
+npm sill addNameRange     '0.3.0',
+npm sill addNameRange     '0.3.1',
+npm sill addNameRange     '0.3.2',
+npm sill addNameRange     '0.3.3',
+npm sill addNameRange     '0.4.0',
+npm sill addNameRange     '0.4.1',
+npm sill addNameRange     '0.5.0',
+npm sill addNameRange     '0.5.1',
+npm sill addNameRange     '0.5.2',
+npm sill addNameRange     '1.0.0',
+npm sill addNameRange     '1.1.0',
+npm sill addNameRange     '1.2.0',
+npm sill addNameRange     '1.3.0',
+npm sill addNameRange     '1.4.0',
+npm sill addNameRange     '1.4.1',
+npm sill addNameRange     '1.4.2',
+npm sill addNameRange     '1.5.0' ] ]
+npm sill addNamed tar-fs@1.5.0
+npm verb addNamed "1.5.0" is a plain semver version for tar-fs
+npm sill mapToRegistry name update-notifier
+npm sill mapToRegistry using default registry
+npm sill mapToRegistry registry https://registry.npmjs.org/
+npm sill mapToRegistry uri https://registry.npmjs.org/update-notifier
+npm verb addRemoteTarball https://registry.npmjs.org/update-notifier/-/update-notifier-0.3.2.tgz not in flight; adding
+npm verb addRemoteTarball [ 'https://registry.npmjs.org/update-notifier/-/update-notifier-0.3.2.tgz',
+npm verb addRemoteTarball   '22a8735baadef3320e2db928f693da898dc87777' ]
+npm sill mapToRegistry name tar-fs
+npm sill mapToRegistry using default registry
+npm sill mapToRegistry registry https://registry.npmjs.org/
+npm sill mapToRegistry uri https://registry.npmjs.org/tar-fs
+npm verb addRemoteTarball https://registry.npmjs.org/tar-fs/-/tar-fs-1.5.0.tgz not in flight; adding
+npm verb addRemoteTarball [ 'https://registry.npmjs.org/tar-fs/-/tar-fs-1.5.0.tgz',
+npm verb addRemoteTarball   '461da12f3a756adcfe781afbc0c13694d9c5d613' ]
+npm info retry fetch attempt 1 at 22:38:55
+npm info attempt registry request try #1 at 22:38:55
+npm http fetch GET https://registry.npmjs.org/update-notifier/-/update-notifier-0.3.2.tgz
+npm info retry fetch attempt 1 at 22:38:55
+npm info attempt registry request try #1 at 22:38:55
+npm http fetch GET https://registry.npmjs.org/tar-fs/-/tar-fs-1.5.0.tgz
+npm http fetch 200 https://registry.npmjs.org/archy/-/archy-1.0.0.tgz
+npm sill fetchAndShaCheck shasum f9c8c13757cc1dd7bc379ac77b2c62a5c2868c40
+npm verb addTmpTarball /tmp/npm-16680-5d9a1f20/registry.npmjs.org/archy/-/archy-1.0.0.tgz not in flight; adding
+npm verb addTmpTarball already have metadata; skipping unpack for archy@1.0.0
+npm sill cache afterAdd archy@1.0.0
+npm verb afterAdd /root/.npm/archy/1.0.0/package/package.json not in flight; writing
+npm verb afterAdd /root/.npm/archy/1.0.0/package/package.json written
+npm http fetch 200 https://registry.npmjs.org/abbrev/-/abbrev-1.0.5.tgz
+npm sill fetchAndShaCheck shasum 5d8257bd9ebe435e698b2fa431afde4fe7b10b03
+npm verb addTmpTarball /tmp/npm-16680-5d9a1f20/registry.npmjs.org/abbrev/-/abbrev-1.0.5.tgz not in flight; adding
+npm verb addTmpTarball already have metadata; skipping unpack for abbrev@1.0.5
+npm sill cache afterAdd abbrev@1.0.5
+npm verb afterAdd /root/.npm/abbrev/1.0.5/package/package.json not in flight; writing
+npm verb afterAdd /root/.npm/abbrev/1.0.5/package/package.json written
+npm info retry will retry, error on last attempt: Error: socket hang up
+npm http fetch 200 https://registry.npmjs.org/chalk/-/chalk-1.0.0.tgz
+npm sill fetchAndShaCheck shasum b3cf4ed0ff5397c99c75b8f679db2f52831f96dc
+npm verb addTmpTarball /tmp/npm-16680-5d9a1f20/registry.npmjs.org/chalk/-/chalk-1.0.0.tgz not in flight; adding
+npm verb addTmpTarball already have metadata; skipping unpack for chalk@1.0.0
+npm sill cache afterAdd chalk@1.0.0
+npm verb afterAdd /root/.npm/chalk/1.0.0/package/package.json not in flight; writing
+npm verb afterAdd /root/.npm/chalk/1.0.0/package/package.json written
+npm info retry will retry, error on last attempt: Error: socket hang up
+npm http fetch 200 https://registry.npmjs.org/configstore/-/configstore-0.3.2.tgz
+npm sill fetchAndShaCheck shasum 25e4c16c3768abf75c5a65bc61761f495055b459
+npm verb addTmpTarball /tmp/npm-16680-5d9a1f20/registry.npmjs.org/configstore/-/configstore-0.3.2.tgz not in flight; adding
+npm verb addTmpTarball already have metadata; skipping unpack for configstore@0.3.2
+npm info retry will retry, error on last attempt: Error: socket hang up
+npm sill cache afterAdd configstore@0.3.2
+npm verb afterAdd /root/.npm/configstore/0.3.2/package/package.json not in flight; writing
+npm verb afterAdd /root/.npm/configstore/0.3.2/package/package.json written
+npm http fetch 200 https://registry.npmjs.org/bower-json/-/bower-json-0.4.0.tgz
+npm sill fetchAndShaCheck shasum a99c3ccf416ef0590ed0ded252c760f1c6d93766
+npm verb addTmpTarball /tmp/npm-16680-5d9a1f20/registry.npmjs.org/bower-json/-/bower-json-0.4.0.tgz not in flight; adding
+npm verb addTmpTarball already have metadata; skipping unpack for bower-json@0.4.0
+npm sill cache afterAdd bower-json@0.4.0
+npm verb afterAdd /root/.npm/bower-json/0.4.0/package/package.json not in flight; writing
+npm verb afterAdd /root/.npm/bower-json/0.4.0/package/package.json written
+npm info retry will retry, error on last attempt: Error: socket hang up
+npm http fetch 200 https://registry.npmjs.org/insight/-/insight-0.5.3.tgz
+npm sill fetchAndShaCheck shasum 353626c1b86b12c7bdfecb0a54ef80cd7e6f89e0
+npm verb addTmpTarball /tmp/npm-16680-5d9a1f20/registry.npmjs.org/insight/-/insight-0.5.3.tgz not in flight; adding
+npm verb addTmpTarball already have metadata; skipping unpack for insight@0.5.3
+npm sill cache afterAdd insight@0.5.3
+npm verb afterAdd /root/.npm/insight/0.5.3/package/package.json not in flight; writing
+npm verb afterAdd /root/.npm/insight/0.5.3/package/package.json written
+npm info retry will retry, error on last attempt: Error: socket hang up
+npm http fetch 200 https://registry.npmjs.org/fstream/-/fstream-1.0.4.tgz
+npm sill fetchAndShaCheck shasum 6c52298473fd6351fd22fc4bf9254fcfebe80f2b
+npm verb addTmpTarball /tmp/npm-16680-5d9a1f20/registry.npmjs.org/fstream/-/fstream-1.0.4.tgz not in flight; adding
+npm verb addTmpTarball already have metadata; skipping unpack for fstream@1.0.4
+npm http fetch 200 https://registry.npmjs.org/promptly/-/promptly-0.2.0.tgz
+npm sill fetchAndShaCheck shasum 73ef200fa8329d5d3a8df41798950b8646ca46d9
+npm verb addTmpTarball /tmp/npm-16680-5d9a1f20/registry.npmjs.org/promptly/-/promptly-0.2.0.tgz not in flight; adding
+npm verb addTmpTarball already have metadata; skipping unpack for promptly@0.2.0
+npm sill cache afterAdd fstream@1.0.4
+npm verb afterAdd /root/.npm/fstream/1.0.4/package/package.json not in flight; writing
+npm verb afterAdd /root/.npm/fstream/1.0.4/package/package.json written
+npm sill cache afterAdd promptly@0.2.0
+npm verb afterAdd /root/.npm/promptly/0.2.0/package/package.json not in flight; writing
+npm verb afterAdd /root/.npm/promptly/0.2.0/package/package.json written
+npm info retry will retry, error on last attempt: Error: socket hang up
+npm info retry will retry, error on last attempt: Error: socket hang up
+npm http fetch 200 https://registry.npmjs.org/q/-/q-1.2.0.tgz
+npm http fetch 200 https://registry.npmjs.org/mkdirp/-/mkdirp-0.5.0.tgz
+npm sill fetchAndShaCheck shasum 811705ce4a9802adff811ab0fcdbd01946e1fe22
+npm sill fetchAndShaCheck shasum 1d73076a6df986cd9344e15e71fcc05a4c9abf12
+npm verb addTmpTarball /tmp/npm-16680-5d9a1f20/registry.npmjs.org/q/-/q-1.2.0.tgz not in flight; adding
+npm verb addTmpTarball already have metadata; skipping unpack for q@1.2.0
+npm verb addTmpTarball /tmp/npm-16680-5d9a1f20/registry.npmjs.org/mkdirp/-/mkdirp-0.5.0.tgz not in flight; adding
+npm verb addTmpTarball already have metadata; skipping unpack for mkdirp@0.5.0
+npm sill cache afterAdd q@1.2.0
+npm verb afterAdd /root/.npm/q/1.2.0/package/package.json not in flight; writing
+npm sill cache afterAdd mkdirp@0.5.0
+npm verb afterAdd /root/.npm/mkdirp/0.5.0/package/package.json not in flight; writing
+npm verb afterAdd /root/.npm/q/1.2.0/package/package.json written
+npm verb afterAdd /root/.npm/mkdirp/0.5.0/package/package.json written
+npm http fetch 200 https://registry.npmjs.org/tar-fs/-/tar-fs-1.5.0.tgz
+npm sill fetchAndShaCheck shasum 461da12f3a756adcfe781afbc0c13694d9c5d613
+npm verb addTmpTarball /tmp/npm-16680-5d9a1f20/registry.npmjs.org/tar-fs/-/tar-fs-1.5.0.tgz not in flight; adding
+npm verb addTmpTarball already have metadata; skipping unpack for tar-fs@1.5.0
+npm sill cache afterAdd tar-fs@1.5.0
+npm verb afterAdd /root/.npm/tar-fs/1.5.0/package/package.json not in flight; writing
+npm verb afterAdd /root/.npm/tar-fs/1.5.0/package/package.json written
+npm http fetch 200 https://registry.npmjs.org/rimraf/-/rimraf-2.3.2.tgz
+npm sill fetchAndShaCheck shasum 7304bd9275c401b89103b106b3531c1ef0c02fe9
+npm verb addTmpTarball /tmp/npm-16680-5d9a1f20/registry.npmjs.org/rimraf/-/rimraf-2.3.2.tgz not in flight; adding
+npm verb addTmpTarball already have metadata; skipping unpack for rimraf@2.3.2
+npm sill cache afterAdd rimraf@2.3.2
+npm verb afterAdd /root/.npm/rimraf/2.3.2/package/package.json not in flight; writing
+npm verb afterAdd /root/.npm/rimraf/2.3.2/package/package.json written
+npm info attempt registry request try #2 at 22:39:04
+npm http request GET https://registry.npmjs.org/cardinal
+npm info attempt registry request try #2 at 22:39:04
+npm http request GET https://registry.npmjs.org/chmodr
+npm info attempt registry request try #2 at 22:39:04
+npm http request GET https://registry.npmjs.org/decompress-zip
+npm info attempt registry request try #2 at 22:39:04
+npm http request GET https://registry.npmjs.org/fstream-ignore
+npm http 200 https://registry.npmjs.org/cardinal
+npm sill get cb [ 200,
+npm sill get   { date: 'Thu, 23 Apr 2015 20:14:58 GMT',
+npm sill get     'last-modified': 'Thu, 23 Apr 2015 20:14:58 GMT',
+npm sill get     etag: '"J4FQHS50CJFKVCBYQB06IUM7"',
+npm sill get     'content-length': '20829',
+npm sill get     via: '1.1 varnish',
+npm sill get     'x-cache': 'MISS',
+npm sill get     'x-timer': 'S1429820098.660218,VS0,VE170',
+npm sill get     vary: 'Accept',
+npm sill get     connection: 'keep-alive',
+npm sill get     'x-cache-hits': '0',
+npm sill get     'cache-control': 'max-age=60',
+npm sill get     'content-type': 'application/json',
+npm sill get     age: '0',
+npm sill get     server: 'ciproxy' } ]
+npm verb get saving cardinal to /root/.npm/registry.npmjs.org/cardinal/.cache.json
+npm info attempt registry request try #2 at 22:39:04
+npm http request GET https://registry.npmjs.org/graceful-fs
+npm info attempt registry request try #2 at 22:39:04
+npm http request GET https://registry.npmjs.org/handlebars
+npm info attempt registry request try #2 at 22:39:04
+npm http request GET https://registry.npmjs.org/glob
+npm sill mapToRegistry name cardinal
+npm sill mapToRegistry using default registry
+npm sill mapToRegistry registry https://registry.npmjs.org/
+npm sill mapToRegistry uri https://registry.npmjs.org/cardinal
+npm verb addRemoteTarball https://registry.npmjs.org/cardinal/-/cardinal-0.4.4.tgz not in flight; adding
+npm verb addRemoteTarball [ 'https://registry.npmjs.org/cardinal/-/cardinal-0.4.4.tgz',
+npm verb addRemoteTarball   'ca5bb68a5b511b90fe93b9acea49bdee5c32bfe2' ]
+npm http 200 https://registry.npmjs.org/chmodr
+npm sill get cb [ 200,
+npm sill get   { date: 'Thu, 23 Apr 2015 20:15:07 GMT',
+npm sill get     'last-modified': 'Thu, 23 Apr 2015 20:15:07 GMT',
+npm sill get     etag: '"TIKIVSQ86JR105E7N00GQKCI"',
+npm sill get     'content-length': '2069',
+npm sill get     via: '1.1 varnish',
+npm sill get     'x-cache': 'MISS',
+npm sill get     'x-timer': 'S1429820107.033059,VS0,VE163',
+npm sill get     vary: 'Accept',
+npm sill get     connection: 'keep-alive',
+npm sill get     'x-cache-hits': '0',
+npm sill get     'cache-control': 'max-age=60',
+npm sill get     'content-type': 'application/json',
+npm sill get     age: '0',
+npm sill get     server: 'ciproxy' } ]
+npm verb get saving chmodr to /root/.npm/registry.npmjs.org/chmodr/.cache.json
+npm info retry will retry, error on last attempt: Error: socket hang up
+npm info retry fetch attempt 1 at 22:39:04
+npm info attempt registry request try #1 at 22:39:04
+npm http fetch GET https://registry.npmjs.org/cardinal/-/cardinal-0.4.4.tgz
+npm sill mapToRegistry name chmodr
+npm sill mapToRegistry using default registry
+npm sill mapToRegistry registry https://registry.npmjs.org/
+npm sill mapToRegistry uri https://registry.npmjs.org/chmodr
+npm verb addRemoteTarball https://registry.npmjs.org/chmodr/-/chmodr-0.1.0.tgz not in flight; adding
+npm verb addRemoteTarball [ 'https://registry.npmjs.org/chmodr/-/chmodr-0.1.0.tgz',
+npm verb addRemoteTarball   'e09215a1d51542db2a2576969765bcf6125583eb' ]
+npm info retry fetch attempt 1 at 22:39:04
+npm info attempt registry request try #1 at 22:39:04
+npm http fetch GET https://registry.npmjs.org/chmodr/-/chmodr-0.1.0.tgz
+npm http 200 https://registry.npmjs.org/fstream-ignore
+npm sill get cb [ 200,
+npm sill get   { date: 'Thu, 23 Apr 2015 20:14:57 GMT',
+npm sill get     'last-modified': 'Thu, 23 Apr 2015 20:14:57 GMT',
+npm sill get     etag: '"6O8QJ7N393JC7QUG8NS4M73WG"',
+npm sill get     'content-length': '14058',
+npm sill get     via: '1.1 varnish',
+npm sill get     'x-cache': 'MISS',
+npm sill get     'x-timer': 'S1429820097.709897,VS0,VE101',
+npm sill get     vary: 'Accept',
+npm sill get     connection: 'keep-alive',
+npm sill get     'x-cache-hits': '0',
+npm sill get     'cache-control': 'max-age=60',
+npm sill get     'content-type': 'application/json',
+npm sill get     age: '0',
+npm sill get     server: 'ciproxy' } ]
+npm verb get saving fstream-ignore to /root/.npm/registry.npmjs.org/fstream-ignore/.cache.json
+npm info retry will retry, error on last attempt: Error: socket hang up
+npm http 200 https://registry.npmjs.org/decompress-zip
+npm sill get cb [ 200,
+npm sill get   { date: 'Thu, 23 Apr 2015 20:14:58 GMT',
+npm sill get     'last-modified': 'Thu, 23 Apr 2015 20:14:58 GMT',
+npm sill get     etag: '"21ZY7CN5XQBWKGG6N55LJU4GM"',
+npm sill get     'content-length': '16280',
+npm sill get     via: '1.1 varnish',
+npm sill get     'x-cache': 'MISS',
+npm sill get     'x-timer': 'S1429820097.831716,VS0,VE805',
+npm sill get     vary: 'Accept',
+npm sill get     connection: 'keep-alive',
+npm sill get     'x-cache-hits': '0',
+npm sill get     'cache-control': 'max-age=60',
+npm sill get     'content-type': 'application/json',
+npm sill get     age: '0',
+npm sill get     server: 'ciproxy' } ]
+npm verb get saving decompress-zip to /root/.npm/registry.npmjs.org/decompress-zip/.cache.json
+npm sill addNameRange number 2 { name: 'decompress-zip',
+npm sill addNameRange   range: '>=0.1.0 <0.2.0',
+npm sill addNameRange   hasData: true }
+npm sill addNameRange versions [ 'decompress-zip',
+npm sill addNameRange   [ '0.0.1',
+npm sill addNameRange     '0.0.2',
+npm sill addNameRange     '0.0.3',
+npm sill addNameRange     '0.0.4',
+npm sill addNameRange     '0.0.5',
+npm sill addNameRange     '0.0.6',
+npm sill addNameRange     '0.0.7',
+npm sill addNameRange     '0.0.8',
+npm sill addNameRange     '0.1.0' ] ]
+npm sill addNamed decompress-zip@0.1.0
+npm verb addNamed "0.1.0" is a plain semver version for decompress-zip
+npm sill addNameRange number 2 { name: 'fstream-ignore',
+npm sill addNameRange   range: '>=1.0.2 <2.0.0',
+npm sill addNameRange   hasData: true }
+npm sill addNameRange versions [ 'fstream-ignore',
+npm sill addNameRange   [ '0.0.1',
+npm sill addNameRange     '0.0.2',
+npm sill addNameRange     '0.0.3',
+npm sill addNameRange     '0.0.4',
+npm sill addNameRange     '0.0.5',
+npm sill addNameRange     '0.0.6',
+npm sill addNameRange     '0.0.7',
+npm sill addNameRange     '0.0.8',
+npm sill addNameRange     '0.0.9',
+npm sill addNameRange     '0.0.10',
+npm sill addNameRange     '1.0.0',
+npm sill addNameRange     '1.0.1',
+npm sill addNameRange     '1.0.2' ] ]
+npm sill addNamed fstream-ignore@1.0.2
+npm verb addNamed "1.0.2" is a plain semver version for fstream-ignore
+npm sill mapToRegistry name decompress-zip
+npm sill mapToRegistry using default registry
+npm sill mapToRegistry registry https://registry.npmjs.org/
+npm sill mapToRegistry uri https://registry.npmjs.org/decompress-zip
+npm verb addRemoteTarball https://registry.npmjs.org/decompress-zip/-/decompress-zip-0.1.0.tgz not in flight; adding
+npm verb addRemoteTarball [ 'https://registry.npmjs.org/decompress-zip/-/decompress-zip-0.1.0.tgz',
+npm verb addRemoteTarball   'bce60c11664f2d660fca4bcf634af6de5d6c14c7' ]
+npm sill mapToRegistry name fstream-ignore
+npm sill mapToRegistry using default registry
+npm sill mapToRegistry registry https://registry.npmjs.org/
+npm sill mapToRegistry uri https://registry.npmjs.org/fstream-ignore
+npm verb addRemoteTarball https://registry.npmjs.org/fstream-ignore/-/fstream-ignore-1.0.2.tgz not in flight; adding
+npm verb addRemoteTarball [ 'https://registry.npmjs.org/fstream-ignore/-/fstream-ignore-1.0.2.tgz',
+npm verb addRemoteTarball   '18c891db01b782a74a7bff936a0f24997741c7ab' ]
+npm info retry fetch attempt 1 at 22:39:04
+npm info attempt registry request try #1 at 22:39:04
+npm http fetch GET https://registry.npmjs.org/decompress-zip/-/decompress-zip-0.1.0.tgz
+npm info attempt registry request try #2 at 22:39:04
+npm http request GET https://registry.npmjs.org/junk
+npm info attempt registry request try #2 at 22:39:04
+npm http request GET https://registry.npmjs.org/lockfile
+npm info retry fetch attempt 1 at 22:39:04
+npm info attempt registry request try #1 at 22:39:04
+npm http fetch GET https://registry.npmjs.org/fstream-ignore/-/fstream-ignore-1.0.2.tgz
+npm http fetch 200 https://registry.npmjs.org/cardinal/-/cardinal-0.4.4.tgz
+npm sill fetchAndShaCheck shasum ca5bb68a5b511b90fe93b9acea49bdee5c32bfe2
+npm verb addTmpTarball /tmp/npm-16680-5d9a1f20/registry.npmjs.org/cardinal/-/cardinal-0.4.4.tgz not in flight; adding
+npm verb addTmpTarball already have metadata; skipping unpack for cardinal@0.4.4
+npm sill cache afterAdd cardinal@0.4.4
+npm verb afterAdd /root/.npm/cardinal/0.4.4/package/package.json not in flight; writing
+npm verb afterAdd /root/.npm/cardinal/0.4.4/package/package.json written
+npm info attempt registry request try #2 at 22:39:05
+npm http request GET https://registry.npmjs.org/mout
+npm http 200 https://registry.npmjs.org/handlebars
+npm sill get cb [ 200,
+npm sill get   { date: 'Thu, 23 Apr 2015 20:15:00 GMT',
+npm sill get     'last-modified': 'Thu, 23 Apr 2015 20:15:00 GMT',
+npm sill get     etag: '"8ET8KVQC89GJ29VIYLSYRPA4X"',
+npm sill get     'content-length': '55645',
+npm sill get     via: '1.1 varnish',
+npm sill get     'x-cache': 'MISS',
+npm sill get     'x-timer': 'S1429820099.827060,VS0,VE251',
+npm sill get     vary: 'Accept',
+npm sill get     connection: 'keep-alive',
+npm sill get     'x-cache-hits': '0',
+npm sill get     'cache-control': 'max-age=60',
+npm sill get     'content-type': 'application/json',
+npm sill get     age: '0',
+npm sill get     server: 'ciproxy' } ]
+npm verb get saving handlebars to /root/.npm/registry.npmjs.org/handlebars/.cache.json
+npm http 200 https://registry.npmjs.org/graceful-fs
+npm sill get cb [ 200,
+npm sill get   { date: 'Thu, 23 Apr 2015 20:15:08 GMT',
+npm sill get     'last-modified': 'Thu, 23 Apr 2015 20:15:08 GMT',
+npm sill get     etag: '"ASUQXR8VIAJ72TTU8SR5Q4DOJ"',
+npm sill get     'content-length': '32633',
+npm sill get     via: '1.1 varnish',
+npm sill get     'x-cache': 'MISS',
+npm sill get     'x-timer': 'S1429820108.424784,VS0,VE444',
+npm sill get     vary: 'Accept',
+npm sill get     connection: 'keep-alive',
+npm sill get     'x-cache-hits': '0',
+npm sill get     'cache-control': 'max-age=60',
+npm sill get     'content-type': 'application/json',
+npm sill get     age: '0',
+npm sill get     server: 'ciproxy' } ]
+npm verb get saving graceful-fs to /root/.npm/registry.npmjs.org/graceful-fs/.cache.json
+npm info attempt registry request try #2 at 22:39:05
+npm http request GET https://registry.npmjs.org/opn
+npm info attempt registry request try #2 at 22:39:05
+npm http request GET https://registry.npmjs.org/p-throttler
+npm sill addNameRange number 2 { name: 'graceful-fs', range: '>=3.0.5 <4.0.0', hasData: true }
+npm sill addNameRange versions [ 'graceful-fs',
+npm sill addNameRange   [ '1.0.0',
+npm sill addNameRange     '1.0.1',
+npm sill addNameRange     '1.0.2',
+npm sill addNameRange     '1.1.0',
+npm sill addNameRange     '1.1.1',
+npm sill addNameRange     '1.1.2',
+npm sill addNameRange     '1.1.3',
+npm sill addNameRange     '1.1.4',
+npm sill addNameRange     '1.1.5',
+npm sill addNameRange     '1.1.6',
+npm sill addNameRange     '1.1.7',
+npm sill addNameRange     '1.1.8',
+npm sill addNameRange     '1.1.9',
+npm sill addNameRange     '1.1.10',
+npm sill addNameRange     '1.1.11',
+npm sill addNameRange     '1.1.12',
+npm sill addNameRange     '1.1.13',
+npm sill addNameRange     '1.1.14',
+npm sill addNameRange     '1.2.0',
+npm sill addNameRange     '1.2.1',
+npm sill addNameRange     '1.2.2',
+npm sill addNameRange     '1.2.3',
+npm sill addNameRange     '2.0.0',
+npm sill addNameRange     '2.0.1',
+npm sill addNameRange     '2.0.2',
+npm sill addNameRange     '2.0.3',
+npm sill addNameRange     '3.0.0',
+npm sill addNameRange     '3.0.1',
+npm sill addNameRange     '3.0.2',
+npm sill addNameRange     '3.0.3',
+npm sill addNameRange     '3.0.4',
+npm sill addNameRange     '3.0.5',
+npm sill addNameRange     '3.0.6' ] ]
+npm sill addNamed graceful-fs@3.0.6
+npm verb addNamed "3.0.6" is a plain semver version for graceful-fs
+npm sill addNameRange number 2 { name: 'handlebars', range: '>=2.0.0 <3.0.0', hasData: true }
+npm sill addNameRange versions [ 'handlebars',
+npm sill addNameRange   [ '1.0.6',
+npm sill addNameRange     '1.0.6-2',
+npm sill addNameRange     '1.0.7',
+npm sill addNameRange     '1.0.8',
+npm sill addNameRange     '1.0.9',
+npm sill addNameRange     '1.0.10',
+npm sill addNameRange     '1.0.11',
+npm sill addNameRange     '1.0.12',
+npm sill addNameRange     '1.1.0',
+npm sill addNameRange     '1.1.1',
+npm sill addNameRange     '1.1.2',
+npm sill addNameRange     '1.2.0',
+npm sill addNameRange     '1.2.1',
+npm sill addNameRange     '1.3.0',
+npm sill addNameRange     '2.0.0-alpha.1',
+npm sill addNameRange     '2.0.0-alpha.2',
+npm sill addNameRange     '2.0.0-alpha.3',
+npm sill addNameRange     '2.0.0-alpha.4',
+npm sill addNameRange     '2.0.0-beta.1',
+npm sill addNameRange     '2.0.0',
+npm sill addNameRange     '3.0.0',
+npm sill addNameRange     '3.0.1',
+npm sill addNameRange     '3.0.2',
+npm sill addNameRange     '1.0.2-beta',
+npm sill addNameRange     '1.0.4-beta',
+npm sill addNameRange     '1.0.5-beta' ] ]
+npm sill addNamed handlebars@2.0.0
+npm verb addNamed "2.0.0" is a plain semver version for handlebars
+npm sill mapToRegistry name graceful-fs
+npm sill mapToRegistry using default registry
+npm sill mapToRegistry registry https://registry.npmjs.org/
+npm sill mapToRegistry uri https://registry.npmjs.org/graceful-fs
+npm verb addRemoteTarball https://registry.npmjs.org/graceful-fs/-/graceful-fs-3.0.6.tgz not in flight; adding
+npm verb addRemoteTarball [ 'https://registry.npmjs.org/graceful-fs/-/graceful-fs-3.0.6.tgz',
+npm verb addRemoteTarball   'dce3a18351cb94cdc82e688b2e3dd2842d1b09bb' ]
+npm sill mapToRegistry name handlebars
+npm sill mapToRegistry using default registry
+npm sill mapToRegistry registry https://registry.npmjs.org/
+npm sill mapToRegistry uri https://registry.npmjs.org/handlebars
+npm verb addRemoteTarball https://registry.npmjs.org/handlebars/-/handlebars-2.0.0.tgz not in flight; adding
+npm verb addRemoteTarball [ 'https://registry.npmjs.org/handlebars/-/handlebars-2.0.0.tgz',
+npm verb addRemoteTarball   '6e9d7f8514a3467fa5e9f82cc158ecfc1d5ac76f' ]
+npm info retry fetch attempt 1 at 22:39:05
+npm info attempt registry request try #1 at 22:39:05
+npm http fetch GET https://registry.npmjs.org/graceful-fs/-/graceful-fs-3.0.6.tgz
+npm info retry fetch attempt 1 at 22:39:05
+npm info attempt registry request try #1 at 22:39:05
+npm http fetch GET https://registry.npmjs.org/handlebars/-/handlebars-2.0.0.tgz
+npm info attempt registry request try #2 at 22:39:05
+npm http request GET https://registry.npmjs.org/request-progress
+npm info attempt registry request try #2 at 22:39:05
+npm http request GET https://registry.npmjs.org/request
+npm http fetch 200 https://registry.npmjs.org/decompress-zip/-/decompress-zip-0.1.0.tgz
+npm http 200 https://registry.npmjs.org/junk
+npm sill get cb [ 200,
+npm sill get   { date: 'Thu, 23 Apr 2015 20:15:02 GMT',
+npm sill get     'last-modified': 'Thu, 23 Apr 2015 20:15:02 GMT',
+npm sill get     etag: '"1N1P5ACLMJ9F61AFHDD5MCAW4"',
+npm sill get     'content-length': '8904',
+npm sill get     via: '1.1 varnish',
+npm sill get     'x-cache': 'MISS',
+npm sill get     'x-timer': 'S1429820102.286746,VS0,VE94',
+npm sill get     vary: 'Accept',
+npm sill get     connection: 'keep-alive',
+npm sill get     'x-cache-hits': '0',
+npm sill get     'cache-control': 'max-age=60',
+npm sill get     'content-type': 'application/json',
+npm sill get     age: '0',
+npm sill get     server: 'ciproxy' } ]
+npm verb get saving junk to /root/.npm/registry.npmjs.org/junk/.cache.json
+npm sill fetchAndShaCheck shasum bce60c11664f2d660fca4bcf634af6de5d6c14c7
+npm verb addTmpTarball /tmp/npm-16680-5d9a1f20/registry.npmjs.org/decompress-zip/-/decompress-zip-0.1.0.tgz not in flight; adding
+npm verb addTmpTarball already have metadata; skipping unpack for decompress-zip@0.1.0
+npm sill addNameRange number 2 { name: 'junk', range: '>=1.0.0 <2.0.0', hasData: true }
+npm sill addNameRange versions [ 'junk',
+npm sill addNameRange   [ '0.1.0', '0.2.0', '0.2.1', '0.2.2', '0.3.0', '1.0.0', '1.0.1' ] ]
+npm sill addNamed junk@1.0.1
+npm verb addNamed "1.0.1" is a plain semver version for junk
+npm sill mapToRegistry name junk
+npm sill mapToRegistry using default registry
+npm sill mapToRegistry registry https://registry.npmjs.org/
+npm sill mapToRegistry uri https://registry.npmjs.org/junk
+npm verb addRemoteTarball https://registry.npmjs.org/junk/-/junk-1.0.1.tgz not in flight; adding
+npm verb addRemoteTarball [ 'https://registry.npmjs.org/junk/-/junk-1.0.1.tgz',
+npm verb addRemoteTarball   '824ef8925f02026f61bc6e6fa346b25fa8f3938b' ]
+npm info retry fetch attempt 1 at 22:39:05
+npm info attempt registry request try #1 at 22:39:05
+npm http fetch GET https://registry.npmjs.org/junk/-/junk-1.0.1.tgz
+npm sill cache afterAdd decompress-zip@0.1.0
+npm verb afterAdd /root/.npm/decompress-zip/0.1.0/package/package.json not in flight; writing
+npm verb afterAdd /root/.npm/decompress-zip/0.1.0/package/package.json written
+npm info retry will retry, error on last attempt: Error: socket hang up
+npm info retry will retry, error on last attempt: Error: socket hang up
+npm http 200 https://registry.npmjs.org/lockfile
+npm sill get cb [ 200,
+npm sill get   { date: 'Thu, 23 Apr 2015 20:15:09 GMT',
+npm sill get     'last-modified': 'Thu, 23 Apr 2015 20:15:09 GMT',
+npm sill get     etag: '"EZ8C07OKZ0DNIWTHNJB2807BK"',
+npm sill get     'content-length': '17341',
+npm sill get     via: '1.1 varnish',
+npm sill get     'x-cache': 'MISS',
+npm sill get     'x-timer': 'S1429820109.023607,VS0,VE774',
+npm sill get     vary: 'Accept',
+npm sill get     connection: 'keep-alive',
+npm sill get     'x-cache-hits': '0',
+npm sill get     'cache-control': 'max-age=60',
+npm sill get     'content-type': 'application/json',
+npm sill get     age: '0',
+npm sill get     server: 'ciproxy' } ]
+npm verb get saving lockfile to /root/.npm/registry.npmjs.org/lockfile/.cache.json
+npm info retry will retry, error on last attempt: Error: socket hang up
+npm sill addNameRange number 2 { name: 'lockfile', range: '>=1.0.0 <2.0.0', hasData: true }
+npm sill addNameRange versions [ 'lockfile',
+npm sill addNameRange   [ '0.1.0',
+npm sill addNameRange     '0.1.1',
+npm sill addNameRange     '0.2.0',
+npm sill addNameRange     '0.2.1',
+npm sill addNameRange     '0.2.2',
+npm sill addNameRange     '0.3.0',
+npm sill addNameRange     '0.3.1',
+npm sill addNameRange     '0.3.2',
+npm sill addNameRange     '0.3.3',
+npm sill addNameRange     '0.3.4',
+npm sill addNameRange     '0.4.0',
+npm sill addNameRange     '0.4.1',
+npm sill addNameRange     '0.4.2',
+npm sill addNameRange     '0.4.3',
+npm sill addNameRange     '1.0.0' ] ]
+npm sill addNamed lockfile@1.0.0
+npm verb addNamed "1.0.0" is a plain semver version for lockfile
+npm sill mapToRegistry name lockfile
+npm sill mapToRegistry using default registry
+npm sill mapToRegistry registry https://registry.npmjs.org/
+npm sill mapToRegistry uri https://registry.npmjs.org/lockfile
+npm verb addRemoteTarball https://registry.npmjs.org/lockfile/-/lockfile-1.0.0.tgz not in flight; adding
+npm verb addRemoteTarball [ 'https://registry.npmjs.org/lockfile/-/lockfile-1.0.0.tgz',
+npm verb addRemoteTarball   'b3a7609dda6012060083bacb0ab0ecbca58e9203' ]
+npm info retry fetch attempt 1 at 22:39:05
+npm info attempt registry request try #1 at 22:39:05
+npm http fetch GET https://registry.npmjs.org/lockfile/-/lockfile-1.0.0.tgz
+npm http 200 https://registry.npmjs.org/opn
+npm sill get cb [ 200,
+npm sill get   { date: 'Thu, 23 Apr 2015 20:15:03 GMT',
+npm sill get     'last-modified': 'Thu, 23 Apr 2015 20:15:03 GMT',
+npm sill get     etag: '"EB36FGBI3KNS1NB785MSADZ9N"',
+npm sill get     'content-length': '9551',
+npm sill get     via: '1.1 varnish',
+npm sill get     'x-cache': 'MISS',
+npm sill get     'x-timer': 'S1429820103.182529,VS0,VE164',
+npm sill get     vary: 'Accept',
+npm sill get     connection: 'keep-alive',
+npm sill get     'x-cache-hits': '0',
+npm sill get     'cache-control': 'max-age=60',
+npm sill get     'content-type': 'application/json',
+npm sill get     age: '0',
+npm sill get     server: 'ciproxy' } ]
+npm verb get saving opn to /root/.npm/registry.npmjs.org/opn/.cache.json
+npm info retry will retry, error on last attempt: Error: socket hang up
+npm sill addNameRange number 2 { name: 'opn', range: '>=1.0.1 <2.0.0', hasData: true }
+npm sill addNameRange versions [ 'opn',
+npm sill addNameRange   [ '0.1.0', '0.1.1', '0.1.2', '1.0.0', '1.0.1', '1.0.2' ] ]
+npm sill addNamed opn@1.0.2
+npm verb addNamed "1.0.2" is a plain semver version for opn
+npm sill mapToRegistry name opn
+npm sill mapToRegistry using default registry
+npm sill mapToRegistry registry https://registry.npmjs.org/
+npm sill mapToRegistry uri https://registry.npmjs.org/opn
+npm verb addRemoteTarball https://registry.npmjs.org/opn/-/opn-1.0.2.tgz not in flight; adding
+npm verb addRemoteTarball [ 'https://registry.npmjs.org/opn/-/opn-1.0.2.tgz',
+npm verb addRemoteTarball   'b909643346d00a1abc977a8b96f3ce3c53d5cf5f' ]
+npm info retry fetch attempt 1 at 22:39:05
+npm info attempt registry request try #1 at 22:39:05
+npm http fetch GET https://registry.npmjs.org/opn/-/opn-1.0.2.tgz
+npm info attempt registry request try #2 at 22:39:05
+npm http request GET https://registry.npmjs.org/shell-quote
+npm http 200 https://registry.npmjs.org/mout
+npm sill get cb [ 200,
+npm sill get   { date: 'Thu, 23 Apr 2015 20:15:01 GMT',
+npm sill get     'last-modified': 'Thu, 23 Apr 2015 20:15:01 GMT',
+npm sill get     etag: '"CP1IYCDHLOOPRYA7OS7PR407G"',
+npm sill get     'content-length': '27185',
+npm sill get     via: '1.1 varnish',
+npm sill get     'x-cache': 'MISS',
+npm sill get     'x-timer': 'S1429820100.968553,VS0,VE776',
+npm sill get     vary: 'Accept',
+npm sill get     connection: 'keep-alive',
+npm sill get     'x-cache-hits': '0',
+npm sill get     'cache-control': 'max-age=60',
+npm sill get     'content-type': 'application/json',
+npm sill get     age: '0',
+npm sill get     server: 'ciproxy' } ]
+npm verb get saving mout to /root/.npm/registry.npmjs.org/mout/.cache.json
+npm info attempt registry request try #2 at 22:39:05
+npm http request GET https://registry.npmjs.org/semver
+npm info retry will retry, error on last attempt: Error: socket hang up
+npm sill addNameRange number 2 { name: 'mout', range: '>=0.11.0 <0.12.0', hasData: true }
+npm sill addNameRange versions [ 'mout',
+npm sill addNameRange   [ '0.1.0',
+npm sill addNameRange     '0.2.0',
+npm sill addNameRange     '0.3.0',
+npm sill addNameRange     '0.4.0',
+npm sill addNameRange     '0.5.0',
+npm sill addNameRange     '0.6.0',
+npm sill addNameRange     '0.7.0',
+npm sill addNameRange     '0.7.1',
+npm sill addNameRange     '0.8.0',
+npm sill addNameRange     '0.9.0',
+npm sill addNameRange     '0.9.1',
+npm sill addNameRange     '0.10.0',
+npm sill addNameRange     '0.11.0' ] ]
+npm sill addNamed mout@0.11.0
+npm verb addNamed "0.11.0" is a plain semver version for mout
+npm sill mapToRegistry name mout
+npm sill mapToRegistry using default registry
+npm sill mapToRegistry registry https://registry.npmjs.org/
+npm sill mapToRegistry uri https://registry.npmjs.org/mout
+npm verb addRemoteTarball https://registry.npmjs.org/mout/-/mout-0.11.0.tgz not in flight; adding
+npm verb addRemoteTarball [ 'https://registry.npmjs.org/mout/-/mout-0.11.0.tgz',
+npm verb addRemoteTarball   '93cdf0791ac8a24873ceeb42a5b016b7c867abee' ]
+npm info retry fetch attempt 1 at 22:39:05
+npm info attempt registry request try #1 at 22:39:05
+npm http fetch GET https://registry.npmjs.org/mout/-/mout-0.11.0.tgz
+npm info attempt registry request try #2 at 22:39:05
+npm http request GET https://registry.npmjs.org/which
+npm info attempt registry request try #2 at 22:39:05
+npm http request GET https://registry.npmjs.org/user-home
+npm info attempt registry request try #2 at 22:39:05
+npm http fetch GET https://registry.npmjs.org/bower-config/-/bower-config-0.6.1.tgz
+npm info attempt registry request try #2 at 22:39:05
+npm http fetch GET https://registry.npmjs.org/bower-endpoint-parser/-/bower-endpoint-parser-0.2.2.tgz
+npm info attempt registry request try #2 at 22:39:05
+npm http fetch GET https://registry.npmjs.org/bower-logger/-/bower-logger-0.2.2.tgz
+npm info attempt registry request try #2 at 22:39:05
+npm http fetch GET https://registry.npmjs.org/inquirer/-/inquirer-0.8.0.tgz
+npm info attempt registry request try #2 at 22:39:05
+npm http fetch GET https://registry.npmjs.org/is-root/-/is-root-1.0.0.tgz
+npm info attempt registry request try #2 at 22:39:05
+npm http fetch GET https://registry.npmjs.org/lru-cache/-/lru-cache-2.6.1.tgz
+npm http fetch 200 https://registry.npmjs.org/handlebars/-/handlebars-2.0.0.tgz
+npm http 200 https://registry.npmjs.org/request-progress
+npm sill get cb [ 200,
+npm sill get   { date: 'Thu, 23 Apr 2015 20:15:03 GMT',
+npm sill get     'last-modified': 'Thu, 23 Apr 2015 20:15:03 GMT',
+npm sill get     etag: '"71N141LK7KK976NSQYTGUGVOR"',
+npm sill get     'content-length': '22038',
+npm sill get     via: '1.1 varnish',
+npm sill get     'x-cache': 'MISS',
+npm sill get     'x-timer': 'S1429820102.493176,VS0,VE665',
+npm sill get     vary: 'Accept',
+npm sill get     connection: 'keep-alive',
+npm sill get     'x-cache-hits': '0',
+npm sill get     'cache-control': 'max-age=60',
+npm sill get     'content-type': 'application/json',
+npm sill get     age: '0',
+npm sill get     server: 'ciproxy' } ]
+npm verb get saving request-progress to /root/.npm/registry.npmjs.org/request-progress/.cache.json
+npm sill fetchAndShaCheck shasum 6e9d7f8514a3467fa5e9f82cc158ecfc1d5ac76f
+npm sill mapToRegistry name request-progress
+npm sill mapToRegistry using default registry
+npm sill mapToRegistry registry https://registry.npmjs.org/
+npm sill mapToRegistry uri https://registry.npmjs.org/request-progress
+npm verb addRemoteTarball https://registry.npmjs.org/request-progress/-/request-progress-0.3.1.tgz not in flight; adding
+npm verb addRemoteTarball [ 'https://registry.npmjs.org/request-progress/-/request-progress-0.3.1.tgz',
+npm verb addRemoteTarball   '0721c105d8a96ac6b2ce8b2c89ae2d5ecfcf6b3a' ]
+npm verb addTmpTarball /tmp/npm-16680-5d9a1f20/registry.npmjs.org/handlebars/-/handlebars-2.0.0.tgz not in flight; adding
+npm verb addTmpTarball already have metadata; skipping unpack for handlebars@2.0.0
+npm info retry fetch attempt 1 at 22:39:05
+npm info attempt registry request try #1 at 22:39:05
+npm http fetch GET https://registry.npmjs.org/request-progress/-/request-progress-0.3.1.tgz
+npm sill cache afterAdd handlebars@2.0.0
+npm verb afterAdd /root/.npm/handlebars/2.0.0/package/package.json not in flight; writing
+npm info attempt registry request try #2 at 22:39:05
+npm http fetch GET https://registry.npmjs.org/nopt/-/nopt-3.0.1.tgz
+npm http fetch 200 https://registry.npmjs.org/junk/-/junk-1.0.1.tgz
+npm sill fetchAndShaCheck shasum 824ef8925f02026f61bc6e6fa346b25fa8f3938b
+npm verb afterAdd /root/.npm/handlebars/2.0.0/package/package.json written
+npm verb addTmpTarball /tmp/npm-16680-5d9a1f20/registry.npmjs.org/junk/-/junk-1.0.1.tgz not in flight; adding
+npm verb addTmpTarball already have metadata; skipping unpack for junk@1.0.1
+npm sill cache afterAdd junk@1.0.1
+npm verb afterAdd /root/.npm/junk/1.0.1/package/package.json not in flight; writing
+npm verb afterAdd /root/.npm/junk/1.0.1/package/package.json written
+npm http fetch 200 https://registry.npmjs.org/opn/-/opn-1.0.2.tgz
+npm sill fetchAndShaCheck shasum b909643346d00a1abc977a8b96f3ce3c53d5cf5f
+npm verb addTmpTarball /tmp/npm-16680-5d9a1f20/registry.npmjs.org/opn/-/opn-1.0.2.tgz not in flight; adding
+npm verb addTmpTarball already have metadata; skipping unpack for opn@1.0.2
+npm sill cache afterAdd opn@1.0.2
+npm verb afterAdd /root/.npm/opn/1.0.2/package/package.json not in flight; writing
+npm verb afterAdd /root/.npm/opn/1.0.2/package/package.json written
+npm info retry will retry, error on last attempt: Error: socket hang up
+npm info retry will retry, error on last attempt: Error: socket hang up
+npm info retry will retry, error on last attempt: Error: socket hang up
+npm info retry will retry, error on last attempt: Error: socket hang up
+npm info attempt registry request try #2 at 22:39:05
+npm http fetch GET https://registry.npmjs.org/retry/-/retry-0.6.1.tgz
+npm http 200 https://registry.npmjs.org/semver
+npm sill get cb [ 200,
+npm sill get   { date: 'Thu, 23 Apr 2015 20:15:14 GMT',
+npm sill get     'last-modified': 'Thu, 23 Apr 2015 20:15:14 GMT',
+npm sill get     etag: '"125FZXTOFC7EY5JKNK4W7EVEO"',
+npm sill get     'content-length': '58304',
+npm sill get     via: '1.1 varnish',
+npm sill get     'x-cache': 'MISS',
+npm sill get     'x-timer': 'S1429820113.750321,VS0,VE256',
+npm sill get     vary: 'Accept',
+npm sill get     connection: 'keep-alive',
+npm sill get     'x-cache-hits': '0',
+npm sill get     'cache-control': 'max-age=60',
+npm sill get     'content-type': 'application/json',
+npm sill get     age: '0',
+npm sill get     server: 'ciproxy' } ]
+npm verb get saving semver to /root/.npm/registry.npmjs.org/semver/.cache.json
+npm info attempt registry request try #2 at 22:39:05
+npm http fetch GET https://registry.npmjs.org/update-notifier/-/update-notifier-0.3.2.tgz
+npm info retry will retry, error on last attempt: Error: socket hang up
+npm sill addNameRange number 2 { name: 'semver', range: '>=2.3.0 <3.0.0', hasData: true }
+npm sill addNameRange versions [ 'semver',
+npm sill addNameRange   [ '1.0.0',
+npm sill addNameRange     '1.0.1',
+npm sill addNameRange     '1.0.2',
+npm sill addNameRange     '1.0.3',
+npm sill addNameRange     '1.0.4',
+npm sill addNameRange     '1.0.5',
+npm sill addNameRange     '1.0.6',
+npm sill addNameRange     '1.0.7',
+npm sill addNameRange     '1.0.8',
+npm sill addNameRange     '1.0.9',
+npm sill addNameRange     '1.0.10',
+npm sill addNameRange     '1.0.11',
+npm sill addNameRange     '1.0.12',
+npm sill addNameRange     '1.0.13',
+npm sill addNameRange     '1.0.14',
+npm sill addNameRange     '1.1.0',
+npm sill addNameRange     '1.1.1',
+npm sill addNameRange     '1.1.2',
+npm sill addNameRange     '1.1.3',
+npm sill addNameRange     '1.1.4',
+npm sill addNameRange     '2.0.0-alpha',
+npm sill addNameRange     '2.0.0-beta',
+npm sill addNameRange     '2.0.1',
+npm sill addNameRange     '2.0.2',
+npm sill addNameRange     '2.0.3',
+npm sill addNameRange     '2.0.4',
+npm sill addNameRange     '2.0.5',
+npm sill addNameRange     '2.0.6',
+npm sill addNameRange     '2.0.7',
+npm sill addNameRange     '2.0.8',
+npm sill addNameRange     '2.0.9',
+npm sill addNameRange     '2.0.10',
+npm sill addNameRange     '2.0.11',
+npm sill addNameRange     '2.1.0',
+npm sill addNameRange     '2.2.0',
+npm sill addNameRange     '2.2.1',
+npm sill addNameRange     '2.3.0',
+npm sill addNameRange     '2.3.1',
+npm sill addNameRange     '2.3.2',
+npm sill addNameRange     '3.0.0',
+npm sill addNameRange     '3.0.1',
+npm sill addNameRange     '4.0.0',
+npm sill addNameRange     '4.0.2',
+npm sill addNameRange     '4.0.3',
+npm sill addNameRange     '4.1.0',
+npm sill addNameRange     '4.1.1',
+npm sill addNameRange     '4.2.0',
+npm sill addNameRange     '4.2.1',
+npm sill addNameRange     '4.2.2',
+npm sill addNameRange     '4.3.0',
+npm sill addNameRange     '4.3.1',
+npm sill addNameRange     '4.3.2',
+npm sill addNameRange     '4.3.3' ] ]
+npm sill addNamed semver@2.3.2
+npm verb addNamed "2.3.2" is a plain semver version for semver
+npm sill mapToRegistry name semver
+npm sill mapToRegistry using default registry
+npm sill mapToRegistry registry https://registry.npmjs.org/
+npm sill mapToRegistry uri https://registry.npmjs.org/semver
+npm verb addRemoteTarball https://registry.npmjs.org/semver/-/semver-2.3.2.tgz not in flight; adding
+npm verb addRemoteTarball [ 'https://registry.npmjs.org/semver/-/semver-2.3.2.tgz',
+npm verb addRemoteTarball   'b9848f25d6cf36333073ec9ef8856d42f1233e52' ]
+npm info retry fetch attempt 1 at 22:39:05
+npm info attempt registry request try #1 at 22:39:05
+npm http fetch GET https://registry.npmjs.org/semver/-/semver-2.3.2.tgz
+npm info attempt registry request try #2 at 22:39:05
+npm http fetch GET https://registry.npmjs.org/stringify-object/-/stringify-object-1.0.1.tgz
+npm http fetch 200 https://registry.npmjs.org/bower-endpoint-parser/-/bower-endpoint-parser-0.2.2.tgz
+npm sill fetchAndShaCheck shasum 00b565adbfab6f2d35addde977e97962acbcb3f6
+npm verb addTmpTarball /tmp/npm-16680-5d9a1f20/registry.npmjs.org/bower-endpoint-parser/-/bower-endpoint-parser-0.2.2.tgz not in flight; adding
+npm verb addTmpTarball already have metadata; skipping unpack for bower-endpoint-parser@0.2.2
+npm sill cache afterAdd bower-endpoint-parser@0.2.2
+npm verb afterAdd /root/.npm/bower-endpoint-parser/0.2.2/package/package.json not in flight; writing
+npm verb afterAdd /root/.npm/bower-endpoint-parser/0.2.2/package/package.json written
+npm info retry will retry, error on last attempt: Error: socket hang up
+npm http fetch 200 https://registry.npmjs.org/bower-logger/-/bower-logger-0.2.2.tgz
+npm http fetch 200 https://registry.npmjs.org/inquirer/-/inquirer-0.8.0.tgz
+npm sill fetchAndShaCheck shasum 39be07e979b2fc8e03a94634205ed9422373d381
+npm info retry will retry, error on last attempt: Error: socket hang up
+npm verb addTmpTarball /tmp/npm-16680-5d9a1f20/registry.npmjs.org/bower-logger/-/bower-logger-0.2.2.tgz not in flight; adding
+npm verb addTmpTarball already have metadata; skipping unpack for bower-logger@0.2.2
+npm sill fetchAndShaCheck shasum 525d4dd827d4f3d506b453726068f90deb99b443
+npm info retry will retry, error on last attempt: Error: socket hang up
+npm verb addTmpTarball /tmp/npm-16680-5d9a1f20/registry.npmjs.org/inquirer/-/inquirer-0.8.0.tgz not in flight; adding
+npm verb addTmpTarball already have metadata; skipping unpack for inquirer@0.8.0
+npm sill cache afterAdd bower-logger@0.2.2
+npm verb afterAdd /root/.npm/bower-logger/0.2.2/package/package.json not in flight; writing
+npm sill cache afterAdd inquirer@0.8.0
+npm verb afterAdd /root/.npm/inquirer/0.8.0/package/package.json not in flight; writing
+npm verb afterAdd /root/.npm/bower-logger/0.2.2/package/package.json written
+npm verb afterAdd /root/.npm/inquirer/0.8.0/package/package.json written
+npm http fetch 200 https://registry.npmjs.org/is-root/-/is-root-1.0.0.tgz
+npm sill fetchAndShaCheck shasum 07b6c233bc394cd9d02ba15c966bd6660d6342d5
+npm verb addTmpTarball /tmp/npm-16680-5d9a1f20/registry.npmjs.org/is-root/-/is-root-1.0.0.tgz not in flight; adding
+npm verb addTmpTarball already have metadata; skipping unpack for is-root@1.0.0
+npm sill cache afterAdd is-root@1.0.0
+npm verb afterAdd /root/.npm/is-root/1.0.0/package/package.json not in flight; writing
+npm verb afterAdd /root/.npm/is-root/1.0.0/package/package.json written
+npm http fetch 200 https://registry.npmjs.org/request-progress/-/request-progress-0.3.1.tgz
+npm sill fetchAndShaCheck shasum 0721c105d8a96ac6b2ce8b2c89ae2d5ecfcf6b3a
+npm verb addTmpTarball /tmp/npm-16680-5d9a1f20/registry.npmjs.org/request-progress/-/request-progress-0.3.1.tgz not in flight; adding
+npm verb addTmpTarball already have metadata; skipping unpack for request-progress@0.3.1
+npm sill cache afterAdd request-progress@0.3.1
+npm verb afterAdd /root/.npm/request-progress/0.3.1/package/package.json not in flight; writing
+npm verb afterAdd /root/.npm/request-progress/0.3.1/package/package.json written
+npm http fetch 200 https://registry.npmjs.org/retry/-/retry-0.6.1.tgz
+npm sill fetchAndShaCheck shasum fdc90eed943fde11b893554b8cc63d0e899ba918
+npm verb addTmpTarball /tmp/npm-16680-5d9a1f20/registry.npmjs.org/retry/-/retry-0.6.1.tgz not in flight; adding
+npm verb addTmpTarball already have metadata; skipping unpack for retry@0.6.1
+npm sill cache afterAdd retry@0.6.1
+npm verb afterAdd /root/.npm/retry/0.6.1/package/package.json not in flight; writing
+npm verb afterAdd /root/.npm/retry/0.6.1/package/package.json written
+npm http fetch 200 https://registry.npmjs.org/stringify-object/-/stringify-object-1.0.1.tgz
+npm sill fetchAndShaCheck shasum 86d35e7dbfbce9aa45637d7ecdd7847e159db8a2
+npm verb addTmpTarball /tmp/npm-16680-5d9a1f20/registry.npmjs.org/stringify-object/-/stringify-object-1.0.1.tgz not in flight; adding
+npm verb addTmpTarball already have metadata; skipping unpack for stringify-object@1.0.1
+npm sill cache afterAdd stringify-object@1.0.1
+npm verb afterAdd /root/.npm/stringify-object/1.0.1/package/package.json not in flight; writing
+npm verb afterAdd /root/.npm/stringify-object/1.0.1/package/package.json written
+npm info attempt registry request try #2 at 22:39:14
+npm http fetch GET https://registry.npmjs.org/chmodr/-/chmodr-0.1.0.tgz
+npm http fetch 200 https://registry.npmjs.org/chmodr/-/chmodr-0.1.0.tgz
+npm sill fetchAndShaCheck shasum e09215a1d51542db2a2576969765bcf6125583eb
+npm verb addTmpTarball /tmp/npm-16680-5d9a1f20/registry.npmjs.org/chmodr/-/chmodr-0.1.0.tgz not in flight; adding
+npm verb addTmpTarball already have metadata; skipping unpack for chmodr@0.1.0
+npm sill cache afterAdd chmodr@0.1.0
+npm verb afterAdd /root/.npm/chmodr/0.1.0/package/package.json not in flight; writing
+npm verb afterAdd /root/.npm/chmodr/0.1.0/package/package.json written
+npm info attempt registry request try #2 at 22:39:15
+npm http fetch GET https://registry.npmjs.org/graceful-fs/-/graceful-fs-3.0.6.tgz
+npm info attempt registry request try #2 at 22:39:15
+npm http fetch GET https://registry.npmjs.org/lockfile/-/lockfile-1.0.0.tgz
+npm http fetch 200 https://registry.npmjs.org/graceful-fs/-/graceful-fs-3.0.6.tgz
+npm sill fetchAndShaCheck shasum dce3a18351cb94cdc82e688b2e3dd2842d1b09bb
+npm verb addTmpTarball /tmp/npm-16680-5d9a1f20/registry.npmjs.org/graceful-fs/-/graceful-fs-3.0.6.tgz not in flight; adding
+npm verb addTmpTarball already have metadata; skipping unpack for graceful-fs@3.0.6
+npm sill cache afterAdd graceful-fs@3.0.6
+npm verb afterAdd /root/.npm/graceful-fs/3.0.6/package/package.json not in flight; writing
+npm verb afterAdd /root/.npm/graceful-fs/3.0.6/package/package.json written
+npm http fetch 200 https://registry.npmjs.org/lockfile/-/lockfile-1.0.0.tgz
+npm sill fetchAndShaCheck shasum b3a7609dda6012060083bacb0ab0ecbca58e9203
+npm verb addTmpTarball /tmp/npm-16680-5d9a1f20/registry.npmjs.org/lockfile/-/lockfile-1.0.0.tgz not in flight; adding
+npm verb addTmpTarball already have metadata; skipping unpack for lockfile@1.0.0
+npm sill cache afterAdd lockfile@1.0.0
+npm verb afterAdd /root/.npm/lockfile/1.0.0/package/package.json not in flight; writing
+npm verb afterAdd /root/.npm/lockfile/1.0.0/package/package.json written
+npm info attempt registry request try #2 at 22:39:15
+npm http fetch GET https://registry.npmjs.org/mout/-/mout-0.11.0.tgz
+npm info attempt registry request try #2 at 22:39:15
+npm http fetch GET https://registry.npmjs.org/semver/-/semver-2.3.2.tgz
+npm http fetch 200 https://registry.npmjs.org/mout/-/mout-0.11.0.tgz
+npm sill fetchAndShaCheck shasum 93cdf0791ac8a24873ceeb42a5b016b7c867abee
+npm verb addTmpTarball /tmp/npm-16680-5d9a1f20/registry.npmjs.org/mout/-/mout-0.11.0.tgz not in flight; adding
+npm verb addTmpTarball already have metadata; skipping unpack for mout@0.11.0
+npm sill cache afterAdd mout@0.11.0
+npm verb afterAdd /root/.npm/mout/0.11.0/package/package.json not in flight; writing
+npm verb afterAdd /root/.npm/mout/0.11.0/package/package.json written
+npm http fetch 200 https://registry.npmjs.org/semver/-/semver-2.3.2.tgz
+npm sill fetchAndShaCheck shasum b9848f25d6cf36333073ec9ef8856d42f1233e52
+npm verb addTmpTarball /tmp/npm-16680-5d9a1f20/registry.npmjs.org/semver/-/semver-2.3.2.tgz not in flight; adding
+npm verb addTmpTarball already have metadata; skipping unpack for semver@2.3.2
+npm sill cache afterAdd semver@2.3.2
+npm verb afterAdd /root/.npm/semver/2.3.2/package/package.json not in flight; writing
+npm verb afterAdd /root/.npm/semver/2.3.2/package/package.json written
+npm info attempt registry request try #3 at 22:40:04
+npm http request GET https://registry.npmjs.org/glob
+npm info attempt registry request try #3 at 22:40:05
+npm http request GET https://registry.npmjs.org/p-throttler
+npm info attempt registry request try #3 at 22:40:05
+npm http request GET https://registry.npmjs.org/request
+npm http 200 https://registry.npmjs.org/glob
+npm sill get cb [ 200,
+npm sill get   { date: 'Thu, 23 Apr 2015 20:14:59 GMT',
+npm sill get     'last-modified': 'Thu, 23 Apr 2015 20:14:59 GMT',
+npm sill get     etag: '"BNLDB0931CUO3FTFOH4N5X520"',
+npm sill get     'content-length': '95920',
+npm sill get     via: '1.1 varnish',
+npm sill get     'x-cache': 'MISS',
+npm sill get     'x-timer': 'S1429820098.855135,VS0,VE806',
+npm sill get     vary: 'Accept',
+npm sill get     connection: 'keep-alive',
+npm sill get     'x-cache-hits': '0',
+npm sill get     'cache-control': 'max-age=60',
+npm sill get     'content-type': 'application/json',
+npm sill get     age: '0',
+npm sill get     server: 'ciproxy' } ]
+npm verb get saving glob to /root/.npm/registry.npmjs.org/glob/.cache.json
+npm sill addNameRange number 2 { name: 'glob', range: '>=4.3.2 <5.0.0', hasData: true }
+npm sill addNameRange versions [ 'glob',
+npm sill addNameRange   [ '1.1.0',
+npm sill addNameRange     '2.0.9',
+npm sill addNameRange     '2.0.8',
+npm sill addNameRange     '2.0.7',
+npm sill addNameRange     '2.1.0',
+npm sill addNameRange     '3.0.0',
+npm sill addNameRange     '3.0.1',
+npm sill addNameRange     '3.1.0',
+npm sill addNameRange     '3.1.1',
+npm sill addNameRange     '3.1.2',
+npm sill addNameRange     '3.1.3',
+npm sill addNameRange     '3.1.4',
+npm sill addNameRange     '3.1.5',
+npm sill addNameRange     '3.1.6',
+npm sill addNameRange     '3.1.7',
+npm sill addNameRange     '3.1.9',
+npm sill addNameRange     '3.1.10',
+npm sill addNameRange     '3.1.11',
+npm sill addNameRange     '3.1.12',
+npm sill addNameRange     '3.1.13',
+npm sill addNameRange     '3.1.14',
+npm sill addNameRange     '3.1.15',
+npm sill addNameRange     '3.1.16',
+npm sill addNameRange     '3.1.17',
+npm sill addNameRange     '3.1.18',
+npm sill addNameRange     '3.1.19',
+npm sill addNameRange     '3.1.20',
+npm sill addNameRange     '3.1.21',
+npm sill addNameRange     '3.2.0',
+npm sill addNameRange     '3.2.1',
+npm sill addNameRange     '3.2.3',
+npm sill addNameRange     '3.2.4',
+npm sill addNameRange     '3.2.5',
+npm sill addNameRange     '3.2.6',
+npm sill addNameRange     '3.2.7',
+npm sill addNameRange     '3.2.8',
+npm sill addNameRange     '3.2.9',
+npm sill addNameRange     '3.2.10',
+npm sill addNameRange     '3.2.11',
+npm sill addNameRange     '4.0.0',
+npm sill addNameRange     '4.0.1',
+npm sill addNameRange     '4.0.2',
+npm sill addNameRange     '4.0.3',
+npm sill addNameRange     '4.0.4',
+npm sill addNameRange     '4.0.5',
+npm sill addNameRange     '4.0.6',
+npm sill addNameRange     '4.1.2-beta',
+npm sill addNameRange     '4.1.2',
+npm sill addNameRange     '4.1.3',
+npm sill addNameRange     '4.1.4',
+npm sill addNameRange     '4.1.5',
+npm sill addNameRange     '4.1.6',
+npm sill addNameRange     '4.2.0',
+npm sill addNameRange     '4.2.1',
+npm sill addNameRange     '4.2.2',
+npm sill addNameRange     '4.3.0',
+npm sill addNameRange     '4.3.1',
+npm sill addNameRange     '4.3.2',
+npm sill addNameRange     '4.3.3',
+npm sill addNameRange     '4.3.4',
+npm sill addNameRange     '4.3.5',
+npm sill addNameRange     '4.4.0',
+npm sill addNameRange     '4.4.2',
+npm sill addNameRange     '4.5.0',
+npm sill addNameRange     '5.0.0',
+npm sill addNameRange     '4.5.1',
+npm sill addNameRange     '5.0.1',
+npm sill addNameRange     '4.5.2',
+npm sill addNameRange     '5.0.2',
+npm sill addNameRange     '4.5.3',
+npm sill addNameRange     '5.0.3',
+npm sill addNameRange     '5.0.4',
+npm sill addNameRange     '5.0.5' ] ]
+npm sill addNamed glob@4.5.3
+npm verb addNamed "4.5.3" is a plain semver version for glob
+npm sill mapToRegistry name glob
+npm sill mapToRegistry using default registry
+npm sill mapToRegistry registry https://registry.npmjs.org/
+npm sill mapToRegistry uri https://registry.npmjs.org/glob
+npm verb addRemoteTarball https://registry.npmjs.org/glob/-/glob-4.5.3.tgz not in flight; adding
+npm verb addRemoteTarball [ 'https://registry.npmjs.org/glob/-/glob-4.5.3.tgz',
+npm verb addRemoteTarball   'c6cb73d3226c1efef04de3c56d012f03377ee15f' ]
+npm info retry fetch attempt 1 at 22:40:05
+npm info attempt registry request try #1 at 22:40:05
+npm http fetch GET https://registry.npmjs.org/glob/-/glob-4.5.3.tgz
+npm info attempt registry request try #3 at 22:40:05
+npm http request GET https://registry.npmjs.org/shell-quote
+npm http fetch 200 https://registry.npmjs.org/glob/-/glob-4.5.3.tgz
+npm sill fetchAndShaCheck shasum c6cb73d3226c1efef04de3c56d012f03377ee15f
+npm http 200 https://registry.npmjs.org/request
+npm sill get cb [ 200,
+npm sill get   { date: 'Thu, 23 Apr 2015 20:15:04 GMT',
+npm sill get     'last-modified': 'Thu, 23 Apr 2015 20:15:04 GMT',
+npm sill get     etag: '"7ZJH6XGMWXP6BZFNGCS1N13HQ"',
+npm sill get     'content-length': '145914',
+npm sill get     via: '1.1 varnish',
+npm sill get     'x-cache': 'MISS',
+npm sill get     'x-timer': 'S1429820104.006065,VS0,VE361',
+npm sill get     vary: 'Accept',
+npm sill get     connection: 'keep-alive',
+npm sill get     'x-cache-hits': '0',
+npm sill get     'cache-control': 'max-age=60',
+npm sill get     'content-type': 'application/json',
+npm sill get     age: '0',
+npm sill get     server: 'ciproxy' } ]
+npm verb get saving request to /root/.npm/registry.npmjs.org/request/.cache.json
+npm http 200 https://registry.npmjs.org/p-throttler
+npm sill get cb [ 200,
+npm sill get   { date: 'Thu, 23 Apr 2015 20:15:11 GMT',
+npm sill get     'last-modified': 'Thu, 23 Apr 2015 20:15:11 GMT',
+npm sill get     etag: '"5W7GJZLV9F8IYDR8FXHW0ZNCZ"',
+npm sill get     'content-length': '6513',
+npm sill get     via: '1.1 varnish',
+npm sill get     'x-cache': 'MISS',
+npm sill get     'x-timer': 'S1429820111.344421,VS0,VE624',
+npm sill get     vary: 'Accept',
+npm sill get     connection: 'keep-alive',
+npm sill get     'x-cache-hits': '0',
+npm sill get     'cache-control': 'max-age=60',
+npm sill get     'content-type': 'application/json',
+npm sill get     age: '0',
+npm sill get     server: 'ciproxy' } ]
+npm verb get saving p-throttler to /root/.npm/registry.npmjs.org/p-throttler/.cache.json
+npm http 200 https://registry.npmjs.org/shell-quote
+npm sill get cb [ 200,
+npm sill get   { date: 'Thu, 23 Apr 2015 20:15:03 GMT',
+npm sill get     'last-modified': 'Thu, 23 Apr 2015 20:15:03 GMT',
+npm sill get     etag: '"DL9YS7S3YWMPYWIWBBWEYC3UU"',
+npm sill get     'content-length': '18098',
+npm sill get     via: '1.1 varnish',
+npm sill get     'x-cache': 'MISS',
+npm sill get     'x-timer': 'S1429820103.366425,VS0,VE436',
+npm sill get     vary: 'Accept',
+npm sill get     connection: 'keep-alive',
+npm sill get     'x-cache-hits': '0',
+npm sill get     'cache-control': 'max-age=60',
+npm sill get     'content-type': 'application/json',
+npm sill get     age: '0',
+npm sill get     server: 'ciproxy' } ]
+npm verb get saving shell-quote to /root/.npm/registry.npmjs.org/shell-quote/.cache.json
+npm verb addTmpTarball /tmp/npm-16680-5d9a1f20/registry.npmjs.org/glob/-/glob-4.5.3.tgz not in flight; adding
+npm verb addTmpTarball already have metadata; skipping unpack for glob@4.5.3
+npm sill mapToRegistry name request
+npm sill mapToRegistry using default registry
+npm sill mapToRegistry registry https://registry.npmjs.org/
+npm sill mapToRegistry uri https://registry.npmjs.org/request
+npm verb addRemoteTarball https://registry.npmjs.org/request/-/request-2.53.0.tgz not in flight; adding
+npm verb addRemoteTarball [ 'https://registry.npmjs.org/request/-/request-2.53.0.tgz',
+npm verb addRemoteTarball   '180a3ae92b7b639802e4f9545dd8fcdeb71d760c' ]
+npm sill mapToRegistry name p-throttler
+npm sill mapToRegistry using default registry
+npm sill mapToRegistry registry https://registry.npmjs.org/
+npm sill mapToRegistry uri https://registry.npmjs.org/p-throttler
+npm verb addRemoteTarball https://registry.npmjs.org/p-throttler/-/p-throttler-0.1.1.tgz not in flight; adding
+npm verb addRemoteTarball [ 'https://registry.npmjs.org/p-throttler/-/p-throttler-0.1.1.tgz',
+npm verb addRemoteTarball   '15246409d225d3eefca85c50de710a83a78cca6a' ]
+npm sill addNameRange number 2 { name: 'shell-quote', range: '>=1.4.2 <2.0.0', hasData: true }
+npm sill addNameRange versions [ 'shell-quote',
+npm sill addNameRange   [ '0.0.0',
+npm sill addNameRange     '0.0.1',
+npm sill addNameRange     '0.1.0',
+npm sill addNameRange     '0.1.1',
+npm sill addNameRange     '1.0.0',
+npm sill addNameRange     '1.1.0',
+npm sill addNameRange     '1.2.0',
+npm sill addNameRange     '1.3.0',
+npm sill addNameRange     '1.3.1',
+npm sill addNameRange     '1.3.2',
+npm sill addNameRange     '1.3.3',
+npm sill addNameRange     '1.4.0',
+npm sill addNameRange     '1.4.1',
+npm sill addNameRange     '1.4.2',
+npm sill addNameRange     '1.4.3' ] ]
+npm sill addNamed shell-quote@1.4.3
+npm verb addNamed "1.4.3" is a plain semver version for shell-quote
+npm sill mapToRegistry name shell-quote
+npm sill mapToRegistry using default registry
+npm sill mapToRegistry registry https://registry.npmjs.org/
+npm sill mapToRegistry uri https://registry.npmjs.org/shell-quote
+npm verb addRemoteTarball https://registry.npmjs.org/shell-quote/-/shell-quote-1.4.3.tgz not in flight; adding
+npm verb addRemoteTarball [ 'https://registry.npmjs.org/shell-quote/-/shell-quote-1.4.3.tgz',
+npm verb addRemoteTarball   '952c44e0b1ed9013ef53958179cc643e8777466b' ]
+npm info retry fetch attempt 1 at 22:40:05
+npm info attempt registry request try #1 at 22:40:05
+npm http fetch GET https://registry.npmjs.org/request/-/request-2.53.0.tgz
+npm info retry fetch attempt 1 at 22:40:05
+npm info attempt registry request try #1 at 22:40:05
+npm http fetch GET https://registry.npmjs.org/p-throttler/-/p-throttler-0.1.1.tgz
+npm info retry fetch attempt 1 at 22:40:05
+npm info attempt registry request try #1 at 22:40:05
+npm http fetch GET https://registry.npmjs.org/shell-quote/-/shell-quote-1.4.3.tgz
+npm sill cache afterAdd glob@4.5.3
+npm verb afterAdd /root/.npm/glob/4.5.3/package/package.json not in flight; writing
+npm verb afterAdd /root/.npm/glob/4.5.3/package/package.json written
+npm info attempt registry request try #3 at 22:40:05
+npm http request GET https://registry.npmjs.org/which
+npm info attempt registry request try #3 at 22:40:05
+npm http request GET https://registry.npmjs.org/user-home
+npm info attempt registry request try #3 at 22:40:05
+npm http fetch GET https://registry.npmjs.org/bower-config/-/bower-config-0.6.1.tgz
+npm http fetch 200 https://registry.npmjs.org/shell-quote/-/shell-quote-1.4.3.tgz
+npm http fetch 200 https://registry.npmjs.org/request/-/request-2.53.0.tgz
+npm http fetch 200 https://registry.npmjs.org/p-throttler/-/p-throttler-0.1.1.tgz
+npm sill fetchAndShaCheck shasum 952c44e0b1ed9013ef53958179cc643e8777466b
+npm sill fetchAndShaCheck shasum 15246409d225d3eefca85c50de710a83a78cca6a
+npm verb addTmpTarball /tmp/npm-16680-5d9a1f20/registry.npmjs.org/shell-quote/-/shell-quote-1.4.3.tgz not in flight; adding
+npm verb addTmpTarball already have metadata; skipping unpack for shell-quote@1.4.3
+npm sill fetchAndShaCheck shasum 180a3ae92b7b639802e4f9545dd8fcdeb71d760c
+npm verb addTmpTarball /tmp/npm-16680-5d9a1f20/registry.npmjs.org/p-throttler/-/p-throttler-0.1.1.tgz not in flight; adding
+npm verb addTmpTarball already have metadata; skipping unpack for p-throttler@0.1.1
+npm verb addTmpTarball /tmp/npm-16680-5d9a1f20/registry.npmjs.org/request/-/request-2.53.0.tgz not in flight; adding
+npm verb addTmpTarball already have metadata; skipping unpack for request@2.53.0
+npm sill cache afterAdd shell-quote@1.4.3
+npm verb afterAdd /root/.npm/shell-quote/1.4.3/package/package.json not in flight; writing
+npm sill cache afterAdd p-throttler@0.1.1
+npm verb afterAdd /root/.npm/p-throttler/0.1.1/package/package.json not in flight; writing
+npm sill cache afterAdd request@2.53.0
+npm verb afterAdd /root/.npm/request/2.53.0/package/package.json not in flight; writing
+npm verb afterAdd /root/.npm/shell-quote/1.4.3/package/package.json written
+npm verb afterAdd /root/.npm/p-throttler/0.1.1/package/package.json written
+npm verb afterAdd /root/.npm/request/2.53.0/package/package.json written
+npm ERR! fetch failed https://registry.npmjs.org/bower-config/-/bower-config-0.6.1.tgz
+npm WARN retry will retry, error on last attempt: Error: socket hang up
+npm info attempt registry request try #3 at 22:40:05
+npm http fetch GET https://registry.npmjs.org/lru-cache/-/lru-cache-2.6.1.tgz
+npm info attempt registry request try #3 at 22:40:05
+npm http fetch GET https://registry.npmjs.org/nopt/-/nopt-3.0.1.tgz
+npm info attempt registry request try #3 at 22:40:05
+npm http fetch GET https://registry.npmjs.org/update-notifier/-/update-notifier-0.3.2.tgz
+npm http fetch 200 https://registry.npmjs.org/lru-cache/-/lru-cache-2.6.1.tgz
+npm sill fetchAndShaCheck shasum 9933eff15453fae1d27096365143c724e85c6cbd
+npm http 200 https://registry.npmjs.org/user-home
+npm sill get cb [ 200,
+npm sill get   { date: 'Thu, 23 Apr 2015 20:15:05 GMT',
+npm sill get     'last-modified': 'Thu, 23 Apr 2015 20:15:05 GMT',
+npm sill get     etag: '"A2O9GA2AL0HW3K925MP10O2OB"',
+npm sill get     'content-length': '5001',
+npm sill get     via: '1.1 varnish',
+npm sill get     'x-cache': 'MISS',
+npm sill get     'x-timer': 'S1429820105.617692,VS0,VE162',
+npm sill get     vary: 'Accept',
+npm sill get     connection: 'keep-alive',
+npm sill get     'x-cache-hits': '0',
+npm sill get     'cache-control': 'max-age=60',
+npm sill get     'content-type': 'application/json',
+npm sill get     age: '0',
+npm sill get     server: 'ciproxy' } ]
+npm verb get saving user-home to /root/.npm/registry.npmjs.org/user-home/.cache.json
+npm http 200 https://registry.npmjs.org/which
+npm sill get cb [ 200,
+npm sill get   { date: 'Thu, 23 Apr 2015 20:15:15 GMT',
+npm sill get     'last-modified': 'Thu, 23 Apr 2015 20:15:15 GMT',
+npm sill get     etag: '"A4HQQ4JRWKCU7373HOKK10JAV"',
+npm sill get     'content-length': '9218',
+npm sill get     via: '1.1 varnish',
+npm sill get     'x-cache': 'MISS',
+npm sill get     'x-timer': 'S1429820115.787503,VS0,VE91',
+npm sill get     vary: 'Accept',
+npm sill get     connection: 'keep-alive',
+npm sill get     'x-cache-hits': '0',
+npm sill get     'cache-control': 'max-age=60',
+npm sill get     'content-type': 'application/json',
+npm sill get     age: '0',
+npm sill get     server: 'ciproxy' } ]
+npm verb get saving which to /root/.npm/registry.npmjs.org/which/.cache.json
+npm verb addTmpTarball /tmp/npm-16680-5d9a1f20/registry.npmjs.org/lru-cache/-/lru-cache-2.6.1.tgz not in flight; adding
+npm verb addTmpTarball already have metadata; skipping unpack for lru-cache@2.6.1
+npm sill addNameRange number 2 { name: 'user-home', range: '>=1.1.0 <2.0.0', hasData: true }
+npm sill addNameRange versions [ 'user-home', [ '1.0.0', '1.1.0', '1.1.1' ] ]
+npm sill addNamed user-home@1.1.1
+npm verb addNamed "1.1.1" is a plain semver version for user-home
+npm sill mapToRegistry name user-home
+npm sill mapToRegistry using default registry
+npm sill mapToRegistry registry https://registry.npmjs.org/
+npm sill mapToRegistry uri https://registry.npmjs.org/user-home
+npm verb addRemoteTarball https://registry.npmjs.org/user-home/-/user-home-1.1.1.tgz not in flight; adding
+npm verb addRemoteTarball [ 'https://registry.npmjs.org/user-home/-/user-home-1.1.1.tgz',
+npm verb addRemoteTarball   '2b5be23a32b63a7c9deb8d0f28d485724a3df190' ]
+npm sill addNameRange number 2 { name: 'which', range: '>=1.0.8 <2.0.0', hasData: true }
+npm sill addNameRange versions [ 'which',
+npm sill addNameRange   [ '1.0.0',
+npm sill addNameRange     '1.0.1',
+npm sill addNameRange     '1.0.2',
+npm sill addNameRange     '1.0.3',
+npm sill addNameRange     '1.0.5',
+npm sill addNameRange     '1.0.6',
+npm sill addNameRange     '1.0.7',
+npm sill addNameRange     '1.0.8',
+npm sill addNameRange     '1.0.9' ] ]
+npm sill addNamed which@1.0.9
+npm verb addNamed "1.0.9" is a plain semver version for which
+npm sill mapToRegistry name which
+npm sill mapToRegistry using default registry
+npm sill mapToRegistry registry https://registry.npmjs.org/
+npm sill mapToRegistry uri https://registry.npmjs.org/which
+npm verb addRemoteTarball https://registry.npmjs.org/which/-/which-1.0.9.tgz not in flight; adding
+npm verb addRemoteTarball [ 'https://registry.npmjs.org/which/-/which-1.0.9.tgz',
+npm verb addRemoteTarball   '460c1da0f810103d0321a9b633af9e575e64486f' ]
+npm info retry fetch attempt 1 at 22:40:05
+npm info attempt registry request try #1 at 22:40:05
+npm http fetch GET https://registry.npmjs.org/user-home/-/user-home-1.1.1.tgz
+npm info retry fetch attempt 1 at 22:40:05
+npm info attempt registry request try #1 at 22:40:05
+npm http fetch GET https://registry.npmjs.org/which/-/which-1.0.9.tgz
+npm sill cache afterAdd lru-cache@2.6.1
+npm verb afterAdd /root/.npm/lru-cache/2.6.1/package/package.json not in flight; writing
+npm verb afterAdd /root/.npm/lru-cache/2.6.1/package/package.json written
+npm http fetch 200 https://registry.npmjs.org/nopt/-/nopt-3.0.1.tgz
+npm sill fetchAndShaCheck shasum bce5c42446a3291f47622a370abbf158fbbacbfd
+npm verb addTmpTarball /tmp/npm-16680-5d9a1f20/registry.npmjs.org/nopt/-/nopt-3.0.1.tgz not in flight; adding
+npm verb addTmpTarball already have metadata; skipping unpack for nopt@3.0.1
+npm sill cache afterAdd nopt@3.0.1
+npm verb afterAdd /root/.npm/nopt/3.0.1/package/package.json not in flight; writing
+npm verb afterAdd /root/.npm/nopt/3.0.1/package/package.json written
+npm http fetch 200 https://registry.npmjs.org/update-notifier/-/update-notifier-0.3.2.tgz
+npm sill fetchAndShaCheck shasum 22a8735baadef3320e2db928f693da898dc87777
+npm verb addTmpTarball /tmp/npm-16680-5d9a1f20/registry.npmjs.org/update-notifier/-/update-notifier-0.3.2.tgz not in flight; adding
+npm verb addTmpTarball already have metadata; skipping unpack for update-notifier@0.3.2
+npm sill cache afterAdd update-notifier@0.3.2
+npm verb afterAdd /root/.npm/update-notifier/0.3.2/package/package.json not in flight; writing
+npm verb afterAdd /root/.npm/update-notifier/0.3.2/package/package.json written
+npm http fetch 200 https://registry.npmjs.org/which/-/which-1.0.9.tgz
+npm sill fetchAndShaCheck shasum 460c1da0f810103d0321a9b633af9e575e64486f
+npm verb addTmpTarball /tmp/npm-16680-5d9a1f20/registry.npmjs.org/which/-/which-1.0.9.tgz not in flight; adding
+npm verb addTmpTarball already have metadata; skipping unpack for which@1.0.9
+npm sill cache afterAdd which@1.0.9
+npm verb afterAdd /root/.npm/which/1.0.9/package/package.json not in flight; writing
+npm verb afterAdd /root/.npm/which/1.0.9/package/package.json written
+npm http fetch 200 https://registry.npmjs.org/user-home/-/user-home-1.1.1.tgz
+npm sill fetchAndShaCheck shasum 2b5be23a32b63a7c9deb8d0f28d485724a3df190
+npm verb addTmpTarball /tmp/npm-16680-5d9a1f20/registry.npmjs.org/user-home/-/user-home-1.1.1.tgz not in flight; adding
+npm verb addTmpTarball already have metadata; skipping unpack for user-home@1.1.1
+npm sill cache afterAdd user-home@1.1.1
+npm verb afterAdd /root/.npm/user-home/1.1.1/package/package.json not in flight; writing
+npm verb afterAdd /root/.npm/user-home/1.1.1/package/package.json written
+npm info retry fetch attempt 2 at 22:40:15
+npm info attempt registry request try #1 at 22:40:15
+npm http fetch GET https://registry.npmjs.org/bower-config/-/bower-config-0.6.1.tgz
+npm http fetch 200 https://registry.npmjs.org/bower-config/-/bower-config-0.6.1.tgz
+npm sill fetchAndShaCheck shasum 7093155688bef44079bf4cb32d189312c87ded60
+npm verb addTmpTarball /tmp/npm-16680-5d9a1f20/registry.npmjs.org/bower-config/-/bower-config-0.6.1.tgz not in flight; adding
+npm verb addTmpTarball already have metadata; skipping unpack for bower-config@0.6.1
+npm sill cache afterAdd bower-config@0.6.1
+npm verb afterAdd /root/.npm/bower-config/0.6.1/package/package.json not in flight; writing
+npm verb afterAdd /root/.npm/bower-config/0.6.1/package/package.json written
+npm ERR! cb() never called!
